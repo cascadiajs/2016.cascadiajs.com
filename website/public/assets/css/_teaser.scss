@@ -26,6 +26,7 @@ body {
 
   h1 {
     font-size: 5rem;
+    font-family: Nanami-HM-Medium, sans-serif;
   }
 
   p.lead {
@@ -38,12 +39,16 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Nanami-Rounded-Lt;
+  font-family: Nanami-HM-Light, sans-serif;
   font-weight: normal;
 }
 
 footer {
   padding-top: 4em;
+
+  h3 {
+    font-family: Nanami-HM-Medium, sans-serif;
+  }
 
   background: linear-gradient(to bottom, $color-neutral-blue, $color-neutral-blue-dark);
   color: white;
