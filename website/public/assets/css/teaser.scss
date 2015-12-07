@@ -1,0 +1,50 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.tree {
+  display: block;
+}
+
+#hero {
+  color: white;
+
+  background: linear-gradient(to bottom, $color-secondary-green, $color-secondary-blue);
+
+  .content {
+  }
+
+  .tree {
+    width: 4rem;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  p.lead {
+    margin: 1em 0;
+  }
+}
+
+.content {
+  padding: 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Nanami-Rounded-Lt;
+  font-weight: normal;
+}
+
+footer {
+  padding-top: 4em;
+
+  background: linear-gradient(to bottom, $color-neutral-blue, $color-neutral-blue);
+  color: white;
+}
