@@ -16,5 +16,8 @@
   "devDependencies": {
     "harp": "^0.20.0",
     "surge": "^0.17.3"
+  },
+  "dependencies": {
+    "bootstrap": "git://github.com/twbs/bootstrap#v4-dev"
   }
 }
