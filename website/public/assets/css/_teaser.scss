@@ -14,7 +14,7 @@ body {
 #hero {
   color: white;
 
-  background: linear-gradient(to bottom, $color-secondary-green, $color-secondary-blue);
+  background: linear-gradient(to bottom, $color-secondary-blue-light, $color-secondary-green);
 
   .content {
   }
@@ -50,6 +50,6 @@ footer {
     font-family: Nanami-HM-Medium, sans-serif;
   }
 
-  background: linear-gradient(to bottom, $color-neutral-blue, $color-neutral-blue-dark);
+  background: linear-gradient(to bottom, $color-secondary-green, $color-neutral-green-dark);
   color: white;
 }
