@@ -5,7 +5,8 @@ $colors: map-merge($colors, (
   primary-blue: hsl(218, 46%, 20%),
   primary-red: hsl(350, 100%, 30%),
   primary-purple: hsl(270, 50%, 40%),
-  primary-orange: hsl(28, 85%, 52%)
+  primary-orange: hsl(28, 85%, 52%),
+  primary-yellow: hsl(49, 85%, 52%)
 ));
 
 $colors: map-merge($colors, (
@@ -13,7 +14,8 @@ $colors: map-merge($colors, (
   raw-blue: change-color(map-get($colors, primary-blue), $saturation: 100%, $lightness: 50%),
   raw-red: change-color(map-get($colors, primary-red), $saturation: 100%, $lightness: 50%),
   raw-purple: change-color(map-get($colors, primary-purple), $saturation: 100%, $lightness: 50%),
-  raw-orange: change-color(map-get($colors, primary-orange), $saturation: 100%, $lightness: 50%)
+  raw-orange: change-color(map-get($colors, primary-orange), $saturation: 100%, $lightness: 50%),
+  raw-yellow: change-color(map-get($colors, primary-yellow), $saturation: 100%, $lightness: 50%)
 ));
 
 $colors: map-merge($colors, (
@@ -21,7 +23,8 @@ $colors: map-merge($colors, (
   secondary-blue: harmonious-mix(map-get($colors, primary-green), map-get($colors, raw-blue)),
   secondary-red: harmonious-mix(map-get($colors, raw-orange), map-get($colors, raw-red)),
   secondary-purple: harmonious-mix(map-get($colors, raw-red), map-get($colors, primary-purple)),
-  secondary-orange: harmonious-mix(map-get($colors, raw-red), map-get($colors, primary-orange))
+  secondary-orange: harmonious-mix(map-get($colors, raw-red), map-get($colors, primary-orange)),
+  secondary-yellow: harmonious-mix(map-get($colors, primary-yellow), map-get($colors, raw-orange))
 ));
 
 $colors: map-merge($colors, (
@@ -29,7 +32,8 @@ $colors: map-merge($colors, (
   secondary-blue-light: tint(map-get($colors, secondary-blue), 70%),
   secondary-red-light: tint(map-get($colors, secondary-red), 70%),
   secondary-purple-light: tint(map-get($colors, secondary-purple), 70%),
-  secondary-orange-light: tint(map-get($colors, secondary-orange), 70%)
+  secondary-orange-light: tint(map-get($colors, secondary-orange), 70%),
+  secondary-yellow-light: tint(map-get($colors, secondary-yellow), 70%)
 ));
 
 $colors: map-merge($colors, (
@@ -37,7 +41,8 @@ $colors: map-merge($colors, (
   secondary-blue-dark: shade(map-get($colors, secondary-blue), 60%),
   secondary-red-dark: shade(map-get($colors, secondary-red), 60%),
   secondary-purple-dark: shade(map-get($colors, secondary-purple), 60%),
-  secondary-orange-dark: shade(map-get($colors, secondary-orange), 60%)
+  secondary-orange-dark: shade(map-get($colors, secondary-orange), 60%),
+  secondary-yellow-dark: shade(map-get($colors, secondary-yellow), 60%)
 ));
 
 $colors: map-merge($colors, (
@@ -45,7 +50,8 @@ $colors: map-merge($colors, (
   neutral-blue: create-neutral(map-get($colors, secondary-blue)),
   neutral-red: create-neutral(map-get($colors, secondary-red)),
   neutral-purple: create-neutral(map-get($colors, secondary-purple)),
-  neutral-orange: create-neutral(map-get($colors, secondary-orange))
+  neutral-orange: create-neutral(map-get($colors, secondary-orange)),
+  neutral-yellow: create-neutral(map-get($colors, secondary-yellow))
 ));
 
 $colors: map-merge($colors, (
@@ -53,7 +59,8 @@ $colors: map-merge($colors, (
   neutral-blue-light: scale-color(map-get($colors, neutral-blue), $lightness: 40%),
   neutral-red-light: scale-color(map-get($colors, neutral-red), $lightness: 40%),
   neutral-purple-light: scale-color(map-get($colors, neutral-purple), $lightness: 40%),
-  neutral-orange-light: scale-color(map-get($colors, neutral-orange), $lightness: 40%)
+  neutral-orange-light: scale-color(map-get($colors, neutral-orange), $lightness: 40%),
+  neutral-yellow-light: scale-color(map-get($colors, neutral-yellow), $lightness: 40%)
 ));
 
 $colors: map-merge($colors, (
@@ -61,7 +68,8 @@ $colors: map-merge($colors, (
   neutral-blue-dark: scale-color(map-get($colors, neutral-blue), $lightness: -40%),
   neutral-red-dark: scale-color(map-get($colors, neutral-red), $lightness: -40%),
   neutral-purple-dark: scale-color(map-get($colors, neutral-purple), $lightness: -40%),
-  neutral-orange-dark: scale-color(map-get($colors, neutral-orange), $lightness: -40%)
+  neutral-orange-dark: scale-color(map-get($colors, neutral-orange), $lightness: -40%),
+  neutral-yellow-dark: scale-color(map-get($colors, neutral-yellow), $lightness: -40%)
 ));
 
 $colors: map-merge($colors, (
@@ -74,40 +82,48 @@ $color-primary-blue: map-get($colors, primary-blue);
 $color-primary-red: map-get($colors, primary-red);
 $color-primary-purple: map-get($colors, primary-purple);
 $color-primary-orange: map-get($colors, primary-orange);
+$color-primary-yellow: map-get($colors, primary-orange);
 $color-raw-green: map-get($colors, raw-green);
 $color-raw-blue: map-get($colors, raw-blue);
 $color-raw-red: map-get($colors, raw-red);
 $color-raw-purple: map-get($colors, raw-purple);
 $color-raw-orange: map-get($colors, raw-orange);
+$color-raw-yellow: map-get($colors, raw-yellow);
 $color-secondary-green: map-get($colors, secondary-green);
 $color-secondary-blue: map-get($colors, secondary-blue);
 $color-secondary-red: map-get($colors, secondary-red);
 $color-secondary-purple: map-get($colors, secondary-purple);
 $color-secondary-orange: map-get($colors, secondary-orange);
+$color-secondary-yellow: map-get($colors, secondary-yellow);
 $color-secondary-green-light: map-get($colors, secondary-green-light);
 $color-secondary-blue-light: map-get($colors, secondary-blue-light);
 $color-secondary-red-light: map-get($colors, secondary-red-light);
 $color-secondary-purple-light: map-get($colors, secondary-purple-light);
 $color-secondary-orange-light: map-get($colors, secondary-orange-light);
+$color-secondary-yellow-light: map-get($colors, secondary-yellow-light);
 $color-secondary-green-dark: map-get($colors, secondary-green-dark);
 $color-secondary-blue-dark: map-get($colors, secondary-blue-dark);
 $color-secondary-red-dark: map-get($colors, secondary-red-dark);
 $color-secondary-purple-dark: map-get($colors, secondary-purple-dark);
 $color-secondary-orange-dark: map-get($colors, secondary-orange-dark);
+$color-secondary-yellow-dark: map-get($colors, secondary-yellow-dark);
 $color-neutral-green: map-get($colors, neutral-green);
 $color-neutral-blue: map-get($colors, neutral-blue);
 $color-neutral-red: map-get($colors, neutral-red);
 $color-neutral-purple: map-get($colors, neutral-purple);
 $color-neutral-orange: map-get($colors, neutral-orange);
+$color-neutral-yellow: map-get($colors, neutral-yellow);
 $color-neutral-green-light: map-get($colors, neutral-green-light);
 $color-neutral-blue-light: map-get($colors, neutral-blue-light);
 $color-neutral-red-light: map-get($colors, neutral-red-light);
 $color-neutral-purple-light: map-get($colors, neutral-purple-light);
 $color-neutral-orange-light: map-get($colors, neutral-orange-light);
+$color-neutral-yellow-light: map-get($colors, neutral-yellow-light);
 $color-neutral-green-dark: map-get($colors, neutral-green-dark);
 $color-neutral-blue-dark: map-get($colors, neutral-blue-dark);
 $color-neutral-red-dark: map-get($colors, neutral-red-dark);
 $color-neutral-purple-dark: map-get($colors, neutral-purple-dark);
 $color-neutral-orange-dark: map-get($colors, neutral-orange-dark);
+$color-neutral-yellow-dark: map-get($colors, neutral-yellow-dark);
 $color-mostly-white: map-get($colors, mostly-white);
 $color-mostly-black: map-get($colors, mostly-dark);

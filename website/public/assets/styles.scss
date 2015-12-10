@@ -6,76 +6,7 @@
 // $color-raw-purple: hsl(270, 100%, 50%);
 // $color-raw-orange: hsl(50, 100%, 50%);
 
-$colors: ();
-
-$colors: map-merge($colors, (
-	primary-green: hsl(119, 96%, 9%),
-	primary-blue: hsl(218, 46%, 20%),
-	primary-red: hsl(350, 100%, 30%),
-	primary-purple: hsl(270, 50%, 40%),
-	primary-orange: hsl(28, 85%, 52%)
-));
-
-$colors: map-merge($colors, (
-	raw-green: change-color(map-get($colors, primary-green), $saturation: 100%, $lightness: 50%),
-	raw-blue: change-color(map-get($colors, primary-blue), $saturation: 100%, $lightness: 50%),
-	raw-red: change-color(map-get($colors, primary-red), $saturation: 100%, $lightness: 50%),
-	raw-purple: change-color(map-get($colors, primary-purple), $saturation: 100%, $lightness: 50%),
-	raw-orange: change-color(map-get($colors, primary-orange), $saturation: 100%, $lightness: 50%)
-));
-
-$colors: map-merge($colors, (
-	secondary-green: harmonious-mix(map-get($colors, raw-green), map-get($colors, primary-blue)),
-	secondary-blue: harmonious-mix(map-get($colors, primary-green), map-get($colors, raw-blue)),
-	secondary-red: harmonious-mix(map-get($colors, raw-orange), map-get($colors, raw-red)),
-	secondary-purple: harmonious-mix(map-get($colors, raw-red), map-get($colors, primary-purple)),
-	secondary-orange: harmonious-mix(map-get($colors, raw-red), map-get($colors, primary-orange))
-));
-
-$colors: map-merge($colors, (
-	secondary-green-light: tint(map-get($colors, secondary-green), 70%),
-	secondary-blue-light: tint(map-get($colors, secondary-blue), 70%),
-	secondary-red-light: tint(map-get($colors, secondary-red), 70%),
-	secondary-purple-light: tint(map-get($colors, secondary-purple), 70%),
-	secondary-orange-light: tint(map-get($colors, secondary-orange), 70%)
-));
-
-$colors: map-merge($colors, (
-	secondary-green-dark: shade(map-get($colors, secondary-green), 60%),
-	secondary-blue-dark: shade(map-get($colors, secondary-blue), 60%),
-	secondary-red-dark: shade(map-get($colors, secondary-red), 60%),
-	secondary-purple-dark: shade(map-get($colors, secondary-purple), 60%),
-	secondary-orange-dark: shade(map-get($colors, secondary-orange), 60%)
-));
-
-$colors: map-merge($colors, (
-	neutral-green: create-neutral(map-get($colors, secondary-green)),
-	neutral-blue: create-neutral(map-get($colors, secondary-blue)),
-	neutral-red: create-neutral(map-get($colors, secondary-red)),
-	neutral-purple: create-neutral(map-get($colors, secondary-purple)),
-	neutral-orange: create-neutral(map-get($colors, secondary-orange))
-));
-
-$colors: map-merge($colors, (
-	neutral-green-light: scale-color(map-get($colors, neutral-green), $lightness: 40%),
-	neutral-blue-light: scale-color(map-get($colors, neutral-blue), $lightness: 40%),
-	neutral-red-light: scale-color(map-get($colors, neutral-red), $lightness: 40%),
-	neutral-purple-light: scale-color(map-get($colors, neutral-purple), $lightness: 40%),
-	neutral-orange-light: scale-color(map-get($colors, neutral-orange), $lightness: 40%)
-));
-
-$colors: map-merge($colors, (
-	neutral-green-dark: scale-color(map-get($colors, neutral-green), $lightness: -40%),
-	neutral-blue-dark: scale-color(map-get($colors, neutral-blue), $lightness: -40%),
-	neutral-red-dark: scale-color(map-get($colors, neutral-red), $lightness: -40%),
-	neutral-purple-dark: scale-color(map-get($colors, neutral-purple), $lightness: -40%),
-	neutral-orange-dark: scale-color(map-get($colors, neutral-orange), $lightness: -40%)
-));
-
-$colors: map-merge($colors, (
-	mostly-white: scale-color(map-get($colors, neutral-green-light), $lightness: 80%),
-	mostly-black: grayscale(map-get($colors, primary-green))
-));
+@import 'css/cascadia/_colors';
 
 * {
 	box-sizing: border-box;
