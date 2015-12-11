@@ -1,76 +1,40 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1800 1800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
-    <g id="Layer5">
-        <clipPath id="_clip1">
-            <path d="M900,0L1679.42,450L1679.42,1350L900,1800L120.577,1350L120.577,450L900,0Z"/>
-        </clipPath>
-        <g clip-path="url(#_clip1)">
-            <g id="Layer6" transform="matrix(1,0,0,1,-0.2625,-4.925)">
-                <g transform="matrix(3.00554,-4.93038e-32,1.97215e-31,3.00554,-311.403,-400.823)">
-                    <path d="M403.144,135L662.472,284.723L662.472,584.17L403.144,733.894L143.815,584.17L143.815,284.723L403.144,135Z" style="fill:white;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,541.841,-222.85)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(128,0,255);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,282.357,-72.802)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(0,94,255);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,22.8735,77.2462)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(49,88,60);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,22.3176,376.626)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(19,118,48);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,21.7616,676.005)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(2,45,1);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,281.468,827.673)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(4,255,0);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,541.841,977.15)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(1,77,166);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,800.861,827.807)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(51,81,117);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,1062.08,677.394)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(255,0,43);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,1060.7,377.888)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(153,0,26);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,1060.84,77.5591)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(255,42,28);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,801.793,-72.8784)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(187,102,96);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,802.28,228.108)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(243,82,33);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,802.767,529.094)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(119,70,102);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,541.571,679.359)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(156,33,114);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,283.378,526.21)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(237,115,29);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,282.529,226.449)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(255,119,0);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,543.673,78.7551)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(102,51,153);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(0.506586,0,0,0.506586,538.997,378.444)">
-                    <path d="M707.524,449.628L1220.38,745.728L1220.38,1337.93L707.524,1634.03L194.664,1337.93L194.664,745.728L707.524,449.628Z" style="fill:rgb(180,116,96);fill-opacity:0.8;"/>
-                </g>
-                <g transform="matrix(-0.78256,1.37946e-16,1.37946e-16,0.78256,1224.24,110.206)">
-                    <path d="M374.812,1633.81L69.527,1585.15L0,1280.78L109.845,1301.37L28.798,1204.9L39.139,1044.55L135.608,900.664L65.091,606.499L170.099,587.497L143.814,484.334L254.326,445.607L178.85,352.44L414,0L649.145,352.481L573.818,445.581L684.161,484.343L657.878,587.509L762.899,606.515L692.377,900.674L788.859,1044.55L799.194,1204.92L718.157,1301.36L828.006,1280.79L758.473,1585.15L453.161,1633.76L484.526,2400L414,2400.04C414,2400.04 361.096,2400.1 343.472,2400L374.812,1633.81Z" style="fill:white;"/>
-                </g>
-            </g>
+<svg width="100%" height="100%" viewBox="0 0 1800 1800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <style>
+    g polygon {
+      fill-opacity: 0.75;
+    }
+    </style>
+
+    <polygon points="900,0 1680,450 1680,1350 900,1800 120,1350 120,450" style="fill:white;"></polygon>
+
+    <clipPath id="_clip1">
+        <path d="M900,0L1679.42,450L1679.42,1350L900,1800L120.577,1350L120.577,450L900,0Z"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <polygon id="poly-18" points="900,600 1160,750 1160,1050 900,1200 640,1050 640,750" style="fill:#99001a;"><animate attributeName="fill" values="#99001a; #137630; #137630; #335175; #99001a" repeatCount="indefinite" begin="4s" dur="16s" /></polygon>
+<polygon id="poly-15" points="640,450 900,600 900,900 640,1050 380,900 380,600" style="fill:#ff002b;"><animate attributeName="fill" values="#ff002b; #ed7e1d; #774666; #1c2d4a; #ff002b" repeatCount="indefinite" begin="3s" dur="13s" /></polygon>
+<polygon id="poly-16" points="1160,450 1420,600 1420,900 1160,1050 900,900 900,600" style="fill:#f35221;"><animate attributeName="fill" values="#f35221; #022d01; #639; #137630; #f35221" repeatCount="indefinite" begin="3s" dur="15s" /></polygon>
+<polygon id="poly-17" points="900,900 1160,1050 1160,1350 900,1500 640,1350 640,1050" style="fill:#9c2172;"><animate attributeName="fill" values="#9c2172; #31583c; #335175; #ed7e1d; #9c2172" repeatCount="indefinite" begin="1s" dur="12s" /></polygon>
+<polygon id="poly-12" points="900,300 1160,450 1160,750 900,900 640,750 640,450" style="fill:#bb6660;"><animate attributeName="fill" values="#bb6660; #022d01; #9c2172; #1c2d4a; #bb6660" repeatCount="indefinite" begin="2s" dur="12s" /></polygon>
+<polygon id="poly-13" points="640,750 900,900 900,1200 640,1350 380,1200 380,900" style="fill:#b47460;"><animate attributeName="fill" values="#b47460; #774666; #137630; #014da6; #b47460" repeatCount="indefinite" begin="4s" dur="11s" /></polygon>
+<polygon id="poly-14" points="1160,750 1420,900 1420,1200 1160,1350 900,1200 900,900" style="fill:#774666;"><animate attributeName="fill" values="#774666; #774666; #31583c; #014da6; #774666" repeatCount="indefinite" begin="1s" dur="16s" /></polygon>
+<polygon id="poly-6" points="1160,150 1420,300 1420,600 1160,750 900,600 900,300" style="fill:#f70;"><animate attributeName="fill" values="#f70; #639; #ed7e1d; #1c2d4a; #f70" repeatCount="indefinite" begin="3s" dur="10s" /></polygon>
+<polygon id="poly-7" points="640,150 900,300 900,600 640,750 380,600 380,300" style="fill:#ff2a1c;"><animate attributeName="fill" values="#ff2a1c; #137630; #ed7e1d; #1c2d4a; #ff2a1c" repeatCount="indefinite" begin="2s" dur="13s" /></polygon>
+<polygon id="poly-8" points="380,600 640,750 640,1050 380,1200 120,1050 120,750" style="fill:#137630;"><animate attributeName="fill" values="#137630; #ed7e1d; #1c2d4a; #022d01; #137630" repeatCount="indefinite" begin="3s" dur="14s" /></polygon>
+<polygon id="poly-9" points="1420,600 1680,750 1680,1050 1420,1200 1160,1050 1160,750" style="fill:#639;"><animate attributeName="fill" values="#639; #335175; #014da6; #022d01; #639" repeatCount="indefinite" begin="2s" dur="10s" /></polygon>
+<polygon id="poly-10" points="640,1050 900,1200 900,1500 640,1650 380,1500 380,1200" style="fill:#04ff00;"><animate attributeName="fill" values="#04ff00; #ed7e1d; #639; #022d01; #04ff00" repeatCount="indefinite" begin="1s" dur="10s" /></polygon>
+<polygon id="poly-11" points="1160,1050 1420,1200 1420,1500 1160,1650 900,1500 900,1200" style="fill:#005eff;"><animate attributeName="fill" values="#005eff; #014da6; #022d01; #1c2d4a; #005eff" repeatCount="indefinite" begin="4s" dur="12s" /></polygon>
+<polygon id="poly-0" points="900,0 1160,150 1160,450 900,600 640,450 640,150" style="fill:#ed7e1d;"><animate attributeName="fill" values="#ed7e1d; #022d01; #31583c; #1c2d4a; #ed7e1d" repeatCount="indefinite" begin="3s" dur="10s" /></polygon>
+<polygon id="poly-1" points="380,900 640,1050 640,1350 380,1500 120,1350 120,1050" style="fill:#022d01;"><animate attributeName="fill" values="#022d01; #014da6; #31583c; #639; #022d01" repeatCount="indefinite" begin="3s" dur="13s" /></polygon>
+<polygon id="poly-2" points="1420,900 1680,1050 1680,1350 1420,1500 1160,1350 1160,1050" style="fill:#335175;"><animate attributeName="fill" values="#335175; #31583c; #335175; #774666; #335175" repeatCount="indefinite" begin="1s" dur="14s" /></polygon>
+<polygon id="poly-3" points="1420,300 1680,450 1680,750 1420,900 1160,750 1160,450" style="fill:#8000ff;"><animate attributeName="fill" values="#8000ff; #639; #014da6; #014da6; #8000ff" repeatCount="indefinite" begin="1s" dur="12s" /></polygon>
+<polygon id="poly-4" points="380,300 640,450 640,750 380,900 120,750 120,450" style="fill:#31583c;"><animate attributeName="fill" values="#31583c; #639; #014da6; #137630; #31583c" repeatCount="indefinite" begin="1s" dur="11s" /></polygon>
+<polygon id="poly-5" points="900,1200 1160,1350 1160,1650 900,1800 640,1650 640,1350" style="fill:#014da6;"><animate attributeName="fill" values="#014da6; #ed7e1d; #022d01; #022d01; #014da6" repeatCount="indefinite" begin="2s" dur="14s" /></polygon>
+
+        <g transform="matrix(-0.817245,1.4406e-16,1.4406e-16,0.817245,1238.6,117.533)">
+            <path d="M374.812,1633.81L69.527,1585.15L0,1280.78L109.845,1301.37L28.798,1204.9L39.139,1044.55L135.608,900.664L65.091,606.499L170.099,587.497L143.814,484.334L254.326,445.607L178.85,352.44L414,0L649.145,352.481L573.818,445.581L684.161,484.343L657.878,587.509L762.899,606.515L692.377,900.674L788.859,1044.55L799.194,1204.92L718.157,1301.36L828.006,1280.79L758.473,1585.15L453.161,1633.76L484.526,2400L414,2400.04C414,2400.04 361.096,2400.1 343.472,2400L374.812,1633.81Z" style="fill:white;"/>
         </g>
     </g>
 </svg>
