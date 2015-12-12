@@ -7,7 +7,7 @@
   "private": true,
   "repository": "git@github.com:cascadiajs/2016.cascadiajs.com.git",
   "scripts": {
-    "test": "echo \"Error: no test specified…yet! Pull requests on cascadiajs/2016.cascadiajs are greatly appreciated.\" && exit 1",
+    "test": "echo \"Error: no test specified…yet! Pull requests on cascadiajs/2016.cascadiajs are greatly appreciated.\"",
     "start": "harp server ./website --port 9000",
     "compile": "harp compile ./website ./dist",
     "deploy": "npm run compile && surge -p ./dist -d 2016.cascadiajs.com",
