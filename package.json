@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The website for the CascadiaJS 2016 conference",
   "homepage": "2016.cascadiajs.com",
-  "author": "Dave Poole, Zach Meyer",
+  "author": "Dave Poole",
   "private": true,
   "repository": "git@github.com:cascadiajs/2016.cascadiajs.com.git",
   "scripts": {
@@ -14,10 +14,9 @@
     "stage": "npm run compile && surge -p ./dist -d cjs2016-stage.surge.sh"
   },
   "devDependencies": {
+    "bootstrap": "git://github.com/twbs/bootstrap#v4-dev",
     "harp": "^0.20.0",
     "surge": "^0.17.3"
   },
-  "dependencies": {
-    "bootstrap": "git://github.com/twbs/bootstrap#v4-dev"
-  }
+  "dependencies": {}
 }
