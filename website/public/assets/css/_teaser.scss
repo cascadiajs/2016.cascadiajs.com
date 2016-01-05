@@ -20,18 +20,43 @@ body {
   }
 
   .tree {
-    width: 16rem;
+    width: 8rem;
     margin: 0 auto;
+
+    @media screen and (min-width: 460px) {
+      width: 12rem;
+    }
+
+    @media screen and (min-width: 720px) {
+      width: 16rem;
+    }
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: Nanami-HM-Medium, sans-serif;
+
+    @media screen and (min-width: 380px) {
+      font-size: 3rem;
+    }
+
+    @media screen and (min-width: 480px) {
+      font-size: 4rem;
+    }
+
+    @media screen and (min-width: 720px) {
+      font-size: 5rem;
+    }
   }
 
+
+
   p.lead {
-    width: 60%;
     margin: 1em auto;
+
+    @media screen and (min-width: 380px) {
+      width: 90%;
+    }
   }
 }
 
