@@ -6,6 +6,9 @@
   "author": "Dave Poole",
   "private": true,
   "repository": "git@github.com:cascadiajs/2016.cascadiajs.com.git",
+  "engines" : {
+    "node": "~4.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on cascadiajs/2016.cascadiajs are greatly appreciated.\"",
     "start": "harp server ./website --port 9000",
