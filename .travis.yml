@@ -1,7 +1,15 @@
 language: node_js
 node_js:
-  - "0.12"
+  - "4.1"
+env:
+  - CXX=g++-4.8
 after_success:
   - npm run deploy
 notifications:
   slack: cascadiafest:upIkrnH6MWQ3K75VTBBrFkkx
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
