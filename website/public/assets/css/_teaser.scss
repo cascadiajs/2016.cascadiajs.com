@@ -16,11 +16,15 @@ body {
 
   background: linear-gradient(to bottom, $color-secondary-blue-light, $color-secondary-green);
 
+  p span {
+    font-size: 1.25em;
+  }
+
   .content {
   }
 
   .tree {
-    width: 16rem;
+    width: 12rem;
     margin: 0 auto;
   }
 
@@ -33,6 +37,36 @@ body {
     width: 60%;
     margin: 1em auto;
   }
+}
+
+#preview .row {
+  display: flex;
+  align-content: stretch;
+}
+
+.preview {
+  color: white;
+  padding: 1em;
+  font-size: 1.5rem;
+
+  h2 {
+    font-size: 1.4rem;
+    background-color: hsla(0, 100%, 0%, .3);
+    padding: .5em;
+    margin-top: 1em;
+  }
+}
+
+.theme-css {
+  background-color: $color-raw-purple;
+}
+
+.theme-browser {
+  background-color: $color-secondary-red-dark;
+}
+
+.theme-node {
+  background-color: $color-secondary-green-light;
 }
 
 .content {
