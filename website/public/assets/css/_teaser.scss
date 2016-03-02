@@ -26,16 +26,44 @@ body {
   .tree {
     width: 12rem;
     margin: 0 auto;
+
+    @media screen and (max-width: 580px) {
+      width: 10rem;
+    }
+
+    @media screen and (max-width: 380px) {
+      width: 8rem;
+    }
+
+    @media screen and (max-width: 300px) {
+      width: 6rem;
+    }
   }
 
   h1 {
     font-size: 5rem;
     font-family: Nanami-HM-Medium, sans-serif;
+
+    @media screen and (max-width: 770px) {
+      font-size: 4rem;
+    }
+
+    @media screen and (max-width: 510px) {
+      font-size: 3rem;
+    }
+
+    @media screen and (max-width: 380px) {
+      font-size: 2rem;
+    }
   }
 
   p.lead {
     width: 60%;
     margin: 1em auto;
+
+    @media screen and (max-width: 580px) {
+      font-size: 1rem;
+    }
   }
 }
 
