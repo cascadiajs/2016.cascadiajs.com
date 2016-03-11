@@ -24,21 +24,6 @@ body {
   }
 
   .tree {
-<<<<<<< HEAD
-    width: 12rem;
-    margin: 0 auto;
-
-    @media screen and (max-width: 580px) {
-      width: 10rem;
-    }
-
-    @media screen and (max-width: 380px) {
-      width: 8rem;
-    }
-
-    @media screen and (max-width: 300px) {
-      width: 6rem;
-=======
     width: 8rem;
     margin: 0 auto;
 
@@ -48,7 +33,6 @@ body {
 
     @media screen and (min-width: 720px) {
       width: 16rem;
->>>>>>> f3537b54490648f5e8507cc32bf5bd32320f90d4
     }
   }
 
@@ -56,18 +40,6 @@ body {
     font-size: 2rem;
     font-family: Nanami-HM-Medium, sans-serif;
 
-<<<<<<< HEAD
-    @media screen and (max-width: 770px) {
-      font-size: 4rem;
-    }
-
-    @media screen and (max-width: 510px) {
-      font-size: 3rem;
-    }
-
-    @media screen and (max-width: 380px) {
-      font-size: 2rem;
-=======
     @media screen and (min-width: 380px) {
       font-size: 3rem;
     }
@@ -78,7 +50,6 @@ body {
 
     @media screen and (min-width: 720px) {
       font-size: 5rem;
->>>>>>> f3537b54490648f5e8507cc32bf5bd32320f90d4
     }
   }
 
@@ -87,7 +58,6 @@ body {
   p.lead {
     margin: 1em auto;
 
-<<<<<<< HEAD
     @media screen and (max-width: 580px) {
       font-size: 1rem;
     }
@@ -109,11 +79,6 @@ body {
     background-color: hsla(0, 100%, 0%, .3);
     padding: .5em;
     margin-top: 1em;
-=======
-    @media screen and (min-width: 380px) {
-      width: 90%;
-    }
->>>>>>> f3537b54490648f5e8507cc32bf5bd32320f90d4
   }
 }
 
