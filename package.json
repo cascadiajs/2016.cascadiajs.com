@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified…yet! Pull requests on cascadiajs/2016.cascadiajs are greatly appreciated.\"",
     "start": "harp server ./website --port 9000",
     "compile": "harp compile ./website ./dist",
-    "deploy": "npm run compile && surge -p ./dist -d 2016.cascadiajs.com",
+    "deploy": "npm run compile && surge -p ./dist -d 2016.cascadiafest.org",
     "stage": "npm run compile && surge -p ./dist -d cjs2016-stage.surge.sh"
   },
   "devDependencies": {
