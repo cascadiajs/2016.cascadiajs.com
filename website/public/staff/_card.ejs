@@ -1,0 +1,19 @@
+<div class="card">
+  <img class="card-img-top img-fluid" src="<%- avatar %>" alt="">
+  <div class="card-block">
+    <h5 class="card-title"><%- name %></h5>
+    <% if(title) { %><h6><%- title %></h6><% } %>
+
+    <% if(contact.email) { %>
+      <a href="mailto:<%- contact.email %>"><i class="fa fa-envelope-o"></i> <%- contact.email %></a>
+    <% } %>
+
+    <% if(contact.twitter) { %>
+      <a href="//twitter.com/<%- contact.twitter %>"><i class="fa fa-twitter"></i> <%- contact.twitter %></a>
+    <% } %>
+
+    <% if(contact.github) { %>
+      <a href="//github.com/<%- contact.github %>"><i class="fa fa-github"></i> <%- contact.github %></a>
+    <% } %>
+  </div>
+</div>

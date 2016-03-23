@@ -2,9 +2,90 @@
   "index": {
     "layout": "../_interior.ejs"
   },
-  "organizers": {},
-  "curators": {},
-  "coordinators": [],
-  "volunteers": [],
-  "contributors": []
+  "producer": {
+    "carter": {
+      "name": "Carter Rabasa",
+      "title": "",
+      "avatar": "/assets/img/staff/carter.jpg",
+      "contact": {
+        "twitter": "crtr0",
+        "email": "carter@cascadiajs.com"
+      }
+    },
+    "tracy": {
+      "name": "Tracy Hinds",
+      "title": "",
+      "avatar": "/assets/img/staff/tracy.jpg",
+      "contact": {
+        "twitter": "hackygolucky",
+        "email": "tracy@cascadiajs.com"
+      }
+    }
+  },
+  "director": {
+    "katie": {
+      "name": "Katie Kurkoski",
+      "title": "CascadiaCSS",
+      "avatar": "/assets/img/staff/katie.jpg",
+      "contact": {
+        "twitter": "KatieK2",
+        "github": "KatieK2"
+      }
+    },
+    "alex": {
+      "name": "Alex Lande",
+      "title": "CascadiaJS Browser Day",
+      "avatar": "/assets/img/staff/alex.jpg",
+      "contact": {
+        "twitter": "alexlande"
+      }
+    },
+    "ira": {
+      "name": "Irina Shestak",
+      "title": "",
+      "avatar": "/assets/img/staff/ira.jpg",
+      "contact": {
+        "twitter": "_lrlna",
+        "github": "lrlna"
+      }
+    },
+    "mystery": {
+      "name": "Someone Awesome",
+      "title": "CascadiaJS Node Day",
+      "avatar": "",
+      "contact": {}
+    }
+  },
+  "coordinators": {
+    "dave": {
+      "name": "Dave",
+      "title": "Website Lead",
+      "avatar": "/assets/img/staff/dave.jpg",
+      "contact": {
+        "twitter": "davethegr8"
+      }
+    },
+    "zach": {
+      "name": "Zach",
+      "title": "Design Lead",
+      "avatar": "/assets/img/staff/zach.jpg",
+      "contact": {}
+    },
+    "ruth": {
+      "name": "Ruth",
+      "title": "Marketing &amp; Copy Lead",
+      "avatar": "/assets/img/staff/ruth.jpg",
+      "contact": {
+        "twitter": "dark_roast_ruth"
+      }
+    },
+    "farrin": {
+      "name": "Farrin",
+      "title": "Volunteer &amp; Workshop Coordinator",
+      "avatar": "/assets/img/staff/farrin.jpg",
+      "contact": {}
+    }
+  },
+  "volunteers": {},
+  "contributors": {}
 }
