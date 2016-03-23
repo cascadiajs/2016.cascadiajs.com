@@ -6,11 +6,12 @@
   "author": "Dave Poole",
   "private": true,
   "repository": "git@github.com:cascadiajs/2016.cascadiajs.com.git",
-  "engines" : {
+  "engines": {
     "node": "~4.2.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on cascadiajs/2016.cascadiajs are greatly appreciated.\"",
+    "images": "gulp",
     "start": "harp server ./website --port 9000",
     "compile": "harp compile ./website ./dist",
     "deploy": "npm run compile && surge -p ./dist -d 2016.cascadiajs.com",
@@ -21,5 +22,10 @@
     "harp": "^0.20.0",
     "surge": "^0.17.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
+    "gulp-image-resize": "^0.7.1"
+  }
 }
