@@ -5,7 +5,7 @@
   "producer": {
     "carter": {
       "name": "Carter Rabasa",
-      "title": "Founder",
+      "title": "",
       "avatar": "/assets/img/staff/carter.jpg",
       "contact": {
         "twitter": "crtr0",
@@ -19,15 +19,6 @@
       "contact": {
         "twitter": "hackygolucky",
         "email": "tracy@cascadiajs.com"
-      }
-    },
-    "ira": {
-      "name": "Irina Shestak",
-      "title": "",
-      "avatar": "/assets/img/staff/ira.jpg",
-      "contact": {
-        "twitter": "_lrlna",
-        "github": "lrlna"
       }
     }
   },
@@ -47,6 +38,15 @@
       "avatar": "/assets/img/staff/alex.jpg",
       "contact": {
         "twitter": "alexlande"
+      }
+    },
+    "ira": {
+      "name": "Irina Shestak",
+      "title": "",
+      "avatar": "/assets/img/staff/ira.jpg",
+      "contact": {
+        "twitter": "_lrlna",
+        "github": "lrlna"
       }
     },
     "mystery": {
