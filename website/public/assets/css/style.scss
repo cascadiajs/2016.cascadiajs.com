@@ -10,12 +10,14 @@ $enable-flex: true;
 @import '_colors';
 
 // Fonts
-@import '_rounded';
 @import '_font-awesome';
+@import '_rounded'; // Nanami Rounded
+//@import '_microbrew'; // Microbrew Unicase
 
 // Typography
 @import '_typography';
 
+
 // Layout parts
-@import '_teaser';
+@import '_general';
 @import '_cards';
