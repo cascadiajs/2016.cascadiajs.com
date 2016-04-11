@@ -1,14 +1,20 @@
+// Bootstrap
 $enable-flex: true;
 @import '../../../../node_modules/bootstrap/scss/bootstrap';
 
+// For the special tree
 @import '_mixins';
 @import '_kaleidescope';
 
+// Colors
 @import '_colors';
 
 // Fonts
 @import '_rounded';
 @import '_font-awesome';
+
+// Typography
+@import '_typography';
 
 // Layout parts
 @import '_teaser';
