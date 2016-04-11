@@ -1,4 +1,15 @@
 $enable-flex: true;
 @import '../../../../node_modules/bootstrap/scss/bootstrap';
 
-@import 'cascadia/cascadia';
+@import '_mixins';
+@import '_kaleidescope';
+
+@import '_colors';
+
+// Fonts
+@import '_rounded';
+@import '_font-awesome';
+
+// Layout parts
+@import '_teaser';
+@import '_cards';

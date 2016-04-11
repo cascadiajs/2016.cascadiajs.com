@@ -157,24 +157,3 @@
   }
   @return if(lightness($color) < 51, #FFF, #000)
 }
-
-
-/*
-$brand-primary: green;
-$brand-secondary: blue;
-
-$brand-css: rebeccapurple;
-$brand-browser: lightgreen;
-$brand-server: orange;
-
-$cjs-color-primary: #0b4f4d; //Dark green;
-$cjs-color-secondary: #33a143;
-$cjs-color-alt: hsl(57,100%,50%);
-
-$cjs-color-dark-green: #062c03;
-$cjs-color-green: #062B00;
-$cjs-color-lt-green: #33a143;
-$cjs-color-dk-blue: #1c2e4c;
-$cjs-color-lt-blue: #2f4e80;
-$cjs-color-aqua-blue: #0B4F4D;
- */
