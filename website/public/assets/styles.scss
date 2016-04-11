@@ -1,44 +1,44 @@
-@import "mixins";
-
-// $color-raw-green: hsl(110, 100%, 50%);
-// $color-raw-blue: hsl(230, 100%, 50%);
-// $color-raw-red: hsl(350, 100%, 50%);
-// $color-raw-purple: hsl(270, 100%, 50%);
-// $color-raw-orange: hsl(50, 100%, 50%);
-
-@import 'css/cascadia/_colors';
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-	font-family: sans-serif;
-}
-
-.row {
-	display: flex;
-	justify-content: center;
-}
-
-.color-block {
-	width: 12em;
-	height: 12em;
-
-	border-radius: 1em;
-	margin: 0 1em 1em 0;
-
-	padding: 1em;
-
-
-
-	@each $name, $color in $colors {
-		&.#{$name} {
-			background-color: $color;
-			color: text-contrast($color);
-			&:after {
-				content: "#{$name} - #{$color}";
-			}
-		}
-	}
-}
+// @import "mixins";
+//
+// // $color-raw-green: hsl(110, 100%, 50%);
+// // $color-raw-blue: hsl(230, 100%, 50%);
+// // $color-raw-red: hsl(350, 100%, 50%);
+// // $color-raw-purple: hsl(270, 100%, 50%);
+// // $color-raw-orange: hsl(50, 100%, 50%);
+//
+// @import 'css/cascadia/_colors';
+//
+// * {
+// 	box-sizing: border-box;
+// }
+//
+// body {
+// 	font-family: sans-serif;
+// }
+//
+// .row {
+// 	display: flex;
+// 	justify-content: center;
+// }
+//
+// .color-block {
+// 	width: 12em;
+// 	height: 12em;
+// 
+// 	border-radius: 1em;
+// 	margin: 0 1em 1em 0;
+//
+// 	padding: 1em;
+//
+//
+//
+// 	@each $name, $color in $colors {
+// 		&.#{$name} {
+// 			background-color: $color;
+// 			color: text-contrast($color);
+// 			&:after {
+// 				content: "#{$name} - #{$color}";
+// 			}
+// 		}
+// 	}
+// }

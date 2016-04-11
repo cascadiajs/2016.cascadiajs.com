@@ -11,8 +11,11 @@
         <link rel="stylesheet" href="/assets/css/style.css">
     </head>
     <body>
+        <%- partial("_partials/nav") %>
+
         <%- yield %>
 
+        <%- partial("_partials/code-of-conduct") %>
         <%- partial("_partials/footer") %>
     </body>
 </html>
