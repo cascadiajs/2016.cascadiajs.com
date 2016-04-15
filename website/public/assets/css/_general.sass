@@ -3,6 +3,12 @@
 body
   background-color: $tan-light
 
+// Primary navigation
+#navigation
+  background: white
+  padding: 1rem 0
+
+.tree-icon
 
 .tree
   display: block
@@ -15,31 +21,28 @@ body
 
 #hero
   color: white
-  background: linear-gradient(to bottom, $color-secondary-blue-light, $color-secondary-green)
+  background: linear-gradient(to bottom, $primary-blue-lighter, $primary-blue-light)
 
-  p
-    span
+  span.label-primary
+    background-color: $primary-blue-dark
+    font-size: 1em
+    font-family: 'Nanami-Rounded-lt', sans-serif
+
+    @include media-breakpoint-up(sm)
+      font-family: 'Nanami-Rounded-Med', sans-serif
       font-size: 1.25em
 
   h1
-    font-size: 2rem
-    font-family: Nanami-Medium, sans-serif
+    font-size: 4rem
+    color: $primary-blue-dark
+    font-family: 'MicrobrewUnicaseTwo', sans-serif
 
-    @media screen and (min-width: 380px)
-      font-size: 3rem
-
-    @media screen and (min-width: 480px)
-      font-size: 4rem
-
-    @media screen and (min-width: 720px)
+    @include media-breakpoint-up(sm)
       font-size: 5rem
+      font-family: 'MicrobrewUnicaseTwoD', sans-serif
 
-  p.lead
-    margin: 1em auto
-
-    @media screen and (max-width: 580px)
-      font-size: 1rem
-
+    @include media-breakpoint-up(md)
+      font-size: 7rem
 
 #preview
   .row
