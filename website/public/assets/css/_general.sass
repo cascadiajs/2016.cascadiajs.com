@@ -27,9 +27,11 @@ body
     background-color: $primary-blue-dark
     font-size: 1em
     font-family: 'Nanami-Rounded-lt', sans-serif
+    display: inline-block
+    padding: 0.75rem 1.25rem 0.5rem
+    border-radius: 4px
 
     @include media-breakpoint-up(sm)
-      font-family: 'Nanami-Rounded-Med', sans-serif
       font-size: 1.25em
 
   h1
@@ -42,7 +44,10 @@ body
       font-family: 'MicrobrewUnicaseTwoD', sans-serif
 
     @include media-breakpoint-up(md)
-      font-size: 7rem
+      font-size: 6rem
+
+    @include media-breakpoint-up(lg)
+      font-size: 8rem
 
 #preview
   .row

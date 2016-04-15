@@ -1,11 +1,12 @@
 //
 // All basic typography
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Arial, sans-serif
 
 body
   color: $txt-gray
+  font-family: 'Lora', serif
 
 // Headers
-h1,
 h2,
 h3
   font-family: 'Nanami-Rounded-Med', sans-serif
@@ -13,6 +14,16 @@ h3
 
 h4
   font-family: 'Nanami-Rounded-Lt', sans-serif
+
+a
+  text-decoration: underline
+  &:hover
+    text-decoration: none
+
+.btn,
+.nav-link
+  font-family: $sans-serif
+  text-decoration: none
 
 #code-of-conduct
   text-align: center
