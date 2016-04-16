@@ -29,6 +29,23 @@ a
   font-family: $sans-serif
   text-decoration: none
 
+#navigation
+  .nav-pills
+    a.nav-link
+      color: $primary-green
+      &:hover
+        color: white
+        background-color: $primary-green-dark
+    .nav-link.active,
+    .nav-link.active:focus,
+    .nav-link.active:hover,
+    .nav-item.open .nav-link,
+    .nav-item.open .nav-link:focus,
+    .nav-item.open .nav-link:hover
+      color: white
+      cursor: default
+      background-color: $primary-green!important
+
 #hero-message
   font-family: 'Lora', serif
   font-weight: 700
@@ -56,6 +73,22 @@ a
       background-color: $tan-light
       border-color: $tan-light
       color: $primary-green
+
+
+#preview
+  h3
+    font-family: 'Lora', serif
+    text-transform: none
+
+  h2
+    font-family: $sans-serif
+    font-weight: normal
+    text-transform: none
+    font-size: 1.35rem
+    background-color: hsla(0, 100%, 0%, .3)
+    padding: .5em
+    margin-top: 1em
+    border-radius: 4px
 
 
 #code-of-conduct

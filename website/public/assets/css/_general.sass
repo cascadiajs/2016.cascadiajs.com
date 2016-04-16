@@ -33,6 +33,10 @@ body
   background-image: url('../img/nature/small-tree-tops.svg')
   background-position: top center
   background-repeat: repeat-x
+  &.reversed
+    background-image: url('../img/nature/small-tree-tops-reversed.svg')
+    background-position: top left
+    background-repeat: repeat-x
 
 #hero
   color: white
@@ -109,25 +113,22 @@ body
     display: flex
     align-content: stretch
 
-.preview
+.theme
   color: white
   padding: 1em
-  font-size: 1.5rem
 
-  h2
-    font-size: 1.4rem
-    background-color: hsla(0, 100%, 0%, .3)
-    padding: .5em
-    margin-top: 1em
+  &.css
+    background-color: $primary-purple
 
-.theme-css
-  background-color: $color-raw-purple
+  &.browser
+    background-color: $primary-red
 
-.theme-browser
-  background-color: $color-secondary-red-dark
+  &.node
+    background-color: $primary-green
 
-.theme-node
-  background-color: $color-secondary-green-light
+#staff
+  padding-top: 1.5rem
+  padding-bottom: 2rem
 
 .content
   padding: 1em 0
