@@ -1,0 +1,144 @@
+//
+// General styles for CascadiaFEST
+body
+  background-color: $tan-light
+
+// Primary navigation
+#navigation
+  background: white
+  padding: 1rem 0
+
+.tree-icon
+
+.tree
+  display: block
+  position: relative
+  width: 8rem
+  height: 8rem
+  margin: 0 auto
+  margin-top: -9.5em
+  margin-bottom: 2em
+
+.mountains-and-trees
+  height: 415px
+  background-image: url('../img/nature/large-tree-tops.svg'), url('../img/nature/mountains.svg')
+  background-position: bottom center, bottom center
+  background-size: auto, cover
+  background-repeat: repeat-x, no-repeat
+  padding-top: 1.5rem
+
+.small-trees
+  display: block
+  height: 100px
+  background-image: url('../img/nature/small-tree-tops.svg')
+  background-position: top center
+  background-repeat: repeat-x
+  &.reversed
+    background-image: url('../img/nature/small-tree-tops-reversed.svg')
+    background-position: top left
+    background-repeat: repeat-x
+
+#hero
+  color: white
+  background: linear-gradient(to bottom, $primary-blue-lighter, $primary-blue-light)
+
+  span.label-primary
+    background-color: $primary-blue-dark
+    font-size: 1em
+    font-family: 'Nanami-Rounded-lt', sans-serif
+    display: inline-block
+    padding: 0.75rem 1.25rem 0.5rem
+    border-radius: 4px
+
+    @include media-breakpoint-up(sm)
+      font-size: 1.25em
+
+  h1
+    font-size: 4rem
+    color: $primary-blue-dark
+    font-family: 'MicrobrewUnicaseTwo', sans-serif
+
+    @include media-breakpoint-up(sm)
+      font-size: 5rem
+      font-family: 'MicrobrewUnicaseTwoD', sans-serif
+
+    @include media-breakpoint-up(md)
+      font-size: 6rem
+
+    @include media-breakpoint-up(lg)
+      font-size: 8rem
+
+
+#hero-message
+  padding-bottom: 4rem
+  background-color: $primary-blue-dark
+  background-image: url('../img/nature/hills.svg')
+  background-position: bottom center
+  background-repeat: repeat-x
+  color: white
+
+
+#connect
+  background-color: $primary-green-light
+  padding-bottom: 1.5rem
+
+  #mc_embed_signup
+    background-color: $primary-green-darker
+    padding: 0.5rem 1.25rem 1.25rem
+
+    .form-control
+      border-radius: 0
+      background: transparent
+      border-color: white
+      border-width: 2px
+      color: white
+      ::-webkit-input-placeholder
+       color: $tan-light
+
+      :-moz-placeholder
+       color: $tan-light
+
+      ::-moz-placeholder
+        color: $tan-light
+
+      :-ms-input-placeholder
+        color: $tan-light
+
+#latest-news
+  padding-top: 2rem
+
+
+#preview
+  .row
+    display: flex
+    align-content: stretch
+
+.theme
+  color: white
+  padding: 1em
+
+  &.css
+    background-color: $primary-purple
+
+  &.browser
+    background-color: $primary-blue
+
+  &.node
+    background-color: $primary-green
+
+#staff
+  padding-top: 1.5rem
+  padding-bottom: 2rem
+
+.content
+  padding: 1em 0
+
+// .container-fluid {
+//   max-width: 1120px;
+// }
+
+footer
+  margin-top: 5em
+  padding-top: 4em
+  padding-bottom: 4em
+  background: white

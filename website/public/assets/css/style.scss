@@ -1,26 +1,25 @@
-@import 'cascadia/cascadia';
-
+// Bootstrap
 $enable-flex: true;
 @import '../../../../node_modules/bootstrap/scss/bootstrap';
 
-@import '_teaser.scss';
-@import '_font-awesome.scss';
+// For the special tree
+@import '_mixins';
+@import '_kaleidescope';
 
-.card-deck .card {
-  @include media-breakpoint-up(xs) {
-    max-width: 50%;
-  }
+// Colors
+@import '_colors';
 
-  @include media-breakpoint-up(sm) {
-    max-width: 33%;
-  }
+// Fonts
+@import '_font-awesome';
+@import '_rounded'; // Nanami Rounded
+@import '_microbrew'; // Microbrew Unicase
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700italic,700);
 
-  @include media-breakpoint-up(md) {
-    max-width: 17%;
-  }
+// Typography
+@import '_typography';
 
-  a {
-    display: block;
-    font-size: 85%;
-  }
-}
+
+// Layout parts
+@import '_general';
+@import '_venue';
+@import '_cards';

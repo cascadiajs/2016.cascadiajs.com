@@ -1,0 +1,36 @@
+.circle {
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  max-width: 94%;
+  margin-top: .75rem;
+  margin-left: 3%;
+}
+
+.card-block {
+  width: 50%;
+  @include media-breakpoint-up(sm) {
+    width: 11rem;
+  }
+}
+
+// .card-deck {
+//   .card {
+//     background-color: #dfdfdf;
+//     @include media-breakpoint-up(xs) {
+//       max-width: 50%;
+//     }
+//
+//     @include media-breakpoint-up(sm) {
+//       max-width: 33%;
+//     }
+//
+//     @include media-breakpoint-up(md) {
+//       max-width: 18%;
+//     }
+//
+//     a {
+//       display: block;
+//       font-size: 85%;
+//     }
+//   }
+// }

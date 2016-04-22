@@ -1,0 +1,106 @@
+//
+// All basic typography
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Arial, sans-serif
+
+body
+  color: $txt-gray
+  font-family: 'Lora', serif
+
+// Headers
+h2,
+h3
+  font-family: 'Nanami-Rounded-Med', sans-serif
+  text-transform: uppercase
+
+h4
+  font-family: 'Lora', serif
+
+a
+  text-decoration: underline
+  .content &
+    color: $primary-green
+    &:hover
+      color: $primary-green-light
+  &:hover
+    text-decoration: none
+
+.btn,
+.nav-link
+  font-family: $sans-serif
+  text-decoration: none
+
+#navigation
+  .nav-pills
+    a.nav-link
+      color: $primary-green
+      &:hover
+        color: white
+        background-color: $primary-green-dark
+    .nav-link.active,
+    .nav-link.active:focus,
+    .nav-link.active:hover,
+    .nav-item.open .nav-link,
+    .nav-item.open .nav-link:focus,
+    .nav-item.open .nav-link:hover
+      color: white
+      cursor: default
+      background-color: $primary-green!important
+
+#hero-message
+  font-family: 'Lora', serif
+  font-weight: 700
+  font-style: italic
+  .lead
+    font-size: 1.45rem
+  .btn-primary
+    font-style: normal
+    background-color: white
+    color: $primary-blue-dark
+    &:hover
+      background-color: $primary-blue
+      color: white
+
+#connect
+  color: $tan-light
+  h3
+    color: $primary-green-darker
+
+  // Button style overrides
+  .btn-primary
+    font-style: normal
+    color: $primary-green-darker
+    border-color: white
+    background-color: white
+    &:hover
+      background-color: $tan-light
+      border-color: $tan-light
+      color: $primary-green
+
+
+#preview
+  h3
+    font-family: 'Lora', serif
+    text-transform: none
+
+  h2
+    font-family: $sans-serif
+    font-weight: normal
+    text-transform: none
+    font-size: 1.35rem
+    background-color: hsla(0, 100%, 0%, .3)
+    padding: .5em
+    margin-top: 1em
+    border-radius: 4px
+
+
+#code-of-conduct
+  text-align: center
+  h5
+    font-weight: 700
+    color: $primary-green-darker
+
+footer
+  font-size: 85%
+  text-align: center
+  a
+    color: $primary-green

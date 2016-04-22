@@ -3,45 +3,44 @@
   <p>Share the joy of CascadiaFEST with your friends</p>
 </div>
 
-<div class="col-xs-12 col-sm-4 push-sm-2">
-
-<div id="mc_embed_signup">
-  <h4 class="">Newsletter</h4>
-
-  <p>Get announcements and information about tickets, speakers, and more</p>
-
-  <form action="//cascadiajs.us1.list-manage.com/subscribe/post?u=ffa37cf28eebc9e75b8558f3b&amp;id=d1b100650c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="" target="_blank" novalidate>
-
-    <label for="mce-EMAIL">Email Address</label>
-
-    <div class="form-group">
-      <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="your_email@example.com" required>
+<div class="col-xs-12 col-md-6 col-lg-5 push-lg-1">
+  <div class="row">
+    <div class="col-xs-6">
+      <h6>Chat with us on our</h6>
+      <p> <a href="//slack.cascadiajs.com" class="btn btn-primary"><i class="fa fa-slack"></i> Slack Channel</a> </p>
+    </div>
+    <div class="col-xs-6">
+      <h6>Follow us on</h6>
+      <%- partial("twitter.ejs") %>
+    </div>
+    <div class="col-xs-12">
+      <h6>Watch the project changes on</h6>
+      <p>
+        <a href="http://github.com/cascadiajs/2016.cascadiajs.com" class="btn btn-primary"><i class="fa fa-github"></i> Github</a>
+      </p>
     </div>
 
-    <input type="text" name="b_ffa37cf28eebc9e75b8558f3b_d1b100650c" value="" style="display: none;">
-    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
-
-  </form>
+  </div>
 </div>
 
-</div>
+<div class="col-xs-12 col-md-5 push-md-1">
 
-<div class="col-xs-12 col-sm-4 push-sm-2">
-  <h4>Chat</h4>
+  <div id="mc_embed_signup">
+    <h6 class="text-hide">Newsletter</h6>
+    <p>Get announcements and information about tickets, speakers, and more</p>
 
-  <p>
-    We are using <img src="/assets/img/slack.svg" alt="Slack" style="height: 1.2em;"/> this year for chat.
-    <br />
-  <a href="//slack.cascadiajs.com" class="btn btn-primary">Come say hello!</a>
-  </p>
+    <form action="//cascadiajs.us1.list-manage.com/subscribe/post?u=ffa37cf28eebc9e75b8558f3b&amp;id=d1b100650c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="" target="_blank" novalidate>
 
-  <h4>Twitter</h4>
+      <label for="mce-EMAIL" style="display:none">Email Address</label>
 
-  <%- partial("twitter.ejs") %>
+      <div class="form-group">
+        <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="your_email@example.com" required>
+      </div>
 
-  <h4>GitHub</h4>
+      <input type="text" name="b_ffa37cf28eebc9e75b8558f3b_d1b100650c" value="" style="display: none;">
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
 
-  <p>Everything Cascadia Fest 2016 is being managed through GitHub. Check
-  out <a href="http://github.com/cascadiajs/2016.cascadiajs.com">our repo</a>
-  to see everything that's going on.</p>
+    </form>
+  </div>
+
 </div>

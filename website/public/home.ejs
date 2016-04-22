@@ -1,104 +1,41 @@
+<%- partial("_partials/navigation") -%>
+
+<%- partial("_partials/home-header") -%>
+
 <main id="teaser">
-  <div id="hero" class="content">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 text-xs-center center-block">
-          <h1>CASCADIAFEST 2016</h1>
-          <p class="lead"><span>August 3rd - 5th, Semiahmoo, WA</span></p>
-          <img class="tree" src="/assets/img/kaleidoscope.svg" alt=""/>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="content">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 push-sm-2">
-          <p class="lead text-sm-center">
-            <%- site.description -%>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="latest-news">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-8">
-          <h3>Call For Proposals Open!</h3>
-
-          <p>Our Call for Proposals is officially open! The deadline is
-          <b>April 11, 2016 11:59:59pm Pacific Time</b>.</p>
-
-          <p>We encourage everyone
-          to submit a proposal for a talk. To get started, go to
-          <a href="https://speak.cascadiafest.org">speak.cascadiafest.org</a>
-          and register for an account. You may submit as many talk ideas as
-          you like. Here are some ideas to get you started: <a href="https://speak.cascadiafest.org/ideas">speak.cascadiafest.org/ideas</a>.</p>
-
-          <p>For information about the benefits of speaking at CascadiaFEST, see <a href="https://speak.cascadiafest.org/perks">speak.cascadiafest.org/perks</a>
-        </div>
-        <div class="col-xs-12 col-sm-4">
-          <h3>Tickets on sale!</h3>
-
-          <p>The Early Bird tickets are now sold out. More tickets will be available soon, subscribe to our newsletter or follow us on twitter to find out when.</p>
-
-          <p><a href="https://ti.to/event-loop/cascadiafest-2016/" class="btn btn-primary">Purchase Tickets</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
+  <%- partial("_partials/venue") -%>
 
   <div id="preview" class="content">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 col-md-4 text-md-center preview theme-css">
-          <h3>August 3</h3>
+        <div class="col-xs-12 col-md-4 text-md-center theme css">
+          <h3>August 3rd</h3>
           <h2>CascadiaCSS</h2>
         </div>
-        <div class="col-xs-12 col-md-4 text-md-center preview theme-browser">
-          <h3>August 4</h3>
+        <div class="col-xs-12 col-md-4 text-md-center theme browser">
+          <h3>August 4th</h3>
           <h2>CascadiaJS Browser Day</h2>
         </div>
-        <div class="col-xs-12 col-md-4 text-md-center preview theme-node">
-          <h3>August 5</h3>
+        <div class="col-xs-12 col-md-4 text-md-center theme node">
+          <h3>August 5th</h3>
           <h2>CascadiaJS Node Day</h2>
         </div>
       </div>
     </div>
   </div>
 
-  <div id="connect" class="content">
-    <div class="container-fluid">
+
+  <div class="small-trees"></div>
+  <div id="connect">
+    <div class="container">
       <div class="row">
         <%- partial("_partials/connect") %>
       </div>
     </div>
   </div>
+  <div class="small-trees reversed"></div>
 
-  <div id="staff" class="content">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="text-xs-center">CascadiaFEST Staff</h3>
-        </div>
+  <%- partial("_partials/staff") %>
 
-        <!-- <div class="card-deck-wrapper"> -->
-          <div class="card-deck">
-            <%- partial("staff/_card", public.staff._data.producer.carter) %>
-            <%- partial("staff/_card", public.staff._data.producer.tracy) %>
-            <%- partial("staff/_card", public.staff._data.director.katie) %>
-            <%- partial("staff/_card", public.staff._data.director.alex) %>
-            <%- partial("staff/_card", public.staff._data.director.ira) %>
-            <%- partial("staff/_card", public.staff._data.coordinators.dave) %>
-            <%- partial("staff/_card", public.staff._data.coordinators.zach) %>
-            <%- partial("staff/_card", public.staff._data.coordinators.ruth) %>
-            <%- partial("staff/_card", public.staff._data.coordinators.farrin) %>
-          </div>
-        <!-- </div> -->
-      </div>
-    </div>
-  </div>
 </main>
