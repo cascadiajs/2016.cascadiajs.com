@@ -22,4 +22,9 @@ $enable-flex: true;
 // Layout parts
 @import '_general';
 @import '_venue';
+@import '_latest-news';
 @import '_cards';
+
+.nav-news {
+  display: none;
+}
