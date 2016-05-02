@@ -1,10 +1,11 @@
-var enableNews = true,
+var enableNews = false,
     server = '//news.cascadiafest.org',
     // server = '//localhost:4000',
     feedurl = '/2016/news/list.jsonp';
 
 if(enableNews) {
   $('.nav-news').show();
+  $('#latest-news').show();
 
   $.ajax(server + feedurl, {
     dataType: "jsonp"
