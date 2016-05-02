@@ -1,15 +1,9 @@
-var enableNews = false,
-    server = '//news.cascadiafest.org',
-    // server = '//localhost:4000',
-    feedurl = '/2016/news/list.jsonp';
+var enableNews = true,
+    server = 'http://news.cascadiafest.org';
 
 if(enableNews) {
   $('.nav-news').show();
   $('#latest-news').show();
-
-  $.ajax(server + feedurl, {
-    dataType: "jsonp"
-  });
 }
 
 var _cascadiafest_news_callback = function (data) {
