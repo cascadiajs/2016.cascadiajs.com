@@ -1,4 +1,4 @@
-var enableNews = true,
+var enableNews = false,
     server = 'http://news.cascadiafest.org';
 
 if(enableNews) {
