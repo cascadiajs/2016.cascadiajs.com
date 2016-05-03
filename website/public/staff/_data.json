@@ -66,10 +66,12 @@
       }
     },
     "zach": {
-      "name": "Zach",
+      "name": "Zach Meyer",
       "title": "Design Lead",
       "avatar": "/assets/img/staff/zach.jpg",
-      "contact": {}
+      "contact": {
+        "twitter": "hanzouzach"
+      }
     },
     "ruth": {
       "name": "Ruth",
