@@ -1,16 +1,21 @@
 .circle {
   border-radius: 50%;
-  border: 5px solid #ffffff;
+  border: 5px solid white;
   max-width: 94%;
   margin-top: .75rem;
   margin-left: 3%;
 }
 
 .card-block {
-  width: 50%;
-  @include media-breakpoint-up(sm) {
-    width: 11rem;
-  }
+  padding: 1rem;
+  padding-bottom: 1.25rem;
+}
+
+
+.card {
+  background-color: transparent;
+  border-radius: none;
+  box-shadow: none;
 }
 
 // .card-deck {
