@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1800 1800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <style>
+    g polygon {
+      fill-opacity: .8;
+    }
+    </style>
+    <g>
+        <polygon points="900,0 900,300 640,150" style="fill:#9933FF"></polygon>
+        <polygon points="900,0 900,300 1160,150" style="fill:#9933FF;"></polygon>
+        <polygon points="900,300 640,450 900,600" style="fill:orange;"></polygon>
+        <polygon points="900,300 1160,450 900,600" style="fill:orange;"></polygon>
+
+        <polygon points="900,900 900,600 640,750" style="fill:yellow;"></polygon>
+        <polygon points="900,900 900,1200 640,1050" style="fill:green;"></polygon>
+        <polygon points="900,1500 900,1200 640,1350" style="fill:blue;"></polygon>
+        <polygon points="900,1500 900,1800 640,1650" style="fill:purple;"></polygon>
+
+        <polygon points="900,900 900,600 1160,750" style="fill:yellow;"></polygon>
+        <polygon points="900,900 900,1200 1160,1050" style="fill:green;"></polygon>
+        <polygon points="900,1500 900,1200 1160,1350" style="fill:blue;"></polygon>
+        <polygon points="900,1500 900,1800 1160,1650" style="fill:purple;"></polygon>
+
+        <polygon points="640,150 900,300 640,450" style="fill:yellow;"></polygon>
+        <polygon points="640,450 900,600 640,750" style="fill:green;"></polygon>
+        <polygon points="640,750 900,900 640,1050" style="fill:blue;"></polygon>
+        <polygon points="640,1050 900,1200 640,1350" style="fill:purple;"></polygon>
+        <polygon points="640,1350 900,1500 640,1650" style="fill:red;"></polygon>
+
+        <polygon points="640,150 380,300 640,450" style="fill:yellow;"></polygon>
+        <polygon points="640,450 380,600 640,750" style="fill:green;"></polygon>
+        <polygon points="640,750 380,900 640,1050" style="fill:blue;"></polygon>
+        <polygon points="640,1050 380,1200 640,1350" style="fill:purple;"></polygon>
+        <polygon points="640,1350 380,1500 640,1650" style="fill:red;"></polygon>
+
+        <polygon points="640,450 380,600 380,300" style="fill:orange;"></polygon>
+        <polygon points="640,750 380,900 380,600" style="fill:green;"></polygon>
+        <polygon points="640,1050 380,1200 380,900" style="fill:blue;"></polygon>
+        <polygon points="640,1350 380,1500 380,1200" style="fill:purple;"></polygon>
+
+        <polygon points="120,450 380,600 380,300" style="fill:orange;"></polygon>
+        <polygon points="120,750 380,900 380,600" style="fill:green;"></polygon>
+        <polygon points="120,1050 380,1200 380,900" style="fill:blue;"></polygon>
+        <polygon points="120,1350 380,1500 380,1200" style="fill:purple;"></polygon>
+
+        <polygon points="120,750 120,450 380,600" style="fill:green;"></polygon>
+        <polygon points="120,1050 120,750 380,900" style="fill:blue;"></polygon>
+        <polygon points="120,1350 120,1050 380,1200" style="fill:purple;"></polygon>
+
+        <polygon points="900,300 1160,150 1160,450" style="fill:blue;"></polygon>
+        <polygon points="900,600 1160,750 1160,450" style="fill:orange;"></polygon>
+        <polygon points="900,900 1160,750 1160,1050" style="fill:yellow;"></polygon>
+        <polygon points="900,1200 1160,1050 1160,1350" style="fill:green;"></polygon>
+        <polygon points="900,1500 1160,1350 1160,1650" style="fill:purple;"></polygon>
+
+        <polygon points="1420,300 1160,150 1160,450" style="fill:blue;"></polygon>
+        <polygon points="1420,600 1160,750 1160,450" style="fill:orange;"></polygon>
+        <polygon points="1420,900 1160,750 1160,1050" style="fill:yellow;"></polygon>
+        <polygon points="1420,1200 1160,1050 1160,1350" style="fill:green;"></polygon>
+        <polygon points="1420,1500 1160,1350 1160,1650" style="fill:purple;"></polygon>
+
+        <polygon points="1420,600 1420,300 1160,450" style="fill:orange;"></polygon>
+        <polygon points="1420,900 1160,750 1420,600" style="fill:blue;"></polygon>
+        <polygon points="1420,1200 1160,1050 1420,900" style="fill:green;"></polygon>
+        <polygon points="1420,1500 1160,1350 1420,1200" style="fill:purple;"></polygon>
+
+        <polygon points="1420,600 1420,300 1680,450" style="fill:orange;"></polygon>
+        <polygon points="1420,900 1420,600 1680,750" style="fill:blue;"></polygon>
+        <polygon points="1420,1200 1420,900 1680,1050" style="fill:green;"></polygon>
+        <polygon points="1420,1500 1420,1200 1680,1350" style="fill:purple;"></polygon>
+
+        <polygon points="1680,450 1420,600 1680,750" style="fill:blue;"></polygon>
+        <polygon points="1680,750 1420,900 1680,1050" style="fill:green;"></polygon>
+        <polygon points="1680,1050 1420,1200 1680,1350" style="fill:purple;"></polygon>
+
+    </g>
+</svg>
