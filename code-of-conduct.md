@@ -4,7 +4,7 @@
 
 If you have any questions, comments, concerns, or to report anything that makes you feel uncomfortable or unsafe, you can use these channels:
 
-* Email: [info@cascadiajs.com](mailto:info@cascadiajs.com)
+* Email: [info@cascadiafest.org](mailto:info@cascadiafest.org)
 * In person: Any organizer, identified by STAFF badges or shirts for each day of CascadiaFest.
 * Immediate Response SMS number: [1 \(206\) 429-8441](tel:+12064298441)
 
@@ -32,7 +32,7 @@ Any participant asked to stop any harassing behavior is expected to comply immed
 
 If you feel uncomfortable, are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference Staff are identified by STAFF badges or shirts for each day of CascadiaFest.
 
-You can also send an email to [info@cascadiajs.com](mailto:info@cascadiajs.com).
+You can also send an email to [info@cascadiafest.org](mailto:info@cascadiafest.org).
 
 Immediate Response SMS number: [1 \(206\) 429-8441](tel:+12064298441)
 
