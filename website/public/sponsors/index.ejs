@@ -8,7 +8,17 @@
           <div class="row">
             <div class="col-xs-12">
               <h2 class="text-xs-center">Sponsors</h2>
+            </div>
 
+            <div class="col-xs-12 sponsor-block border-left-green">
+              <% for(var key in public.sponsors._data) { %>
+                <img src="<%- public.sponsors._data[key].logo %>" class="sponsor-logo">
+                <h3><a href="<%- public.sponsors._data[key].url %>"><%- public.sponsors._data[key].name %></a></h3>
+                <p><%- public.sponsors._data[key].description %></p>
+              <% } %>
+            </div>
+
+            <div class="col-xs-12">
               <h3>Sponsoring CascadiaFest</h3>
 
               <p>Each year, our generous sponsors help us create an outstanding

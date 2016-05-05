@@ -1,10 +1,8 @@
 {
-  "sponsors": {
-    "formidable": {
-      "name": "Formidable",
-      "url": "http://www.formidable.com",
-      "description": "Formidable is a Seattle-based consultancy and open-source shop, with an emphasis on React.js and Node.js. We consult, augment, and train to level-up teams and solve engineering problems with some of the country's top companies. We help organize popular meet-ups in Seattle, speak at conferences, write books, and are active in the OSS ecosystem, with many popular open-source projects. We are the React Experts, helping to build the modern web.",
-      "logo": ""
-    }
+  "formidable": {
+    "name": "Formidable",
+    "url": "http://www.formidable.com",
+    "description": "Formidable is a Seattle-based consultancy and open-source shop, with an emphasis on React.js and Node.js. We consult, augment, and train to level-up teams and solve engineering problems with some of the country's top companies. We help organize popular meet-ups in Seattle, speak at conferences, write books, and are active in the OSS ecosystem, with many popular open-source projects. We are the React Experts, helping to build the modern web.",
+    "logo": "/assets/img/sponsors/formidable.svg"
   }
 }
