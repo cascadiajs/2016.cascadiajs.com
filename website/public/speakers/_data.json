@@ -1,0 +1,60 @@
+{
+  "css": {
+    "carter": {
+      "name": "Carter Rabasa",
+      "title": "",
+      "avatar": "/assets/img/speaker/carter.jpg",
+      "contact": {
+        "twitter": "crtr0",
+        "email": "carter@cascadiajs.com"
+      }
+    },
+    "tracy": {
+      "name": "Tracy Hinds",
+      "title": "",
+      "avatar": "/assets/img/speaker/tracy.jpg",
+      "contact": {
+        "twitter": "hackygolucky",
+        "email": "tracy@cascadiajs.com"
+      }
+    }
+  },
+  "browser": {
+    "carter": {
+      "name": "Carter Rabasa",
+      "title": "",
+      "avatar": "/assets/img/speaker/carter.jpg",
+      "contact": {
+        "twitter": "crtr0",
+        "email": "carter@cascadiajs.com"
+      }
+    },
+    "tracy": {
+      "name": "Tracy Hinds",
+      "title": "",
+      "avatar": "/assets/img/speaker/tracy.jpg",
+      "contact": {
+        "twitter": "hackygolucky",
+        "email": "tracy@cascadiajs.com"
+      }
+    }
+  },
+  "node": {
+    "carter": {
+      "name": "Carter Rabasa",
+      "avatar": "/assets/img/speaker/carter.jpg",
+      "contact": {
+        "twitter": "crtr0",
+        "email": "carter@cascadiajs.com"
+      }
+    },
+    "tracy": {
+      "name": "Tracy Hinds",
+      "avatar": "/assets/img/speaker/tracy.jpg",
+      "contact": {
+        "twitter": "hackygolucky",
+        "email": "tracy@cascadiajs.com"
+      }
+    }
+  }
+}

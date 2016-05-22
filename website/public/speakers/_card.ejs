@@ -1,0 +1,28 @@
+<% for(var fest in public.speakers._data) { %>
+  <div class="col-sm-6 col-md-3">
+    <div class="card <%- fest %>">
+      <% for(var person in public.speakers._data[fest]) {
+        var speaker = public.speakers._data[fest][person];
+      %>
+        <img class="card-img-top circle" src="<%- speaker.avatar %>" alt="<%- speaker.name %>">
+        <div class="card-block">
+        <h5 class="card-title"><%- speaker.name %></h5>
+        <% if(speaker.contact) {
+           var contact = speaker.contact;
+          %>
+          <p class="card-text">
+            <% if(contact.twitter) { %>
+              <a href="//twitter.com/<%- contact.twitter %>"><i class="fa fa-twitter"></i> <%- contact.twitter %></a>
+              <br>
+            <% } %>
+
+          <% if(contact.github) { %>
+            <a href="//github.com/<%- contact.github %>"><i class="fa fa-github"></i> <%- contact.github %></a>
+          <% } %>
+        </p>
+        <% } %>
+    </div>
+  <% } %>
+  </div>
+</div>
+<% } %>
