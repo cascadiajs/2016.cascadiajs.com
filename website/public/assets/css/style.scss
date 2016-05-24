@@ -13,41 +13,15 @@ $enable-flex: true;
 @import '_font-awesome';
 @import '_rounded'; // Nanami Rounded
 @import '_microbrew'; // Microbrew Unicase
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700italic,700);
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700,700italic');
 
 // Typography
 @import '_typography';
-
 
 // Layout parts
 @import '_general';
 @import '_venue';
 @import '_latest-news';
 @import '_cards';
-
-// Sponsors
-.sponsor-block {
-  margin-bottom: 2em;
-
-  p:last-of-type {
-    margin-bottom: 0;
-  }
-}
-
-.border-left-green {
-  border-left: 2px solid $primary-green;
-}
-
-.border-left-blue {
-  border-left: 2px solid $primary-blue;
-}
-
-.sponsor-logo {
-  display: block;
-  margin-bottom: 1em;
-  max-width: 24em;
-}
-
-.nav-news {
-  display: none;
-}
+@import '_sponsors';
+@import '_speakers';

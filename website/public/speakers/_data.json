@@ -1,0 +1,162 @@
+{
+  "css": {
+    "alan-stearns": {
+      "name": "Alan Stearns",
+      "avatar": "/assets/img/speakers/css/alan-stearns.jpg",
+      "talk": {
+        "title": "Becoming Responsible for CSS",
+        "description": "<p>People should feel a sense of ownership and responsibility for the tools they use. I've become responsible for the future of CSS by becoming co-chair of the working group. But everyone who uses CSS can help by communicating what they're doing, shouting when things go wrong, and scripting better solutions. I'll talk about how people can engage in standards discussions, log bugs and write testcases, and how the Houdini task force will let more people write better code for styling.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/87",
+      "contact": {
+        "twitter": "alanstearns",
+        "github": ""
+      }
+    },
+    "alice-bartlett": {
+      "name": "Alice Bartlett",
+      "avatar": "/assets/img/speakers/css/alice-bartlett.jpg",
+      "talk": {
+        "title": "“Can't you just make it more like Bootstrap” | Considerations for creating a component system",
+        "description": "<p>Origami is the Financial Times' component system (http://origami.ft.com), it has components made written in Sass and JavaScript and several tools (a CDN, a CLI etc) to help people use those components. “Can't you just make it more like Bootstrap” is something one of the developers here said to me when I was doing some user research on how to improve Origami for our internal users (ie other developers)</p><p>This talk will cover the difficulties with creating such a system, and getting it adopted by a company with over 60 websites (not just FT.com!) many of which are written in legacy technologies, with deployment cycles of 'monthly' if you're lucky. It will include some (hopefully relatable, but at least interesting) war stories from getting Origami adopted, and getting funding for a team to actually maintain it.</p><p>This talk will explore decisions made by the Origami team, and contrast them with decisions made by other companies (eg lonely planet, gov.uk) when implementing their own pattern libraries / component systems. Hopefully this exploration through other solutions will stop this talk from being too Financial Times focussed, which I don't think is especially interesting for the audience, and keep it relatable.</p><p>By the end of the talk, the listener should understand a bit about how large companies like the FT deal with front end development at scale, and they will hopefully have some ideas about front end architectures to take back to their own worlds.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/13",
+      "contact": {
+        "twitter": "alicebartlett",
+        "github": ""
+      }
+    },
+    "clarissa-peterson": {
+      "name": "Clarissa Peterson",
+      "avatar": "/assets/img/speakers/css/clarissa-peterson.jpg",
+      "talk": {
+        "title": "Creating Beautiful, Accessible, and User-Friendly Forms",
+        "description": "<p>Forms are often a key part of websites: they allow users to buy things, sign up, participate, communicate, and get things done. But why are so many online forms confusing, cluttered, and difficult to use? In this session, you'll learn which HTML elements and attributes to use to make sure your form is accessible, understandable, and shows up correctly on the screen. You'll find out the best way to style a form with CSS to make sure it looks good on any browser, device or screen size. You'll learn how to validate form data and provide useful error messages — but also how you can help users fill in the correct information before submitting. And you'll find out what you need to do so that your forms are easier to complete on touch screens.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/256",
+      "contact": {
+        "twitter": "clarissa",
+        "github": ""
+      }
+    },
+    "gregor-martynus": {
+      "name": "Gregor Martynus",
+      "avatar": "/assets/img/speakers/css/gregor-martynus.jpg",
+      "talk": {
+        "title": "Inviting Communities",
+        "description": "<p>JavaScript communities, be it around open source projects, meet ups or conferences, have a tradition of being very welcoming and invested into growing their contributors and maintainers, both in quantity and diversity.</p><p>But how does it work? How to bring people together who would love to participate but often don’t know how on the one side, and maintainers who appreciate every kind of contribution? There seems to be a big gap, because if there is one thing we learned at Hoodie & the JS Conf family, both sides exist, but are still figuring out how to close the gap.</p><p>In this talk, I’ll talk about what works for as at Hoodie, and how people perceive us as “one of the most diverse and inclusive [Open Source] communities”, without the code part being even ready :) Expect a lot of practical tips that will help you contribute to open source (with so much more than just code), and how to maintain and grow your own projects without loosing the fun and burning yourself out. </p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/305",
+      "contact": {
+        "twitter": "gr2m",
+        "github": ""
+      }
+    },
+    "james-steinbach": {
+      "name": "James Steinbach",
+      "avatar": "/assets/img/speakers/css/james-steinbach.jpg",
+      "talk": {
+        "title": "Using Sass &amp; PostCSS Together",
+        "description": "<p>CSS gets a really bad rap in web development. Some of it is unearned (like snarky comments about “only a front-end developer”), some of it is really criticism about inconsistent browser implementation, and some of it is valid concern about limitations and inconsistencies in CSS itself. No matter where the negative press comes from, the response is the same: we try to solve those problems by improving CSS. Don’t like the fact that there are no loops or logic in CSS? Fix it by using Sass or another preprocessor. Don’t like cross-browser bugs? Fix it by adding Autoprefixer to your workflow. Don’t like limitations? Try to fix it by using not-yet-spec CSS code.</p><p>PostCSS is a tool that tries to fix CSS in multiple ways. It can process Sass-like syntax; it can fix vendor-prefixes, it can almost make pre-spec CSS possible. It’s getting a lot of attention now, so it’s important for us to know how we can use it.</p><p>PostCSS is a powerful tool and it can be a fantastic complement to the preprocessor you’ve already got in your workflow. I believe it’s best to use Sass, Less, or Stylus for compiling any non-CSS to CSS, and to use PostCSS to turn valid CSS into better CSS. There are a few concerns to keep in mind as you integrate PostCSS into your toolkit. As much as possible, only process valid CSS with it and be careful about relying on its ability to emulate non-implemented syntax.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/73",
+      "contact": {
+        "twitter": "jdsteinbach",
+        "github": ""
+      }
+    },
+    "justin-mcdowell": {
+      "name": "Justin McDowell",
+      "avatar": "/assets/img/speakers/css/justin-mcdowell.jpg",
+      "talk": {
+        "title": "Bauhaus in the Browser",
+        "description": "<p>Until recently, design on the web has been limited to fragile, horizontal, and boxy layouts. Today there are new tools in CSS that can help us breathe new life into stale projects. Some of them are cutting edge, while others are quite mature yet still under-used. This talk is centered around the use of four emerging CSS tools: grid, shapes, transforms, and viewport units (and possibly others as I dig further into my research, like exclusions, clip-paths, and border-image).</p><p>Attendees will get a showcase of how these new digital techniques can be applied to the web by journeying back to the past to one of the most notable periods in the history of design: Bauhaus modernism. During this period, design was highly influential yet gleefully experimental, with strict geometry, overlapping elements, and rotated text. Attendees will see works by artist Piet Mondrian, typographer Jan Tschichold, dadaist Kurt Schwitters, and metal-worker Marianne Brandt recreated or redesigned on screen, and optimized for the new medium of mobile devices. By the end, they will have practical examples of how to mix these new tools together to solve old design problems in novel ways—using wisdom from the Bauhaus school.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/374",
+      "contact": {
+        "twitter": "revoltpuppy",
+        "github": ""
+      }
+    },
+    "lourdes-montano": {
+      "name": "Lourdes Montano",
+      "avatar": "/assets/img/speakers/css/lourdes-montano.jpg",
+      "talk": {
+        "title": "Learning and feeling overwhelmed: methods to organize your learning process in CSS",
+        "description": "<p>We've all been there. Trying to level up our CSS, reading tutorials and blog posts only to end up thinking that there is so much to learn that we'll never be able to tackle everything.</p><p>This talk is about the learning process I've had (and I still have) to learn and improve my CSS skills in a world where everything changes so fast and new techniques come along every few months.</p><p>In this talk you will learn:</p><ul><li>How to organize your learning process and not feeling overwhelmed.</li><li>Setting learning goals.</li><li>Have a roadmap from point A to point B...and learning that detours can be interesting when learning something new.</li></ul>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/34",
+      "contact": {
+        "twitter": "loumontano",
+        "github": ""
+      }
+    },
+    "mike-kivikoski": {
+      "name": "Mike Kivikoski",
+      "avatar": "/assets/img/speakers/css/mike-kivikoski.jpg",
+      "talk": {
+        "title": "CSS Pseudo – :hover, ::after and beyond",
+        "description": "<p>Learn practical uses for over 35 pseudo-classes and pseudo-elements. Starting with the basics, you’ll quickly advance to use cases that apply to positioning, text, content, and get a glimpse at some (hopeful) future selectors. All levels of CSS experience are welcome and encouraged to attend - there will be something for everyone! </p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/191",
+      "contact": {
+        "twitter": "mkivikoski",
+        "github": ""
+      }
+    },
+    "miriam-suzanne": {
+      "name": "Miriam Suzanne",
+      "avatar": "/assets/img/speakers/css/miriam-suzanne.jpg",
+      "talk": {
+        "title": "Code Patterns for Pattern-Making",
+        "description": "<p>Style Guides and Pattern Libraries are great tools for documenting the relationships between code and design, but beautiful docs and consistent UI are only half the battle. Somewhere, behind the scenes, those patterns have to live in our code, and hopefully make life easier for developers. We can go beyond “living” style guides to find tools that encourage and document pattern-making from the ground up, across projects, without adding developer overhead. From Sass maps and template macros, to front-end architecture and style-guide generators — let's talk about the code patterns that make our UI patterns possible.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/157",
+      "contact": {
+        "twitter": "mirisuzanne",
+        "github": ""
+      }
+    },
+    "natalya-shelburne": {
+      "name": "Natalya Shelburne",
+      "avatar": "/assets/img/speakers/css/natalya-shelburne.jpg",
+      "talk": {
+        "title": "Practical color theory for people who code",
+        "description": "<p>Something that sounds as simple as picking a color palette is often the very thing that scares developers away from diving into design. Design decisions feel so open ended and exposed, and everyone's a critic. Plus, there is no compiler throwing an error or tests failing if your colors clash. No wonder I’ve seen amazing developers clam up when it’s time to make some design decisions, deferring to “someone creative, who knows more about design” even if I know they want to learn more about design themselves.</p><p>After my presentation, developers will be able to do the basics of color theory, and to feel confident about learning more if they are inspired. How will I do this? The developer way - by abstracting away my domain knowledge as an artist into variables and functions and sharing that information with others. My goal is to demystify design decisions and reveal them to be logical, predictable, and driven by principles that anyone can learn. Designers get something out of this talk too, not only do I encourage every developer in the room to appreciate the domain knowledge designers have to internalize, the many decisions that they have to make, and the hard work it takes to wield color intentionally and skillfully, I also show them how to better communicate these decisions to developers.</p><ul><li>Along the way, we’ll answer a lot of the following questions:</li><li>How can I improve accessibility with my use of color?</li><li>Why are most ‘call to action’ buttons a warm color like red or orange?</li><li>Why shouldn't I use #000000 on my website?</li><li>Why can red and green color schemes troublesome in design?</li><li>What happens if you mix exactly equal parts red and green? How about blue and orange?</li><li>Why do highlights always go on the tops of buttons?</li><li>Why do some colors look good together?</li><li>Why does a color look good in a color picker, but can look so bad when you use it on your site?</li><li>Why does using more white space make things look so much better?</li><li>Why are Sass variables and color functions such an awesome tool for developers?</li></ul><p>Again, this isn’t a talk about how colors make us feel - this is science! I will be talking wavelengths, old school fine art resources, and code!</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/235",
+      "contact": {
+        "twitter": "natalyathree",
+        "github": ""
+      }
+    },
+    "stephanie-hobson": {
+      "name": "Stephanie Hobson",
+      "avatar": "/assets/img/speakers/css/stephanie-hobson.jpg",
+      "talk": {
+        "title": "Flipping Tables: Displaying Data on Small Screens",
+        "description": "<p>Tables have gotten a bad reputation in the last few years as finicky and hard to work with - partly because they’ve been used for the wrong thing (layout) and partly because desktop friendly wide tables don’t adapt to the narrow screens of mobile devices. But, tables are still the best way to present data for comparison and manipulation. So how can we make them as responsive as the rest of our site? This talk will cover design and code tips for making tables more readable on any screen and more adaptable to small screens.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/196",
+      "contact": {
+        "twitter": "stephaniehobson",
+        "github": ""
+      }
+    },
+    "tyler-sticka": {
+      "name": "Tyler Sticka",
+      "avatar": "/assets/img/speakers/css/tyler-sticka.jpg",
+      "talk": {
+        "title": "SVG: So Very Good",
+        "description": "<p>Icon fonts! CSS-only illustrations! High-resolution GIF animations! Today's web designers still regularly and enthusiastically employ these techniques... yet they're all a better fit for SVG, a powerful vector image format that's already old enough to drive a car.</p><p>Join Cloud Four's Lead Designer Tyler Sticka for an impassioned introduction to your new favorite image format: What it is, how it works, and why it's so awesome.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/142",
+      "contact": {
+        "twitter": "tylersticka",
+        "github": ""
+      }
+    }
+  },
+  "browser": {},
+  "node": {}
+}
