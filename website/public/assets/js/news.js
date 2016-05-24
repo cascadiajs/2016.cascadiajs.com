@@ -1,4 +1,4 @@
-var enableNews = false,
+var enableNews = true,
     server = '//news.cascadiafest.org',
     // server = '//localhost:4000',
     feedurl = '/2016/news/list.jsonp';
