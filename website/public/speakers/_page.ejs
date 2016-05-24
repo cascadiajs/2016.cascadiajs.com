@@ -1,0 +1,31 @@
+<div id="hero" class="content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 text-xs-center center-block">
+        <h1><%- name %></h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="<%- avatar %>" />
+      </div>
+    </div>
+
+    <% if (typeof bio !== 'undefined') { %>
+      <p><%- bio %></p>
+    <% } %>
+
+    <p><%- contact.twitter %> <%- contact.github %></p>
+
+    <h2><%- talk.title %></h2>
+
+    <div><%- talk.description %></div>
+
+  </div>
+</div>
