@@ -1,0 +1,42 @@
+// Sponsors
+.sponsor-block {
+  margin-bottom: 2em;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.border-left-green {
+  border-left: 2px solid $primary-green;
+}
+
+.border-left-blue {
+  border-left: 2px solid $primary-blue;
+}
+
+.sponsor-logo {
+  display: block;
+  margin-bottom: 1em;
+  max-width: 24em;
+}
+
+.nav-news {
+  display: none;
+}
+
+#sponsors {
+  #hero {
+    background-color: $primary-green-darker;
+    background-image: url('../img/nature/small-tree-tops.svg');
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+
+    h1 {
+      color: white
+    }
+  }
+}
