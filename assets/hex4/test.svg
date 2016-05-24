@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1800 1800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <style>
+    g polygon {
+      fill-opacity: 1.0;
+    }
+    </style>
+    <g>
+        <polygon id="poly-0" points="900,0 900,300 640,150" style="fill:#9933FF;"><animate attributeName="fill" values="#9933FF; #583AAD; #9933FF" repeatCount="indefinite" begin="2s" dur="5s" /></polygon>
+<polygon id="poly-1" points="900,0 900,300 1160,150" style="fill:#9933FF;"></polygon>
+<polygon id="poly-2" points="900,300 640,450 900,600" style="fill:#583AAD;"></polygon>
+<polygon id="poly-3" points="900,300 1160,450 900,600" style="fill:#763B94;"></polygon>
+<polygon id="poly-4" points="900,900 900,600 640,750" style="fill:#AB6B67;"></polygon>
+<polygon id="poly-5" points="900,900 900,1200 640,1050" style="fill:#BD7257;"></polygon>
+<polygon id="poly-6" points="900,1500 900,1200 640,1350" style="fill:#7F3178;"></polygon>
+<polygon id="poly-7" points="900,1500 900,1800 640,1650" style="fill:#3471B8;"></polygon>
+<polygon id="poly-8" points="900,900 900,600 1160,750" style="fill:#AA6A68;"></polygon>
+<polygon id="poly-9" points="900,900 900,1200 1160,1050" style="fill:#AF6664;"></polygon>
+<polygon id="poly-10" points="900,1500 900,1200 1160,1350" style="fill:#872C75;"></polygon>
+<polygon id="poly-11" points="900,1500 900,1800 1160,1650" style="fill:#3471B8;"></polygon>
+<polygon id="poly-12" points="640,150 900,300 640,450" style="fill:#1F55FF;"></polygon>
+<polygon id="poly-13" points="640,450 900,600 640,750" style="fill:#7C4185;"></polygon>
+<polygon id="poly-14" points="640,750 900,900 640,1050" style="fill:#C27650;"></polygon>
+<polygon id="poly-15" points="640,1050 900,1200 640,1350" style="fill:#D96B2B;"></polygon>
+<polygon id="poly-16" points="640,1350 900,1500 640,1650" style="fill:#0C718F;"></polygon>
+<polygon id="poly-17" points="640,150 380,300 640,450" style="fill:#337EFF;"></polygon>
+<polygon id="poly-18" points="640,450 380,600 640,750" style="fill:#D67214;"></polygon>
+<polygon id="poly-19" points="640,750 380,900 640,1050" style="fill:#F57708;"></polygon>
+<polygon id="poly-20" points="640,1050 380,1200 640,1350" style="fill:#C08819;"></polygon>
+<polygon id="poly-21" points="640,1350 380,1500 640,1650" style="fill:#36FF33;"></polygon>
+<polygon id="poly-22" points="640,450 380,600 380,300" style="fill:#316063;"></polygon>
+<polygon id="poly-23" points="640,750 380,900 380,600" style="fill:#D3770C;"></polygon>
+<polygon id="poly-24" points="640,1050 380,1200 380,900" style="fill:#C1691B;"></polygon>
+<polygon id="poly-25" points="640,1350 380,1500 380,1200" style="fill:#0EDD0A;"></polygon>
+<polygon id="poly-26" points="120,450 380,600 380,300" style="fill:#5A7963;"></polygon>
+<polygon id="poly-27" points="120,750 380,900 380,600" style="fill:#21773A;"></polygon>
+<polygon id="poly-28" points="120,1050 380,1200 380,900" style="fill:#0F4113;"></polygon>
+<polygon id="poly-29" points="120,1350 380,1500 380,1200" style="fill:#355734;"></polygon>
+<polygon id="poly-30" points="120,750 120,450 380,600" style="fill:#5A7963;"></polygon>
+<polygon id="poly-31" points="120,1050 120,750 380,900" style="fill:#429159;"></polygon>
+<polygon id="poly-32" points="120,1350 120,1050 380,1200" style="fill:#355734;"></polygon>
+<polygon id="poly-33" points="900,300 1160,150 1160,450" style="fill:#B45C80;"></polygon>
+<polygon id="poly-34" points="900,600 1160,750 1160,450" style="fill:#813B85;"></polygon>
+<polygon id="poly-35" points="900,900 1160,750 1160,1050" style="fill:#AD6D60;"></polygon>
+<polygon id="poly-36" points="900,1200 1160,1050 1160,1350" style="fill:#942A71;"></polygon>
+<polygon id="poly-37" points="900,1500 1160,1350 1160,1650" style="fill:#335782;"></polygon>
+<polygon id="poly-38" points="1420,300 1160,150 1160,450" style="fill:#C98580;"></polygon>
+<polygon id="poly-39" points="1420,600 1160,750 1160,450" style="fill:#EB552D;"></polygon>
+<polygon id="poly-40" points="1420,900 1160,750 1160,1050" style="fill:#8D475A;"></polygon>
+<polygon id="poly-41" points="1420,1200 1160,1050 1160,1350" style="fill:#8C3D5E;"></polygon>
+<polygon id="poly-42" points="1420,1500 1160,1350 1160,1650" style="fill:#5C7491;"></polygon>
+<polygon id="poly-43" points="1420,600 1420,300 1160,450" style="fill:#C9635B;"></polygon>
+<polygon id="poly-44" points="1420,900 1160,750 1420,600" style="fill:#F24A22;"></polygon>
+<polygon id="poly-45" points="1420,1200 1160,1050 1420,900" style="fill:#823A59;"></polygon>
+<polygon id="poly-46" points="1420,1500 1160,1350 1420,1200" style="fill:#DE173F;"></polygon>
+<polygon id="poly-47" points="1420,600 1420,300 1680,450" style="fill:#FF5549;"></polygon>
+<polygon id="poly-48" points="1420,900 1420,600 1680,750" style="fill:#EF2C25;"></polygon>
+<polygon id="poly-49" points="1420,1200 1420,900 1680,1050" style="fill:#AD0A26;"></polygon>
+<polygon id="poly-50" points="1420,1500 1420,1200 1680,1350" style="fill:#FF3355;"></polygon>
+<polygon id="poly-51" points="1680,450 1420,600 1680,750" style="fill:#FF5549;"></polygon>
+<polygon id="poly-52" points="1680,750 1420,900 1680,1050" style="fill:#AD3348;"></polygon>
+<polygon id="poly-53" points="1680,1050 1420,1200 1680,1350" style="fill:#FF3355;"></polygon>
+    </g>
+</svg>

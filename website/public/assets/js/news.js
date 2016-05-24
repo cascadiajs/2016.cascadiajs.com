@@ -1,22 +1,22 @@
 var enableNews = true,
-    server = '//news.cascadiafest.org',
-    // server = '//localhost:4000',
-    feedurl = '/2016/news/list.jsonp';
-
-if(enableNews) {
-  $('.nav-news').show();
-  $('#latest-news').show();
-
-  $.ajax(server + feedurl, {
-    dataType: "jsonp"
-  });
-}
+    server = 'http://news.cascadiafest.org';
 
 var _cascadiafest_news_callback = function (data) {
   var months = [
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December"
   ];
+
+  if(!enableNews) {
+    return;
+  }
+
+  if(data.length === 0) {
+    return;
+  }
+
+  $('.nav-news').show();
+  $('#latest-news').show();
 
   data.forEach(function (post) {
     var html = []

@@ -16,7 +16,17 @@
     background-color: $primary-green-light
     color: white
     font-size: 1rem
+    @include media-breakpoint-up(lg)
+      padding: 2em 2.5em
 
   address
     color: white
     font-size: 1.1rem
+
+.blended-link
+  color: white
+  background-color: rgba(0,0,0,.35)
+  padding: .25rem .35rem
+  &:hover
+    background-color: rgba(0,0,0,.45)
+    color: white
