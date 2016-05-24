@@ -5,7 +5,8 @@ gulp.task('default', function () {
   gulp.src('assets/**/*.jpg')
     .pipe(imageResize({
       width : 300,
-      height : 300
+      height : 300,
+      upscale : true
     }))
     .pipe(gulp.dest('website/public/assets'));
 });
