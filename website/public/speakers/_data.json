@@ -280,8 +280,8 @@
       "name": "Marcy Sutton",
       "avatar": "/assets/img/speakers/browser/marcy-sutton.jpg",
       "talk": {
-        "title": "Where in the Stack is Carmen Sandiego?",
-        "description": "<p>We're going to go on an adventure through the JavaScript jungle. Node.js, browser JS, browser add-on contexts...where in the world are we and what can we do? In my work on automated accessibility testing, I have found lines to be quite blurry in different parts of the web development stack. For example, when writing APIs in Node.js to be executed in a browser, it is not always clear what your options are–even more so in browser extension development. We will look closely at some of these details and learn a lot about testing for accessibility in the process, encouraging development of websites that everyone can use.</p>"
+        "title": "Where in the Stack is Carmen Sanfrancisco?",
+        "description": "<p>We're going on an adventure through the JavaScript jungle. Node.js, browser JS, browser add-on contexts...where in the world are we and what can we do? In my work on automated accessibility testing, I have found lines to be quite blurry in different parts of the web development stack. For example, when writing APIs in Node.js to be executed in a browser, it's not always clear what your options are–even more so in browser extension development. We'll look closely at some of these details and learn a lot about testing for accessibility in the process, encouraging development of websites that everyone can use.</p>"
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/104",
       "contact": {
