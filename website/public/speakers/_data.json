@@ -157,6 +157,164 @@
       }
     }
   },
-  "browser": {},
+  "browser": {
+    "rebecca-murphey": {
+      "name": "Rebecca Murphey",
+      "avatar": "/assets/img/speakers/browser/rebecca-murphey.jpg",
+      "talk": {
+        "title": "Making it better without making it over",
+        "description": "<p>If you've read the Twitters or checked out a JavaScript conference lineup lately — or, goodness help you, if you've reviewed a batch of conference proposals — you might think JavaScript these days is all about React and Flux and Redux and immutably isomorphic Babel-ified ES6, with maybe some web audio, offline, WebGL, VR, SVG, and an npm script or twelve thrown in for good measure. (I mean, gulp talks are sooooo 2014, amirite?) There's so much to learn about JavaScript that there are whole Medium posts about how there's so much to learn about JavaScript, and whole conferences to remind you how much you don't know.</p><p>Here's the thing: maybe you're lucky enough to live in this magical world where everything you build is shiny and new, but there are an awful lot of people working on client-side apps that came into being back when yayQuery was a thing and Backbone wasn't. They're building software that serves hundreds of millions of actual users, software that makes actual money, software whose underlying architecture is such that there's rarely such a thing as a “small change,” even as the demand for new features never subsides.</p><p>If you're one of these developers and you're starting to feel like modern JavaScript has left you behind, this talk is for you. I'll share the story of how I started a new job this year by paying a visit to JavaScript circa 2009, back when Ryan Dahl was getting ready to announce Node and Facebook was still four years away from being mocked for the apparent heresy of JSX. I'll explain how I modernized and best-practice-ified a project that didn't even have a package.json, smoothing the development process, eliminating common sources of bugs, paving the way for bigger improvements, and never once uttering the words “we oughta just start from scratch.” </p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/10",
+      "contact": {
+        "twitter": "rmurphey",
+        "github": ""
+      }
+    },
+    "sarah-meyer": {
+      "name": "Sarah Meyer",
+      "avatar": "/assets/img/speakers/browser/sarah-meyer.jpg",
+      "talk": {
+        "title": "JavaScript Minus JavaScript",
+        "description": "<p>Browsing the web with JavaScript turned off is a pretty boring experience: a lot of the Internet simply doesn’t work without it! My team at Rent the Runway spent the last nine months building a modern and interesting interface that works with JavaScript disabled. But we're web developers! Why would we choose to do without such an important tool?</p><p>It took working in a codebase that was almost entirely spaghetti jQuery and halfheartedly-implemented Backbone for me to realize just how brittle a site is when JavaScript is the only thing keeping it working. While users operating without JavaScript enabled are probably rarer than unicorn startups, designing site architecture with them in mind has broad benefits: fast, satisfying interactions and consistently displayed information.</p><p>Server-rendered React gave us the best of both worlds. Links point to URLs that a server knows about. Forms are built of semantic HTML elements and point at endpoints that can handle non-AJAX requests. Custom tags and scrolling behavior always have native fallbacks. Modals are never the only way to access behavior, especially critical behavior like login.</p><p>I love JavaScript. It is the only tool that does what it does. And that’s why, these days, I realize it’s so important to turn it off sometimes.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/132",
+      "contact": {
+        "twitter": "meyerini",
+        "github": ""
+      }
+    },
+    "tara-sdlf": {
+      "name": "Tara Scherner de la Fuente",
+      "avatar": "/assets/img/speakers/browser/tara-sdlf.jpg",
+      "bio": "Tara is a Ruby developer who currently codes at Roostify. Previously at LivingSocial, she has had careers in academia, human resources, and private investigation. She has an expansive t-shirt collection, and masquerades as a goat for @GoatUserStories. She purr programs with her cat Lulu via a remote/distributed/caffeinated living room office in Portland, Oregon.",
+      "talk": {
+        "title": "Onboarding Superheroes",
+        "description": "<p>This is a talk about deep, dark, paralyzing, hysterical (laughing with you) shame. The specific horrors and pitfalls for and from the new (and new-to-you) developer that we rarely discuss. These are the small, unspoken details no one covers in the onboarding manual for either side of the party. There are concrete opportunities you and members of your team have in those first few weeks to be career superheroes for (or as!) a new employee, with very little effort, that can lead to professional (in addition to ethical) advancement for everyone.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/31",
+      "contact": {
+        "twitter": "MediaRemedial",
+        "github": ""
+      }
+    },
+    "evan-you": {
+      "name": "Evan You",
+      "avatar": "/assets/img/speakers/browser/evan-you.jpg",
+      "talk": {
+        "title": "Demystifying Frontend Framaework Performance",
+        "description": "<p>Developers often consider performance an important factor when choosing frameworks, however it is often not so straightforward when trying to measure the performance of a framework. In this talk I am going to walk the audience through the techniques used in major frontend frameworks - namely dirty checking, virtual-dom diffing and dependency-tracking. I will also compare them in different use case scenarios to give users a balanced idea of how each strategy performs under different circumstances.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/46",
+      "contact": {
+        "twitter": "youyuxi",
+        "github": ""
+      }
+    },
+    "seth-samuel": {
+      "name": "Seth Samuel",
+      "avatar": "/assets/img/speakers/browser/seth-samuel.jpg",
+      "talk": {
+        "title": "Arbitrary Computation on the GPU Using WebGL",
+        "description": "<p>WebGL is already widely in use for 3D graphics and image processing but could be used for much more. We'll learn how to pass arbitrary data to the GPU for parallel processing, how to get that processed data back into Javascript, and all the reasons this doesn't work even when it should.</p><p>This talk starts with a review of WebGL shaders and how data is passed through the WebGL pipeline and processed in parallel. Next I'll show some examples of traditional image processing using WebGL. After that, I'll explain how to pass arbitrary data into the GPU and how to retrieve output from those parallel calculations. Finally, there will be an example of this system in action, and then several examples that don't work as expected with explanations of the limitations of the current WebGL architecture.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/79",
+      "contact": {
+        "twitter": "sethfsamuel",
+        "github": ""
+      }
+    },
+    "dale-bustad": {
+      "name": "Dale Bustad",
+      "avatar": "/assets/img/speakers/browser/dale-bustad.jpg",
+      "talk": {
+        "title": "Embrace HTTP/2 Server Push",
+        "description": "<p>HTTP/2 is here and it’s supported by all major browsers on mobile and desktop.  But, because of its history, the JavaScript ecosystem is not ready to take advantage.  That’s a pity, but it is also avoidable.</p><p>H2 brings with it a number of features for improving performance: header compression, request multiplexing, shared compression context.</p><p><strong>However, I'd like to focus in on one feature in particular, and how it can make a difference for you: server push.</strong></p><p>Server push is a protocol-level feature that allows your server to send additional assets to the client in response to a request. Client asks for A, server knows the client needs B and C as well, the client gets A B and C. Strategically used, this will allow your server to short-circuit the back-and-forth “waterfall” of requests.</p><p>This technology has a number of significant implications.</p><p>It has the potential to improve performance for single-page applications, especially for clients with high-latency connections (like mobile). It will also make obsolete the bundling strategies used by most modern JavaScript tooling.  Code delivery strategies that take advantage of server push could match or outperform specialized dead code elimination (“tree-shaking”) from tools like Rollup and Webpack.</p><p>HTTP/1.1 has been in use for over twenty years.  That's the era of Netscape 2.0, IE 2.0, Lynx 2.5 (for you grey beards), and the last episode of The Fresh Prince of Bel-Air.  Let's bring our bundling strategies into the 20th century.</p><p>In this talk, I will:</p><ul><li>Overview HTTP/2 server push and how it works;</li><li>Walk through an example that contrasts performance of an SPA loaded via HTTP/1.1 vs HTTP/2 with server push;</li><li>Summarize the state of affairs for HTTP/2 support on the server-side; and</li><li>Introduce tools and strategies that can help you take advantage of HTTP/2 server push, without sacrificing the power of your current toolset.</li></ul>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/209",
+      "contact": {
+        "twitter": "divmain",
+        "github": ""
+      }
+    },
+    "noah-adams": {
+      "name": "Noah Adams",
+      "avatar": "/assets/img/speakers/browser/noah-adams.jpg",
+      "talk": {
+        "title": "Scripting in the 3rd party: True tales of horror and hope from other people's pages",
+        "description": "<p>In a dystopian cyberpunk future, website features are added by the simple addition of a snippet of javascript. These scripts, never before run or tested together, interact, and birth an artificial intelligence bent on taking vengeance on the people responsible for its creation. Or the styles look funky, and there’s a name collision on a cookie or something.</p><p>Writing scripts for someone else’s page presents unique challenges, from a hostile global namespace, to unintended module system interactions, to load order race conditions, to mysteriously broken implementations of JSON.stringify().</p><p>In this talk we will go about learning how to diagnose, remedy and defend against problems like these. Further, we’ll go over patterns for reliably writing, building, testing and delivering scripts into hostile or unexplored environments, based on my own experiences of dread, regret, elation and hope, delivering code into millions of other people’s page views, daily.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/270",
+      "contact": {
+        "twitter": "noah_adams",
+        "github": ""
+      }
+    },
+    "nolan-lawson": {
+      "name": "Nolan Lawson",
+      "avatar": "/assets/img/speakers/browser/nolan-lawson.jpg",
+      "talk": {
+        "title": "Demystifying Web Workers and Service Workers",
+        "description": "<p>Web Workers, Service Workers, Shared Workers – whew, parallelism on the web sure sounds like a lot of work! In this talk, though, I'll show how it's really not such a hard concept to grasp, and how you can harness these powerful APIs to bring a smoother framerate and offline capabilities to your web app.</p>"
+      },
+      "cfp_url": "",
+      "contact": {
+        "twitter": "nolanlawson",
+        "github": ""
+      }
+    },
+    "liz-abinante": {
+      "name": "Liz Abinante",
+      "avatar": "/assets/img/speakers/browser/liz-abinante.jpg",
+      "talk": {
+        "title": "In Defense of Static Sites",
+        "description": "The most basic sites don't need servers, and they don't need fancy front end routing. And yet... how did we get here, and why are we so afraid to go back to the basics? Who are we actually building these sites for and who are we harming by front loading so many build tools, complex frameworks, and overblown architecture? Hint: it's not just us, it's out users, too.</p><p>Static sites serve a purpose, and they're really important pieces of the web's history and its future. Static doesn't mean forever unchanged and it doesn't mean you're stuck with a dead site that you can never update. Quite frankly, static sites have gotten a bad reputation and it's not their fault: we've all been so distracted by shiny new things to remember their virtues.</p><p>I'll revisit what it means to build a static site, what the use cases are, how you know its the right technical choice, what tools to use, and when to scale up to something more complex."
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/52",
+      "contact": {
+        "twitter": "feministy",
+        "github": ""
+      }
+    },
+    "marcy-sutton": {
+      "name": "Marcy Sutton",
+      "avatar": "/assets/img/speakers/browser/marcy-sutton.jpg",
+      "talk": {
+        "title": "Where in the Stack is Carmen Sandiego?",
+        "description": "<p>We're going to go on an adventure through the JavaScript jungle. Node.js, browser JS, browser add-on contexts...where in the world are we and what can we do? In my work on automated accessibility testing, I have found lines to be quite blurry in different parts of the web development stack. For example, when writing APIs in Node.js to be executed in a browser, it is not always clear what your options are–even more so in browser extension development. We will look closely at some of these details and learn a lot about testing for accessibility in the process, encouraging development of websites that everyone can use.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/104",
+      "contact": {
+        "twitter": "marcysutton",
+        "github": ""
+      }
+    },
+    "rachel-white": {
+      "name": "Rachel White",
+      "avatar": "/assets/img/speakers/browser/rachel-white.jpg",
+      "talk": {
+        "title": "JavaScript as Play: A primer on getting started with video games",
+        "description": "<p>Now that you know enough front end technologies to be dangerous, lets use those skills to make a game! We'll take a look at the open source framework Phaser to learn how to create your own browser based game. Together we'll explore topics such as sprite animation, collision detection, and scoring-- by the end we'll have a playable platformer you can tinker with.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/133",
+      "contact": {
+        "twitter": "ohhoe",
+        "github": ""
+      }
+    },
+    "thomas-wilburn": {
+      "name": "Thomas Wilburn",
+      "avatar": "/assets/img/speakers/browser/thomas-wilburn.jpg",
+      "talk": {
+        "title": "Custom elements in production",
+        "description": "<p>For several years now, Web Components have hovered on the verge of widespread adoption, without quite tipping over the edge. But that doesn't mean they're unusable: for the last two years, we've been deploying custom elements in production at The Seattle Times on a site with millions of pageviews, on many of our most popular articles. Now that browsers have reached consensus on V1 of the custom element spec and are starting implementation, there's no better time to learn how this can work for you.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/60",
+      "contact": {
+        "twitter": "thomaswilburn",
+        "github": ""
+      }
+    }
+  },
   "node": {}
 }
