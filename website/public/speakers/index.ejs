@@ -36,7 +36,11 @@
                     <div class="card <%- fest %> mb2">
 
                       <img src="<%- speaker.avatar %>" alt="<%- speaker.name %>'s wonderful face">
-                      <h4><%- speaker.name %></h4>
+                      <h4>
+                        <a href="https://twitter.com/<%- speaker.contact.twitter %>">
+                          <%- speaker.name %>
+                        </a>
+                      </h4>
                     </div>
                   </div>
                 <% } %>
