@@ -10,33 +10,39 @@
   </div>
 
   <div class="content">
-    <div class="container">
+    <div class="container-fluid">
         <% for(var fest in public.speakers._data) { %>
           <div class="row">
-            <div class="col-xs-12 speakers-block text-xs-center">
+            <div class="col-xs-12 <%- fest %>-header-block text-xs-center">
               <h2 class="pt1">
                 <% if (fest == 'node'){ %> CascadiaJS Node <% }
                 else if (fest == 'browser') { %> CascadiaJS Browser <% }
                 else if (fest == 'css') { %> CascadiaCSS <% } %> Day</h2>
-              <h3 class="pb1">
+              <h4 class="pb1">
                 <% if (fest == 'node'){ %> August 5th <% }
                    else if (fest == 'browser') { %> August 4th <% }
-                   else if (fest == 'css') { %> August 3rd <% } %></h3>
+                   else if (fest == 'css') { %> August 3rd <% } %></h4>
             </div>
           </div>
-          <div class="row <%- fest %>-speakers-block pb1 pt1">
+          <div class="row <%- fest %>-speakers-block pb3 pt3 mb3">
 
-            <% for(var person in public.speakers._data[fest]) {
-              var speaker = public.speakers._data[fest][person];
-            %>
-              <div class="col-sm-6 col-md-3">
-                <div class="card <%- fest %>">
+            <div class="col-xs-10 push-xs-1 col-xl-12 push-xl-0">
+              <div class="row">
 
-                  <img src="<%- speaker.avatar %>" alt="<%- speaker.name %>'s wonderful face">
-                  <h4><%- speaker.name %></h4>
-                </div>
+                <% for(var person in public.speakers._data[fest]) {
+                  var speaker = public.speakers._data[fest][person];
+                %>
+                  <div class="col-xs-10 push-xs-1 col-sm-6 push-sm-0 col-md-3 col-xl-2">
+                    <div class="card <%- fest %> mb2">
+
+                      <img src="<%- speaker.avatar %>" alt="<%- speaker.name %>'s wonderful face">
+                      <h4><%- speaker.name %></h4>
+                    </div>
+                  </div>
+                <% } %>
+
               </div>
-            <% } %>
+            </div>
 
         </div>
       <% } %>
