@@ -202,7 +202,7 @@
       "name": "Evan You",
       "avatar": "/assets/img/speakers/browser/evan-you.jpg",
       "talk": {
-        "title": "Demystifying Frontend Framaework Performance",
+        "title": "Demystifying Frontend Framework Performance",
         "description": "<p>Developers often consider performance an important factor when choosing frameworks, however it is often not so straightforward when trying to measure the performance of a framework. In this talk I am going to walk the audience through the techniques used in major frontend frameworks - namely dirty checking, virtual-dom diffing and dependency-tracking. I will also compare them in different use case scenarios to give users a balanced idea of how each strategy performs under different circumstances.</p>"
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/46",
