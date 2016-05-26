@@ -13,7 +13,7 @@
     <div class="container-fluid">
         <% for(var fest in public.speakers._data) { %>
           <div class="row">
-            <div class="col-xs-12 <%- fest %>-header-block text-xs-center">
+            <div id="<%- fest %>-speakers" class="col-xs-12 <%- fest %>-header-block text-xs-center">
               <h2 class="pt1">
                 <% if (fest == 'node'){ %> CascadiaJS Node <% }
                 else if (fest == 'browser') { %> CascadiaJS Browser <% }
