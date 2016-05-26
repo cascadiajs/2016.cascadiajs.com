@@ -316,5 +316,149 @@
       }
     }
   },
-  "node": {}
+  "node": {
+    "bill-automata": {
+      "name": "Bill Automata",
+      "avatar": "/assets/img/speakers/node/bill-automata.jpg",
+      "talk": {
+        "title": "require('crypto') is a human right",
+        "description": "<p>An accessible tour of the Node.js Crypto API through the lens of history and politics.</p><ul><li>Diffie-Hellman & RSA: key generation, encrypt, and decrypt.</li><li>RSA sign and verify.</li><li>AES and other symmetric ciphers.</li></ul><p>Almost everything in OpenSSL has a rich history. A lot of the code we link when compiling Node.js was once illegal to disseminate under treaties that regulate things like fighter jets and night vision.</p><p>The effort to weaken these tools is still underway. You can't help fight that effort unless you are knowledgeable of more than just the basic implementation details.</p><p>By the end of the talk you will have been exposed to the important concepts, applied and theoretical, necessary to use strong cryptography in any of your Node.js projects. I'll crack some weak keys of different types in realtime using the cluster API and some spare cloud resources if my company has any spare AWS reserved instances. I'll also leave you with a drive to protect access to strong cryptography all over the world.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/33",
+      "contact": {
+        "twitter": "billautomata",
+        "github": ""
+      }
+    },
+    "pawel-szymczykowski": {
+      "name": "Pawel Szymczykowski",
+      "avatar": "/assets/img/speakers/node/pawel-szymczykowski.jpg",
+      "talk": {
+        "title": "Why did the robot cross the road? Computer vision, robots and mobile games.",
+        "description": "<p>The popularity of mobile gaming and in-app purchases has changed the way games are played. Once upon a time, the only limit to how far you could progress was your skill level and persistence. Now, games seem to be designed to hinder us until we have either shelled out real currency for a lot of virtual gems, or watched a lot of advertisements. That’s not fun, that’s tedious!</p><p>Robots are good at tasks that require precision and speed, but they are also great at tasks that are tedious and require an infinite amount of patience. What if we programmed a robot to do the crap parts of mobile games for us? Then we can enjoy the fun parts and / or collect all of the things as we of the Pokémon generation have been programmed to do.</p><p>In this talk we’ll learn how to use an open source robot called Tapsterbot, a webcam, and Node.js OpenCV bindings to teach your computer to play your favorite mobile games for you (or just watch the ads) so that you can do more important things!</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/19",
+      "contact": {
+        "twitter": "makenai",
+        "github": ""
+      }
+    },
+    "safia-abdalla": {
+      "name": "Safia Abdalla",
+      "avatar": "/assets/img/speakers/node/safia-abdalla.jpg",
+      "talk": {
+        "title": "The Hitchhiker's Guide to All Things Memory in Javascript",
+        "description": "<p>Unlike lower level languages, JavaScript protects us from the frustrations of managing memory on the system. Nonetheless, it is important for developers to have a comprehensive understanding of memory allocation and how the memory allocator in JavaScript works so that they can develop memory-performant code. I'll spend the first half of the talk discussing the fundamentals of memory allocation and the memory allocator implementation used in JavaScript. The second half of the talk will consist of live-optimization of code samples as I show the audience how to improve JavaScript code that is not memory performant based on the fundamentals recently learned. Attendees will leave this talk will a firm understanding of the theoretical details behind memory allocation and a practical understanding of how these details affect the code that they write on a daily basis.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/173",
+      "contact": {
+        "twitter": "captainsafia",
+        "github": ""
+      }
+    },
+    "russell-hay": {
+      "name": "Russell Hay",
+      "avatar": "/assets/img/speakers/node/russell-hay.jpg",
+      "talk": {
+        "title": "Happy Sparkle Glitter Fun Zone - LEDs and JavaScript",
+        "description": "<p>This talk is about how, with a little bit of knowledge, a ton of RGB LEDs, and some low power computers, you can make amazing things. I will cover how to get yourself up and running quickly using Johnny-five + node-pixel on a small, low-cost, low-power device running javascript, and how to connect the board to outside sources to provide intelligent displays that can take data from the world, and turn it into a visualization on a strip of leds. I will show how to take a handful of LEDS, using johnny-five with the new i2c backpack for neo-pixels and make something flashy for your home, office, or a public space.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/120",
+      "contact": {
+        "twitter": "russellhay",
+        "github": ""
+      }
+    },
+    "jenn-turner": {
+      "name": "Jenn Turner",
+      "avatar": "/assets/img/speakers/node/jenn-turner.jpg",
+      "talk": {
+        "title": "Open Source beyond software",
+        "description": "<p>I don’t know if you’ve heard, but there’s a secret going around that will probably startle and shock software developers the world over.</p><p>Code isn’t the most crucial part of your project.</p><p>At its best, open source serves to empower the recipients of its brilliance through technological innovation. At its core, open source is a jumble of information created by people to be used by other people, like any other transactional relationship before it.</p><p>Yet open source is viewed as being a “members only“ club for those who speak its language.</p><p>That‘s dumb and I’m here to throw that old ideology out in favor of inviting a more realistic one: open source is for everyone.</p><p>At Hoodie, we recognize that the best open source projects hold strong values like diversity, empowerment and decentralisation. So it only makes sense for an entire project to be built by an amazing and dedicated community consisting of developers and non-coding experts. We began doing this last year by holding an open call for editorial contributors to join the team. The response was overwhelmingly positive.</p><p>People have been waiting for an opportunity to join your open source communities, but first you have to prepare the way. I’ll be sharing the lessons learned from Hoodie venturing into the exploration of inviting non-coding experts to join forces and how the results of this experience have brought us closer to modern open source, beyond software.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/137",
+      "contact": {
+        "twitter": "jennwrites",
+        "github": ""
+      }
+    },
+    "bryan-hughes": {
+      "name": "Bryan Hughes",
+      "avatar": "/assets/img/speakers/node/bryan-hughes.jpg",
+      "talk": {
+        "title": "API Design Through the Lens of Photography",
+        "description": "<p>Photography is all about understanding and working within a wide variety of constraints. Mechanical and electrical systems interact to create limitations for photographers. Yet these constraints have led to endless creativity.</p><p>API design is a lot like photography. There are often dozens of interrelated constraints that API designers must adhere to, which can seem daunting at first. But like photography, understanding and embracing these constraints leads to great design.</p><p>This talk will teach you how to find your API's “voice”, the underlying philosophy that makes an API consistent and easy to use, all viewed through the lens of photography.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/110",
+      "contact": {
+        "twitter": "nebrius",
+        "github": ""
+      }
+    },
+    "yoshua-wuyts": {
+      "name": "Yoshua Wuyts",
+      "avatar": "/assets/img/speakers/node/yoshua-wuyts.jpg",
+      "talk": {
+        "title": "the anatomy of a Node server",
+        "description": "<p>Modularity is the beating heart of Unix. By creating tiny composable tools, bigger things can be achieved. Discovering these tools is no trivial task though. As is the case in Node: if you're building servers without using frameworks, which packages should you use?</p><p>Luckily there's a strong community of authors building, and maintaining packages that work around the common interface of require('http'). In this talk we'll cover the aspects that make for a strong Node application and the packages that will help you achieve that.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/280",
+      "contact": {
+        "twitter": "yoshuawuyts",
+        "github": ""
+      }
+    },
+    "ivana-mcconnell": {
+      "name": "Ivana McConnell",
+      "avatar": "/assets/img/speakers/node/ivana-mcconnell.jpg",
+      "talk": {
+        "title": "Our Identities Have No Bodies: Web, Code, and Self-Exploration",
+        "description": "<p>Whether we’re ready or not, the nature of identity is changing. In the internet’s early days, places like Livejournal, usenet, and Geocities fostered a kind of freedom and anonymity that is hard to find now. In an era when single-sign-on is king, we are increasingly moving towards tying our faces to data for advertising and marketing purposes, we remove barriers between the digital and the physical. These barrier were often placed for a reason— to explore parts of our identity that we want to keep private. There were opportunities for identity exploration, self-expression, and community, concepts which shift today in the world of web development and open-source.</p><p>So how are we—as designers and developers of the web— responsible for others' identity expression? How does our code help (and hinder) the building of communities which keep us safe and contribute to harassment? Let's wax nostalgic a bit about the internet's early days and ask how much we should care about the products we build, and how users build their identities around those products and our code. </p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/67",
+      "contact": {
+        "twitter": "IvanaMcConnell",
+        "github": ""
+      }
+    },
+    "alejandro-oviedo": {
+      "name": "Alejandro Oviedo",
+      "avatar": "/assets/img/speakers/node/alejandro-oviedo.jpg",
+      "talk": {
+        "title": "Demystifying (JavaScript) engines",
+        "description": "<p>How a JavaScript engine works? What are its basic components? How to measure its performance? What is JIT compilation? Stigmatization: is JavaScript fast enough? are some of the questions I think we currently fail to answer in a, somewhat, short and direct way.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/322",
+      "contact": {
+        "twitter": "a0viedo",
+        "github": ""
+      }
+    },
+    "nwokedi-idika": {
+      "name": "Nwokedi Idika",
+      "avatar": "/assets/img/speakers/node/nwokedi-idika.jpg",
+      "talk": {
+        "title": "Demystifying the Darknet in 30 Minutes or Less",
+        "description": "<p>The Darknet has received significant attention in recent years and with it, increased confusion. Darknet, Dark web, Deep net, Deep web, The Onion Router (TOR) are all used interchangeably. Interestingly enough, none of these terms are actually interchangeable. TOR, the most popular instance of a Darknet, is viewed by many as a tool providing complete anonymization. In reality, the anonymity TOR provides is very specific and far from complete. To appreciate this, one must understand how TOR works and therein lies the problem: most people don’t know how TOR works. So, let’s solve that problem.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/272",
+      "contact": {
+        "twitter": "nwokedi",
+        "github": ""
+      }
+    },
+    "mariko-kosaka": {
+      "name": "Mariko Kosaka",
+      "avatar": "/assets/img/speakers/node/mariko-kosaka.jpg",
+      "talk": {
+        "title": "Making a Robot Eye with JavaScript - or Magic of Computer Vision Unraveled",
+        "description": "<p>Have you ever wondered how computers see images? Do you want to work on an AR (Augmented Reality) project or build a NodeBot that can recognize and track your face? How about making your own Instagram-like app or finding similer images in Pinterest collection? When you work with an image as your data input, sooner or later you'll encounter the magic term Computer Vision.</p><p>It can be intimidating to get started. At first, that led me to choose a common and powerful library that works like magic in an unfamiliar language (C++). It felt like the library was a black box and I had no control. I started to wonder, what is so magical about computer vision? After all it is just code someone wrote. Can we unravel it? and reconstruct in JavaScript??</p><p>The answer is YES. In this talk, we'll start by getting image data from canvas object, then transform the data to alter an appearance of the image. You will get insight into what data looks like to a browser (hint: it's just an array of numbers !). Next we’ll talk about how to interpret and analyze the data in a meaningful way. Finally, we'll apply what we learned and go through simple image analysis process to build your own AR app in vanilla JavaScript!</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/125",
+      "contact": {
+        "twitter": "kosamari",
+        "github": ""
+      }
+    }
+  }
 }
