@@ -7,17 +7,17 @@
       <% if(title) { %><h6><%- title %></h6><% } %>
       <p class="card-text">
         <% if(contact.email) { %>
-          <a href="mailto:<%- contact.email %>"><i class="fa fa-envelope-o"></i> <%- contact.email %></a>
+          <a href="mailto:<%- contact.email %>" class="btn btn-primary btn-sm mb1"><i class="fa fa-envelope-o"></i> <%- contact.email %></a>
           <br>
         <% } %>
 
         <% if(contact.twitter) { %>
-          <a href="//twitter.com/<%- contact.twitter %>"><i class="fa fa-twitter"></i> <%- contact.twitter %></a>
+          <a href="//twitter.com/<%- contact.twitter %>" class="btn btn-primary btn-sm mb1"><i class="fa fa-twitter"></i> <%- contact.twitter %></a>
           <br>
         <% } %>
 
         <% if(contact.github) { %>
-          <a href="//github.com/<%- contact.github %>"><i class="fa fa-github"></i> <%- contact.github %></a>
+          <a href="//github.com/<%- contact.github %>" class="btn btn-primary btn-sm"><i class="fa fa-github"></i> <%- contact.github %></a>
         <% } %>
       </p>
     </div>
