@@ -13,11 +13,14 @@
     <div class="container-fluid">
         <% for(var fest in public.speakers._data) { %>
           <div class="row">
-            <div id="<%- fest %>-speakers" class="col-xs-12 <%- fest %>-header-block text-xs-center">
+            <%
+            var anchor = (fest == 'node' ? 'nodeday' : (fest == 'browser' ? 'browserday' : 'cascadiacss'));
+            %>
+            <div id="<%- anchor %>" class="col-xs-12 <%- fest %>-header-block text-xs-center">
               <h2 class="pt1">
-                <% if (fest == 'node'){ %> CascadiaJS Node <% }
-                else if (fest == 'browser') { %> CascadiaJS Browser <% }
-                else if (fest == 'css') { %> CascadiaCSS <% } %> Day</h2>
+                <% if (fest == 'node'){ %> CascadiaJS Node Day <% }
+                else if (fest == 'browser') { %> CascadiaJS Browser Day <% }
+                else if (fest == 'css') { %> CascadiaCSS <% } %></h2>
               <h4 class="pb1">
                 <% if (fest == 'node'){ %> August 5th <% }
                    else if (fest == 'browser') { %> August 4th <% }
