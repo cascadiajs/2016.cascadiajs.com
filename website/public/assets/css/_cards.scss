@@ -1,9 +1,7 @@
 .circle {
   border-radius: 50%;
-  border: 5px solid white;
-  max-width: 94%;
-  margin-top: .75rem;
-  margin-left: 3%;
+  border: 10px solid white;
+  max-width: 100%;
 }
 
 .card-block {
@@ -13,29 +11,13 @@
 
 
 .card {
-  background-color: transparent;
-  border-radius: none;
-  box-shadow: none;
+  #staff & {
+    background-color: transparent;
+    border-radius: none;
+    box-shadow: none;
+    border: none;
+    h5 {
+      font-weight: 700;
+    }
+  }
 }
-
-// .card-deck {
-//   .card {
-//     background-color: #dfdfdf;
-//     @include media-breakpoint-up(xs) {
-//       max-width: 50%;
-//     }
-//
-//     @include media-breakpoint-up(sm) {
-//       max-width: 33%;
-//     }
-//
-//     @include media-breakpoint-up(md) {
-//       max-width: 18%;
-//     }
-//
-//     a {
-//       display: block;
-//       font-size: 85%;
-//     }
-//   }
-// }
