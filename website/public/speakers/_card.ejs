@@ -6,7 +6,7 @@
       %>
         <img class="card-img-top circle" src="<%- speaker.avatar %>" alt="<%- speaker.name %>">
         <div class="card-block">
-        <h5 class="card-title"><%- speaker.name %></h5>
+        <h5 class="card-title"><a href="/speakers/<%- person %>/"><%- speaker.name %></a></h5>
         <% if(speaker.contact) {
            var contact = speaker.contact;
           %>
