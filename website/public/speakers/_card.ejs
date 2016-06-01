@@ -4,7 +4,7 @@
       <% for(var person in public.speakers._data[fest]) {
         var speaker = public.speakers._data[fest][person];
       %>
-        <img class="card-img-top circle" src="<%- speaker.avatar %>" alt="<%- speaker.name %>">
+        <img class="card-img-top" src="<%- speaker.avatar %>" alt="<%- speaker.name %>">
         <div class="card-block">
         <h5 class="card-title"><a href="/speakers/<%- person %>/"><%- speaker.name %></a></h5>
         <% if(speaker.contact) {
