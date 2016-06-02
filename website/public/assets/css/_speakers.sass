@@ -12,30 +12,6 @@
     h1
       color: white
 
-  .card
-    background-color: white
-    overflow: hidden
-    border: .5em solid black
-    &.css
-      border-color: $primary-purple-dark
-
-    &.browser
-      border-color: $primary-blue-dark
-
-    &.node
-      border-color: $primary-green-dark
-
-
-    img
-      max-width: 100%
-
-    h4
-      font-weight: 700
-      text-align: center
-      margin-top: 0.5rem
-      font-size: 1.25em
-      padding: .5em .25em
-
   .css-header-block
     h2
       color: $primary-purple
@@ -63,3 +39,34 @@
 
   .node-speakers-block
     background-color: $primary-green
+
+#speakers,
+#speaker-page
+
+  .card
+    background-color: white
+    overflow: hidden
+    border: .5em solid black
+    &.css
+      border-color: $primary-purple-dark
+
+    &.browser
+      border-color: $primary-blue-dark
+
+    &.node
+      border-color: $primary-green-dark
+
+
+    img
+      max-width: 100%
+
+    h4
+      font-weight: 700
+      text-align: center
+      margin-top: 0.5rem
+      font-size: 1.25em
+      padding: .5em .25em
+
+#speaker-page
+  .card
+    display: inline-block
