@@ -37,9 +37,10 @@
                 %>
                   <div class="col-xs-10 push-xs-1 col-sm-6 push-sm-0 col-md-4 col-lg-3">
                     <div class="card <%- fest %> mb2">
-
-                      <img src="<%- speaker.avatar %>" alt="<%- speaker.name %>'s wonderful face">
-                      <h4><%- speaker.name %></h4>
+                      <a href="/speakers/<%- person %>/">
+                        <img src="<%- speaker.avatar %>" alt="<%- speaker.name %>'s wonderful face">
+                        <h4><%- speaker.name %></h4>
+                      </a>
                     </div>
                   </div>
                 <% } %>
