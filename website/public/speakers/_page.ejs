@@ -1,0 +1,40 @@
+<div id="hero" class="pt2 pb2">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-10 push-xs-1 text-xs-center">
+
+        <h1><%- name %></h1>
+          <div class="col-xs-10 push-xs-1 col-sm-6 push-sm-3 col-md-4 push-md-4">
+
+            <div class="card ">
+              <img src="<%- avatar %>" alt="<%- name %>'s wonderful face">
+            </div>
+            <p>
+              <% if(contact.twitter) { %>
+                <a href="//twitter.com/<%- contact.twitter %>" class="btn btn-primary btn-sm mb1"><i class="fa fa-twitter"></i> <%- contact.twitter %></a>
+                <br>
+              <% } %>
+
+              <% if(contact.github) { %>
+              <a href="//github.com/<%- contact.github %>" class="btn btn-primary btn-sm mb1"><i class="fa fa-github"></i> <%- contact.github %></a>
+              <% } %>
+            </p>
+          </div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 pt2">
+      <div class="content mb4">
+
+        <h2><%- talk.title %></h2>
+        <div><%- talk.description %></div>
+      </div>
+    </div>
+  </div>
+</div>
