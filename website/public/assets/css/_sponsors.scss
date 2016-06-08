@@ -36,7 +36,15 @@
     margin-bottom: 1rem;
 
     h1 {
-      color: white
+      color: white;
     }
+  }
+}
+
+.sponsor-logos {
+  .sponsor-block {
+    background-color: white;
+    border: 0.5em solid $primary-green-dark;
+    padding: 2em;
   }
 }

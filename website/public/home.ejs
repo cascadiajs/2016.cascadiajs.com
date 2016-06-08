@@ -47,6 +47,26 @@
 
   <div class="small-trees reversed"></div>
 
+  <div id="sponsors" class="sponsor-logos">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3 class="pb1 text-xs-center">Sponsors</h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <% for(var id in public.sponsors._data) { %>
+        <div class="col-xs-6 col-sm-4">
+          <div class="sponsor-block">
+            <img class="" src="<%- public.sponsors._data[id].logo %>" alt="<%- public.sponsors._data[id].name %>" />
+          </div>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </div>
+
   <%- partial("_partials/staff") %>
 
 </main>
