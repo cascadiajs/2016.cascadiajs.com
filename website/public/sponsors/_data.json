@@ -28,5 +28,11 @@
     "url": "http://www.craigslist.org/about/craigslist_is_hiring",
     "description": "craigslist - a place to buy, sell, rent, hire, share, meet, swap, discuss, find, serve, connect, give away, announce, work, collect, care, perform, learn, marvel, mentor, befriend, fall in love, and/or save the world.",
     "logo": "/assets/img/sponsors/craigslist.svg"
+  },
+  "GitHub": {
+    "name": "GitHub",
+    "url": "http://github.com",
+    "description": "",
+    "logo": "/assets/img/sponsors/github.svg"
   }
 }
