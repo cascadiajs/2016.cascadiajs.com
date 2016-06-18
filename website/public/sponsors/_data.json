@@ -22,5 +22,11 @@
     "url": "https://saucelabs.com",
     "description": "Sauce Labs makes automated testing awesome. Our cloud-based platform helps developers test native & hybrid mobile and web applications across 700+ browser / OS platforms, including iOS, Android & Mac OS X. Sauce supports Selenium, Appium and popular JavaScript unit testing frameworks, and integrates with all of the top programming languages, test frameworks and CI systems. With built-in video recording and screenshots of every test case, debugging tools, and secure tunneling for local or firewalled testing, Sauce makes running, debugging and scaling test suites quick and easy. To get started for free, visit saucelabs.com.",
     "logo": "/assets/img/sponsors/saucelabs.svg"
+  },
+  "craigslist": {
+    "name": "craigslist",
+    "url": "http://www.craigslist.org/about/craigslist_is_hiring",
+    "description": "craigslist - a place to buy, sell, rent, hire, share, meet, swap, discuss, find, serve, connect, give away, announce, work, collect, care, perform, learn, marvel, mentor, befriend, fall in love, and/or save the world.",
+    "logo": "/assets/img/sponsors/craigslist.svg"
   }
 }
