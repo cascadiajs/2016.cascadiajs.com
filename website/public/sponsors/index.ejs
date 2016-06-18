@@ -18,9 +18,9 @@
         <div class="container">
           <div class="row">
 
-            <div class="col-xs-12 col-md-6 sponsor-block border-left-green pt1 pb2">
+            <div class="col-xs-12 col-md-6 sp-block border-left-green pt1 pb2">
               <% for(var key in public.sponsors._data) { %>
-                <img src="<%- public.sponsors._data[key].logo %>" class="sponsor-logo">
+                <img src="<%- public.sponsors._data[key].logo %>" class="sp-logo">
                 <h3><a href="<%- public.sponsors._data[key].url %>"><%- public.sponsors._data[key].name %></a></h3>
                 <p><%- public.sponsors._data[key].description %></p>
               <% } %>
