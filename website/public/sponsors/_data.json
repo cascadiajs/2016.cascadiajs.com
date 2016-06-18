@@ -4,5 +4,11 @@
     "url": "http://www.formidable.com",
     "description": "Formidable is a Seattle-based consultancy and open-source shop, with an emphasis on React.js and Node.js. We consult, augment, and train to level-up teams and solve engineering problems with some of the country's top companies. We help organize popular meet-ups in Seattle, speak at conferences, write books, and are active in the OSS ecosystem, with many popular open-source projects. We are the React Experts, helping to build the modern web.",
     "logo": "/assets/img/sponsors/formidable.svg"
+  },
+  "strong-loop": {
+    "name": "Strong Loop",
+    "url": "http://developer.ibm.com/apiconnect",
+    "description": "At StrongLoop, an IBM company, we don’t just build products for Node, we help create it. StrongLoop was founded in 2013 by Node and io.js core committers Bert Belder and Ben Noordhuis. StrongLoop now maintains over 130 open source npm modules and sponsors the popular LoopBack and Express frameworks.",
+    "logo": "/assets/img/sponsors/strongloop.svg"
   }
 }
