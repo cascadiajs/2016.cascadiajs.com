@@ -41,10 +41,20 @@
   }
 }
 
+// This is on the home page.
 .sp-logos {
+  margin-bottom: 3em;
+
   .sp-block {
     background-color: white;
-    border: 0.5em solid $primary-green-dark;
+    border-top: 1em solid $primary-green-dark;
     padding: 2em;
+    text-align: center;
+
+    img {
+      height: 45px;
+      max-height: 45px;
+      width: 100%
+    }
   }
 }
