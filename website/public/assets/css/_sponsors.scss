@@ -1,5 +1,5 @@
 // Sponsors
-.sponsor-block {
+.sp-block { // changed from sponsor-block because adblock
   margin-bottom: 2em;
 
   p:last-of-type {
@@ -15,7 +15,7 @@
   border-left: 2px solid $primary-blue;
 }
 
-.sponsor-logo {
+.sp-logo {
   display: block;
   margin-bottom: 1em;
   max-width: 24em;
@@ -36,7 +36,15 @@
     margin-bottom: 1rem;
 
     h1 {
-      color: white
+      color: white;
     }
+  }
+}
+
+.sp-logos {
+  .sp-block {
+    background-color: white;
+    border: 0.5em solid $primary-green-dark;
+    padding: 2em;
   }
 }

@@ -4,5 +4,35 @@
     "url": "http://www.formidable.com",
     "description": "Formidable is a Seattle-based consultancy and open-source shop, with an emphasis on React.js and Node.js. We consult, augment, and train to level-up teams and solve engineering problems with some of the country's top companies. We help organize popular meet-ups in Seattle, speak at conferences, write books, and are active in the OSS ecosystem, with many popular open-source projects. We are the React Experts, helping to build the modern web.",
     "logo": "/assets/img/sponsors/formidable.svg"
+  },
+  "strong-loop": {
+    "name": "Strong Loop",
+    "url": "http://developer.ibm.com/apiconnect",
+    "description": "At StrongLoop, an IBM company, we don’t just build products for Node, we help create it. StrongLoop was founded in 2013 by Node and io.js core committers Bert Belder and Ben Noordhuis. StrongLoop now maintains over 130 open source npm modules and sponsors the popular LoopBack and Express frameworks.",
+    "logo": "/assets/img/sponsors/strongloop.svg"
+  },
+  "ibm-design": {
+    "name": "IBM Design",
+    "url": "http://www.ibm.com/design",
+    "description": "IBM is on a mission to create a sustainable culture of design and to bring a human-centered focus to thousands of product and service experiences. IBM Design is the new design organization based in Austin, Texas, where designers, engineers, and business leaders collaborate to help create a new way of working that will impact humanity in ways that matter and endure. When complete, this transformation will make IBM the largest product design organization in the world.",
+    "logo": "/assets/img/sponsors/ibm-design.svg"
+  },
+  "saucelabs": {
+    "name": "SauceLabs",
+    "url": "https://saucelabs.com",
+    "description": "Sauce Labs makes automated testing awesome. Our cloud-based platform helps developers test native & hybrid mobile and web applications across 700+ browser / OS platforms, including iOS, Android & Mac OS X. Sauce supports Selenium, Appium and popular JavaScript unit testing frameworks, and integrates with all of the top programming languages, test frameworks and CI systems. With built-in video recording and screenshots of every test case, debugging tools, and secure tunneling for local or firewalled testing, Sauce makes running, debugging and scaling test suites quick and easy. To get started for free, visit saucelabs.com.",
+    "logo": "/assets/img/sponsors/saucelabs.svg"
+  },
+  "craigslist": {
+    "name": "craigslist",
+    "url": "http://www.craigslist.org/about/craigslist_is_hiring",
+    "description": "craigslist - a place to buy, sell, rent, hire, share, meet, swap, discuss, find, serve, connect, give away, announce, work, collect, care, perform, learn, marvel, mentor, befriend, fall in love, and/or save the world.",
+    "logo": "/assets/img/sponsors/craigslist.svg"
+  },
+  "GitHub": {
+    "name": "GitHub",
+    "url": "http://github.com",
+    "description": "",
+    "logo": "/assets/img/sponsors/github.svg"
   }
 }
