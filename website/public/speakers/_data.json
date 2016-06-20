@@ -459,6 +459,19 @@
         "twitter": "kosamari",
         "github": ""
       }
+    },
+    "brock-whitten": {
+      "name": "Brock Whitten",
+      "avatar": "/assets/img/speakers/node/brock-whitten.jpg",
+      "talk": {
+        "title": "To the Moon! - Overcoming latency for fun and adventure.",
+        "description": "<p>NodeJS makes it incredibly easy to write fast systems for I/O bound problems. But what if we wanted to go faster or go further? How do we get more out of our hardware and make our responses faster?</p><p>In this talk Brock Whitten of surge.sh will put a server on the moon to demonstrate the amazing benefits of compound caching and show how we can push speed to the limits of our hardware and beyond.</p>"
+      },
+      "cfp_url": "https://speak.cascadiafest.org/admin/talks/",
+      "contact": {
+        "twitter": "sintaxi",
+        "github": "sintaxi"
+      }
     }
   }
 }
