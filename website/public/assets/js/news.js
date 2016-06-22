@@ -37,7 +37,7 @@ var _cascadiafest_news_callback = function (data) {
     var hours = post_date.getHours().toString().length == 1 ? post_date.getHours() : post_date.getHours() - 12;
     var ampm = post_date.getHours() >= 12 ? 'pm' : 'am';
 
-    post_date = months[post_date.getMonth()] + ' ' + post_date.getDay() + ', ' + hours + ':' + minutes + ampm;
+    post_date = months[post_date.getMonth()] + ' ' + post_date.getDate() + ', ' + hours + ':' + minutes + ampm;
 
     html.push('<h4><a href="' + server + post.url + '">' + post.title + '</a> ' + '<small>' + post_date + '</small></h4>');
 
