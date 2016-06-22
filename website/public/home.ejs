@@ -59,7 +59,9 @@
         <% for(var id in public.sponsors._data) { %>
         <div class="col-xs-6 col-sm-4">
           <div class="sp-block">
-            <img class="" src="<%- public.sponsors._data[id].logo %>" alt="<%- public.sponsors._data[id].name %>" />
+            <a href="<%- public.sponsors._data[id].url %>" rel="nofollow">
+              <img class="" src="<%- public.sponsors._data[id].logo %>" alt="<%- public.sponsors._data[id].name %>" />
+            </a>
           </div>
         </div>
         <% } %>
