@@ -1,0 +1,13 @@
+@mixin hero($hero-bg-color: $primary-green-darker, $hero-font-color: white) {
+  background-color: $hero-bg-color;
+  background-image: url('../img/nature/small-tree-tops.svg');
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+
+  h1 {
+    color: $hero-font-color;
+  }
+}

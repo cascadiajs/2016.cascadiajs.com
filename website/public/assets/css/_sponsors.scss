@@ -7,14 +7,6 @@
   }
 }
 
-.border-left-green {
-  border-left: 2px solid $primary-green;
-}
-
-.border-left-blue {
-  border-left: 2px solid $primary-blue;
-}
-
 .sp-logo {
   display: block;
   margin-bottom: 1em;
@@ -26,6 +18,8 @@
 }
 
 #sponsors {
+  margin-bottom: 4em;
+
   #hero {
     background-color: $primary-green-darker;
     background-image: url('../img/nature/small-tree-tops.svg');
@@ -43,18 +37,23 @@
 
 // This is on the home page.
 .sp-logos {
-  margin-bottom: 3em;
 
   .sp-block {
     background-color: white;
-    border-top: 1em solid $primary-green-dark;
+    border-top: .5em solid $primary-green-dark;
     padding: 2em;
     text-align: center;
 
     img {
       height: 45px;
       max-height: 45px;
-      width: 100%
+      width: 100%;
+
+      .sponsors-page & {
+        height: 80px;
+        max-height: 80px;
+        margin: 0 auto 2rem;
+      }
     }
   }
 }

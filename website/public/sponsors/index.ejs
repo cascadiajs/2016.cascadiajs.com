@@ -1,5 +1,5 @@
 
-<main id="sponsors">
+<main id="sponsors" class="sponsors-page">
 
   <div id="hero">
       <div class="container-fluid">
@@ -11,18 +11,22 @@
       </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid content">
     <div class="row">
       <div class="col-xs-12">
 
-        <div class="container">
+        <div class="container sp-logos">
           <div class="row">
 
             <% for(var key in public.sponsors._data) { %>
-              <div class="col-xs-12 col-md-6 sp-block border-left-green pt1 pb2">
-                <img src="<%- public.sponsors._data[key].logo %>" class="sp-logo">
-                <h3><a href="<%- public.sponsors._data[key].url %>"><%- public.sponsors._data[key].name %></a></h3>
-                <p><%- public.sponsors._data[key].description %></p>
+              <div class="col-xs-12 col-lg-6">
+                <article class="sp-block pt1 pb2">
+                  <img src="<%- public.sponsors._data[key].logo %>" class="sp-logo">
+                  <h4><%- public.sponsors._data[key].name %></h4>
+                  <p><%- public.sponsors._data[key].description %></p>
+                  <br>
+                  <div><a href="<%- public.sponsors._data[key].url %>" class="btn btn-primary">Learn More About <strong><%- public.sponsors._data[key].name %></strong></a></div>
+                </article>
               </div>
             <% } %>
 
