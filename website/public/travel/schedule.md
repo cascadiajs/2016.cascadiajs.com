@@ -3,7 +3,7 @@
     <th colspan="4">Schedule for Vancouver friends--HackerBus!</th>
   </tr>
   <tr>
-    <th colspan="4">August 2 and 6<br />Pickup address HERE</th>
+    <th colspan="4">August 2 and 6<br />Downtown Vancouver, BC</th>
   </tr>
   <tr>
     <th>Departure</th>
@@ -32,7 +32,7 @@
     <th colspan="4">Schedule for Portland friends--HackerTrain and HackerBus!</th>
   </tr>
   <tr>
-    <th colspan="4">August 2 and 6<br />Pickup address HERE</th>
+    <th colspan="4">August 2 and 6<br />PDX Union Station and Downtown Seattle</th>
   </tr>
   <tr>
     <th>Departure</th>
@@ -68,7 +68,7 @@
     <th colspan="4">Schedule for Seattle friends--HackerBus!</th>
   </tr>
   <tr>
-    <th colspan="4">August 2 and 6<br />Pickup address HERE</th>
+    <th colspan="4">August 2 and 6<br />PDX Union Station</th>
   </tr>
   <tr>
     <th>Departure</th>
