@@ -29,10 +29,16 @@
     "description": "craigslist - a place to buy, sell, rent, hire, share, meet, swap, discuss, find, serve, connect, give away, announce, work, collect, care, perform, learn, marvel, mentor, befriend, fall in love, and/or save the world.",
     "logo": "/assets/img/sponsors/craigslist.svg"
   },
-  "GitHub": {
+  "github": {
     "name": "GitHub",
     "url": "http://github.com",
     "description": "",
     "logo": "/assets/img/sponsors/github.svg"
+  },
+  "twilio": {
+    "name": "Twilio",
+    "url": "https://www.twilio.com",
+    "description": "Twilio is a cloud communications platform for software developers to build, scale and operate real time communications in their software applications. Twilio powers the future of business communications, enabling phones, VoIP, and messaging to be embedded into web, desktop, and mobile software. We take care of the messy telecom hardware and expose a globally available cloud API that developers can interact with intelligent & complex communications systems.",
+    "logo": "/assets/img/sponsors/twilio.svg"
   }
 }
