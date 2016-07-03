@@ -40,5 +40,17 @@
     "url": "https://www.twilio.com",
     "description": "Twilio is a cloud communications platform for software developers to build, scale and operate real time communications in their software applications. Twilio powers the future of business communications, enabling phones, VoIP, and messaging to be embedded into web, desktop, and mobile software. We take care of the messy telecom hardware and expose a globally available cloud API that developers can interact with intelligent & complex communications systems.",
     "logo": "/assets/img/sponsors/twilio.svg"
+  },
+  "rollbar": {
+    "name": "Rollbar",
+    "url": "https://rollbar.com/",
+    "description": "Rollbar’s error monitoring helps developers detect, diagnose and defeat application errors. Quickly pinpoint what’s broken and why. View exceptions from all of your languages, frameworks, platforms and environments in one place. It's easy to install. You can start tracking production errors and deployments in 8 minutes or less. With Rollbar you get a deeper understanding of your errors and exceptions. To get started for free, visit rollbar.com.",
+    "logo": "/assets/img/sponsors/rollbar.svg"
+  },
+  "newrelic": {
+    "name": "New Relic",
+    "url": "http://www.newrelic.com",
+    "description": "",
+    "logo": "/assets/img/sponsors/newrelic.svg"
   }
 }
