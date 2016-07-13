@@ -85,7 +85,10 @@
       "name": "Farrin",
       "title": "Volunteer &amp; Workshop Coordinator",
       "avatar": "/assets/img/staff/farrin.jpg",
-      "contact": {}
+      "contact": {
+        "twitter": "blakmatrix",
+        "github": "blakmatrix"
+      }
     }
   },
   "volunteers": {},
