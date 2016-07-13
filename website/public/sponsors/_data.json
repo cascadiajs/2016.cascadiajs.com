@@ -58,5 +58,11 @@
     "url": "http://simple.com",
     "description": "At Simple, doing right by our customers is the heart of our business. Simple customers receive a Simple Visa® debit card that's tied to an FDIC-insured account. This account offers no surprise fees, and provides powerful budgeting and savings tools right in our mobile and online apps. We are headquartered in Portland, OR and support a large group of remote engineers across the US. https://www.simple.com/ Interested in building the future of personal banking with a group of kind, funny, smart people who love music, food, design, coffee, and code, Simple is the place for you. https://www.simple.com/careers",
     "logo": "/assets/img/sponsors/simple.svg"
+  },
+  "godaddy": {
+    "name": "GoDaddy",
+    "url": "http://www.godaddy.com",
+    "description": "GoDaddy's mission is to radically shift the global economy toward small businesses by empowering people to easily start, confidently grow and successfully run their own ventures. With 14 million customers worldwide and 62 million domain names under management, GoDaddy gives small business owners the tools to name their idea, build a beautiful online presence, attract customers and manage their business. To learn more about the company, visit www.GoDaddy.com. ",
+    "logo": "/assets/img/sponsors/godaddy.svg"
   }
 }
