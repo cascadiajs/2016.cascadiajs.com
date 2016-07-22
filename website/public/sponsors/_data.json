@@ -64,5 +64,11 @@
     "url": "http://www.godaddy.com",
     "description": "GoDaddy's mission is to radically shift the global economy toward small businesses by empowering people to easily start, confidently grow and successfully run their own ventures. With 14 million customers worldwide and 62 million domain names under management, GoDaddy gives small business owners the tools to name their idea, build a beautiful online presence, attract customers and manage their business. To learn more about the company, visit www.GoDaddy.com. ",
     "logo": "/assets/img/sponsors/godaddy.svg"
+  },
+  "activestate": {
+    "name": "ActiveState",
+    "url": "http://komodoide.com/web-ide/?utm_source=cascadiajs16&utm_medium=link&utm_term=&utm_content=text&utm_campaign=cascadiajs16",
+    "description": "Komodo IDE by ActiveState is a powerful, full-featured multi-language IDE for Python, PHP, JavaScript, HTML5 and CSS, NodeJS, Golang, Ruby, PhoneGap, Cordova, and a variety of other languages and frameworks. Since 2000, Komodo has been designed with development in mind. Features include syntax checking, smart code and API assistance, code refactoring and code formatting, visual real time debugging, code profiling, regular expression helper, track changes, unit testing, version control system integration and more. Whether for teams or individuals, our flexible licensing options, cross-platform installers, and full feature set make Komodo the best IDE on the market today.",
+    "logo": "/assets/img/sponsors/activestate.svg"
   }
 }
