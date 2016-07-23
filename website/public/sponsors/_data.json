@@ -76,5 +76,11 @@
     "url": "http://www.losant.com",
     "description": " Losant is a cloud IoT platform that enables developers to easily make use of real-time data by rapidly building connected applications for the Internet of Things. Losant makes connecting any hardware simple with open source SDKs for multiple languages and widely adopted communication protocols. Easy-to-use tools and functionality make building real-time reactions and visualizing IoT data a breeze. Losant also exposes an open API that provides developers the option to build on top of the platform with complete access to all the data and functionality found in the front end.",
     "logo": "/assets/img/sponsors/losant.svg"
+  },
+  "edge": {
+    "name": "Microsoft Edge",
+    "url": "//dev.microsoftedge.com",
+    "description": "Introducing Microsoft Edge Dev, a set of free tools and resources from Microsoft to help you support Edge as well as previous versions of Internet Explorer. You can download Virtual Machines for Windows, Mac and Linux, test your sites on different browsers and scan your site for common coding patterns that could cause compatibility issues. Spend less time testing, and more time building what’s next.",
+    "logo": "/assets/img/sponsors/edge.svg"
   }
 }
