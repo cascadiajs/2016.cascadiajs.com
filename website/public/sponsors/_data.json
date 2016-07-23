@@ -70,5 +70,11 @@
     "url": "http://komodoide.com/web-ide/?utm_source=cascadiajs16&utm_medium=link&utm_term=&utm_content=text&utm_campaign=cascadiajs16",
     "description": "Komodo IDE by ActiveState is a powerful, full-featured multi-language IDE for Python, PHP, JavaScript, HTML5 and CSS, NodeJS, Golang, Ruby, PhoneGap, Cordova, and a variety of other languages and frameworks. Since 2000, Komodo has been designed with development in mind. Features include syntax checking, smart code and API assistance, code refactoring and code formatting, visual real time debugging, code profiling, regular expression helper, track changes, unit testing, version control system integration and more. Whether for teams or individuals, our flexible licensing options, cross-platform installers, and full feature set make Komodo the best IDE on the market today.",
     "logo": "/assets/img/sponsors/activestate.svg"
+  },
+  "losant": {
+    "name": "Losant",
+    "url": "http://www.losant.com",
+    "description": " Losant is a cloud IoT platform that enables developers to easily make use of real-time data by rapidly building connected applications for the Internet of Things. Losant makes connecting any hardware simple with open source SDKs for multiple languages and widely adopted communication protocols. Easy-to-use tools and functionality make building real-time reactions and visualizing IoT data a breeze. Losant also exposes an open API that provides developers the option to build on top of the platform with complete access to all the data and functionality found in the front end.",
+    "logo": "/assets/img/sponsors/losant.svg"
   }
 }
