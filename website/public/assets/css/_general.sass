@@ -72,6 +72,19 @@ body
     @include media-breakpoint-up(lg)
       font-size: 8rem
 
+  h2
+    font-size: 2rem
+    color: $primary-blue-dark
+    font-family: 'MicrobrewUnicaseTwo', sans-serif
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    margin: 0
+    @include media-breakpoint-up(sm)
+      font-family: 'MicrobrewUnicaseTwoD', sans-serif
+
+    @include media-breakpoint-up(md)
+      font-size: 3rem
+
 main
   padding: 2rem 0
 
@@ -84,8 +97,16 @@ main
     .row div
       padding-top: .5em
       padding-bottom: .5em
+    .conf-css
+      background: $primary-purple
+      a
+        color: white
     .conf-browser
       background: $primary-blue
+      a
+        color: white
+    .conf-node
+      background: $primary-green
       a
         color: white
     .speaker
