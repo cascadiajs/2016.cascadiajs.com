@@ -1,0 +1,251 @@
+<div id="schedule" class="day-schedule container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-6">
+      <h2 class="first-title">Schedule <small>brought to you by</small></h2>
+
+      <img src="/assets/img/sponsors/simple.svg" height="75"/>
+    </div>
+  </div>
+
+
+  <table class="table table-hover table-bordered">
+    <tbody>
+      <tr class="bg-success">
+        <td class="time">8:30am</td>
+        <td>
+          <p>
+            <span class="uppercase">Registration &amp; Breakfast</span>
+          </p>
+          <p>
+            Registration:
+            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+              Semiahmoo Ballroom
+            </button>
+
+            Breakfast:
+            <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+              Deck
+            </button>
+          </p>
+        </td>
+
+      </tr>
+
+      <tr class="bg-info">
+        <td class="time">9:15am</td>
+        <td>
+          <span class="uppercase">Opening Ceremony</span>
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+            Semiahmoo Ballroom
+          </button>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time">9:30am</td>
+        <td>
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <h4>
+                Talks
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+                  Semiahmoo Ballroom
+                </button>
+              </h4>
+              <ul class="list-unstyled">
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'natalya-shelburne', day: 'css'}) %>
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'justin-mcdowell', day: 'css'}) %>
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'miriam-suzanne', day: 'css'}) %>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-5">
+              <div class="workshop">
+                <h4>
+                  Workshop
+                  <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+                    San Juan Ballroom
+                  </button>
+                </h4>
+
+                <p>
+                  Single Page App & Front-end JavaScript Performance & Troubleshoot 101
+                  <a class="btn btn-success btn-sm" href="https://ti.to/event-loop/cascadiafest-2016/with/hhjzlnal5pw">RSVP</a>
+                </p>
+
+                <img src="/assets/img/sponsors/newrelic.svg" height="24">
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="bg-info">
+        <td class="time">11:00am</td>
+        <td>
+          <span class="uppercase">Coffee Break</span>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time">11:20am</td>
+        <td>
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <h4>
+                Talks
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+                  Semiahmoo Ballroom
+                </button>
+              </h4>
+              <ul class="list-unstyled">
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'mike-kivikoski', day: 'css'}) %>
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'clarissa-peterson', day: 'css'}) %>
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'stephanie-hobson', day: 'css'}) %>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-5">
+              <div class="workshop">
+                <h4>
+                  Workshop
+                  <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+                    San Juan Ballroom
+                  </button>
+                </h4>
+                <p>
+                  Single Page App & Front-end JavaScript Performance & Troubleshoot 101 (continued)
+                </p>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="bg-success">
+        <td class="time">12:45pm</td>
+        <td>
+          <span class="uppercase">Lunch</span>
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+            Deck
+          </button>
+        </td>
+      </tr>
+
+      <tr class="">
+        <td class="time">2:15pm</td>
+        <td>
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <h4>
+                Talks
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+                  Semiahmoo Ballroom
+                </button>
+              </h4>
+
+              <ul class="list-unstyled">
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'alice-bartlett', day: 'css'}) %>
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'james-steinbach', day: 'css'}) %>
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'tyler-sticka', day: 'css'}) %>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-5 pull-right">
+              <div class="workshop">
+                <h4>
+                  Workshop
+                  <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+                    San Juan Ballroom
+                  </button>
+                </h4>
+
+                <p>
+                  From Zero to Awesome API-driven Apps in 9 Easy Steps
+                  <a class="btn btn-success btn-sm" href="https://ti.to/event-loop/cascadiafest-2016/with/qj4farpcqxu">RSVP</a>
+                </p>
+
+                <img src="/assets/img/sponsors/strongloop.svg" height="24">
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="bg-info">
+        <td class="time">3:40pm</td>
+        <td>
+          Break
+        </td>
+      </tr>
+
+      <tr>
+        <td class="time">4:00pm</td>
+        <td>
+          <div class="row">
+            <div class="col-xs-12 col-sm-7">
+              <h4>
+                Talks
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+                  Semiahmoo Ballroom
+                </button>
+              </h4>
+
+              <ul class="list-unstyled">
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'lourdes-montano', day: 'css'}) %>
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'gregor-martynus', day: 'css'}) %>
+                <%- partial('../_partials/schedule-talk.ejs', {id: 'alan-stearns', day: 'css'}) %>
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-5">
+              <div class="workshop">
+                <h4>
+                  Workshop
+                  <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+                    San Juan Ballroom
+                  </button>
+                </h4>
+                <p>
+                  From Zero to Awesome API-driven Apps in 9 Easy Steps (continued)
+                </p>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+      <tr class="bg-success">
+        <td class="time">6:00pm</td>
+        <td>
+          <span class="uppercase">Dinner &amp; Party</span> with
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+            Deck
+          </button>
+
+          <img src="/assets/img/sponsors/ibm-design.svg" style="height: 100px;" />
+        </td>
+      </tr>
+      <!-- <tr class="bg-info">
+        <td class="time">10:00pm</td>
+        <td>
+          Mystery Movie Night
+
+          <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
+            Discovery Theater
+          </button>
+        </td>
+      </tr> -->
+    </tbody>
+  </table>
+
+  <div>
+    <h1>Friends and Family Track</h1>
+    <h2>Future of Flight Boeing Tour | 10:00 AM - 3:15 PM</h2>
+
+    <a href="https://ti.to/event-loop/cascadiafest-2016/with/7qs-ufsgsim" class="btn btn-success">Buy Ticket: $70</a>
+
+    <p>Meet at the Front Desk</p>
+  </div>
+</div>

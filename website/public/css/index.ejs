@@ -1,0 +1,51 @@
+
+<main id="" class="conf-day no-padding">
+
+  <div id="hero">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 text-xs-center center-block">
+            <h1>CascadiaCSS</h1>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="conf-nav">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6 text-xs-left">
+        </div>
+        <div class="conf-browser col-xs-6 text-xs-right">
+          <a href="/browser/">August 4, CascadiaJS Browser Day <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- partial("_schedule") %>
+
+  <div class="container-fluid content">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="container sp-logos">
+          <div class="row">
+
+            <% for(var key in public.sponsors._data) { %>
+              <div class="col-xs-6 col-lg-4">
+                <article class="sp-block pt1 pb2">
+                  <a href="<%- public.sponsors._data[key].url %>">
+                  <img src="<%- public.sponsors._data[key].logo %>" class="sp-logo">
+                  </a>
+                </article>
+              </div>
+            <% } %>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>

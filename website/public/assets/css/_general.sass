@@ -73,7 +73,25 @@ body
       font-size: 8rem
 
 main
-  padding: 2rem 0;
+  padding: 2rem 0
+
+  &.no-padding
+    padding: 0
+
+  &.conf-day
+    .conf-nav
+      font-family: $sans-serif
+    .row div
+      padding: .5em
+    .conf-browser
+      background: $primary-blue
+      a
+        color: white
+    .speaker
+      text-transform: uppercase
+      font-family: $sans-serif
+      font-weight: bold
+
 
 #hero-message
   padding-bottom: 4rem
@@ -130,6 +148,8 @@ main
   .row
     display: flex
     align-content: stretch
+  a
+    color: white
 
 .theme
   color: white
