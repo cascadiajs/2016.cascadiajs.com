@@ -82,5 +82,11 @@
     "url": "//dev.microsoftedge.com",
     "description": "Introducing Microsoft Edge Dev, a set of free tools and resources from Microsoft to help you support Edge as well as previous versions of Internet Explorer. You can download Virtual Machines for Windows, Mac and Linux, test your sites on different browsers and scan your site for common coding patterns that could cause compatibility issues. Spend less time testing, and more time building what’s next.",
     "logo": "/assets/img/sponsors/edge.svg"
+  },
+  "evident": {
+    "name": "Evident.io",
+    "url": "//www.evident.io",
+    "description": "Evident.io is the security platform of choice for companies protecting workloads on AWS, providing a continuous, real-time security engine that delivers the fastest time to detect and remediatie cloud infrastructure security risks. We help companies accelerate workloads to the cloud, securely.",
+    "logo": "/assets/img/sponsors/evident.svg"
   }
 }
