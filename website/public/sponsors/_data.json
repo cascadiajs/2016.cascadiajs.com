@@ -5,13 +5,13 @@
     "description": "Formidable is a Seattle-based consultancy and open-source shop, with an emphasis on React.js and Node.js. We consult, augment, and train to level-up teams and solve engineering problems with some of the country's top companies. We help organize popular meet-ups in Seattle, speak at conferences, write books, and are active in the OSS ecosystem, with many popular open-source projects. We are the React Experts, helping to build the modern web.",
     "logo": "/assets/img/sponsors/formidable.svg"
   },
-  "strong-loop": {
+  "strongloop": {
     "name": "Strong Loop",
     "url": "http://developer.ibm.com/apiconnect",
     "description": "At StrongLoop, an IBM company, we don’t just build products for Node, we help create it. StrongLoop was founded in 2013 by Node and io.js core committers Bert Belder and Ben Noordhuis. StrongLoop now maintains over 130 open source npm modules and sponsors the popular LoopBack and Express frameworks.",
     "logo": "/assets/img/sponsors/strongloop.svg"
   },
-  "ibm-design": {
+  "ibmdesign": {
     "name": "IBM Design",
     "url": "http://www.ibm.com/design",
     "description": "IBM is on a mission to create a sustainable culture of design and to bring a human-centered focus to thousands of product and service experiences. IBM Design is the new design organization based in Austin, Texas, where designers, engineers, and business leaders collaborate to help create a new way of working that will impact humanity in ways that matter and endure. When complete, this transformation will make IBM the largest product design organization in the world.",
