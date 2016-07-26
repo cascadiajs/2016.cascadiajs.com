@@ -94,5 +94,11 @@
     "url": "//www.sparkpost.com/",
     "description": "SparkPost is the email delivery service based on the Momentum platform from Message Systems. It provides the same deliverability, scalability and speed as we provide to the biggest senders in the world, in an easily integrated cloud solution. Combined with your language of choice, using the awesome, super-colossal power of our API couldn't be easier. Create an account, grab one of our client libraries, and get started quickly.",
     "logo": "/assets/img/sponsors/sparkpost.svg"
+  },
+  "mozilla": {
+    "name": "Mozilla",
+    "url": "//mozilla.com",
+    "description": "At Mozilla, we’re a global community of technologists, thinkers and builders working together so people worldwide can be informed contributors and creators of the Web. Our mission is to ensure the Internet is a global public resource, open and accessible to all, where individuals can shape their own experience and are empowered, safe and independent.",
+    "logo": "/assets/img/sponsors/mozilla.svg"
   }
 }
