@@ -13,15 +13,15 @@
   </tr>
   <tr>
     <td>Vancouver, BC HackerBus</td>
-    <td>AUG 2 6PM</td>
+    <td>AUG 2 1PM</td>
     <td>Semiahmoo Resort</td>
-    <td>7:30 PM</td>
+    <td>3PM</td>
   </tr>
   <tr>
     <td>Semiahmoo Resort</td>
     <td>AUG 6 11AM</td>
     <td>Vancouver, BC HackerBus return</td>
-    <td>12:30PM</td>
+    <td>1PM</td>
   </tr>
   <tr class="bg-danger">
     <td colspan="4">
