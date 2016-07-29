@@ -395,17 +395,17 @@
         "github": ""
       }
     },
-    "yoshua-wuyts": {
-      "name": "Yoshua Wuyts",
-      "avatar": "/assets/img/speakers/node/yoshua-wuyts.jpg",
+    "stephan-bonnemann": {
+      "name": "Stephan Bönnemann",
+      "avatar": "/assets/img/speakers/node/stephan-bonnemann.jpg",
       "talk": {
-        "title": "the anatomy of a Node server",
-        "description": "<p>Modularity is the beating heart of Unix. By creating tiny composable tools, bigger things can be achieved. Discovering these tools is no trivial task though. As is the case in Node: if you're building servers without using frameworks, which packages should you use?</p><p>Luckily there's a strong community of authors building, and maintaining packages that work around the common interface of require('http'). In this talk we'll cover the aspects that make for a strong Node application and the packages that will help you achieve that.</p>"
+        "title": "Greenkeeper – managing dependencies with confidence",
+        "description": "<p>Being able to chose from the 250.000 npm packages has genuinely revolutionised JavaScript development. Now that we live in a world where we can build software quickly by depending on many ready-made packages for all sorts of problems, our job is not only to continue to write our software, but also to manage the complexity that comes with a deep dependency tree.</p><p>As the saying goes, you can only improve what you can measure: how do you know what goes on in your software’s dependencies? Where and when do you have to make decisions about new feature updates, security issues, and what are the steps included to stay on top of all the changes that are going on?</p><p>Keeping everything static leads to decay in software quality and security, so it’s best to embrace change and find the best tools that help you manage this. Enter Greenkeeper – a service that keeps track of the changes in your dependency tree and gives you meaningful reports and one-click-solutions, when it is time to take action. You are always in charge of important decisions, while your chores are taken care of.</p><p>Greenkeeper is built on npm and GitHub and it’s free for Open Source projects and it is standing by to help you out.</p>"
       },
-      "cfp_url": "https://speak.cascadiafest.org/admin/talks/280",
+      "cfp_url": "",
       "contact": {
-        "twitter": "yoshuawuyts",
-        "github": ""
+        "twitter": "boennemann",
+        "github": "boennemann"
       }
     },
     "ivana-mcconnell": {
