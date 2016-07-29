@@ -42,13 +42,13 @@
   </tr>
   <tr>
     <td>PDX Union Station Amtrak</td>
-    <td>AUG 2 12pm</td>
+    <td>AUG 2 11:45am</td>
     <td>Seattle King Street Station Amtrak</td>
-    <td>3PM</td>
+    <td>3:50PM</td>
   </tr>
   <tr>
     <td>Seattle King Station HackerBus</td>
-    <td>AUG 2 3:30PM</td>
+    <td>AUG 2 4PM</td>
     <td>Semiahmoo Resort</td>
     <td>5:30PM</td>
   </tr>
@@ -60,7 +60,7 @@
   </tr>
   <tr>
     <td>Seattle King Street Station Amtrak</td>
-    <td>AUG 6 6PM</td>
+    <td>AUG 6 5:45PM</td>
     <td>PDX Union Station Amtrak</td>
     <td>10PM</td>
   </tr>
