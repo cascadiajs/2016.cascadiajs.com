@@ -12,7 +12,7 @@
     <th>Time</th>
   </tr>
   <tr>
-    <td>Vancouver, BC HackerBus</td>
+    <td>Waterfront Station on W Cordova St<br/></td>
     <td>AUG 2 1PM</td>
     <td>Semiahmoo Resort</td>
     <td>3PM</td>
@@ -20,7 +20,7 @@
   <tr>
     <td>Semiahmoo Resort</td>
     <td>AUG 6 11AM</td>
-    <td>Vancouver, BC HackerBus return</td>
+    <td>Waterfront Station on W Cordova St<br/></td>
     <td>1PM</td>
   </tr>
   <tr class="bg-danger">
