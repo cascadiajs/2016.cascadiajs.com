@@ -106,5 +106,23 @@
     "url": "//oddbird.net",
     "description": "",
     "logo": "/assets/img/sponsors/oddbird.svg"
+  },
+  "customerio": {
+    "name": "Customer.io",
+    "url": "//customer.io",
+    "description": "",
+    "logo": "/assets/img/sponsors/customerio.svg"
+  },
+  "indeed": {
+    "name": "Indeed",
+    "url": "http://www.indeed.com/",
+    "description": "",
+    "logo": "/assets/img/sponsors/indeed.svg"
+  },
+  "evergreen": {
+    "name": "The Evergreen State College",
+    "url": "http://evergreen.edu",
+    "description": "",
+    "logo": "/assets/img/sponsors/evergreen.svg"
   }
 }
