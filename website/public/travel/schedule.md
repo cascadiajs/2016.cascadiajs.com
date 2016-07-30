@@ -78,7 +78,7 @@
   </tr>
   <tr>
     <td>Seattle King Station HackerBus</td>
-    <td>August 2nd 3:30PM</td>
+    <td>August 2nd 4PM</td>
     <td>Semiahmoo Resort</td>
     <td>5:30PM</td>
   </tr>
