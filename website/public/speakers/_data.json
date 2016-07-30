@@ -441,7 +441,7 @@
     },
     "ivana-mcconnell": {
       "name": "Ivana McConnell",
-      "bio": "",
+      "bio": "I was born in Sarajevo, in the former Yugoslavia, to a civil engineer-turned-translator and a UN Logistics Officer-turned-software engineer. I live in Vancouver now, but have lived in Croatia, Toronto, and Scotland, from where I dragged my wife and jack russell to Canada with me. I've worked as a rock climbing instructor and video game tester. I learned front-end development on Neopets, and now think a lot about the internet, design, and how we form our identities on them. My personal site is at http://ivanamcconnell.com, and I also run Facets Digest (http://the-facets.com) and Origins (http://our-origins.com).",
       "avatar": "/assets/img/speakers/node/ivana-mcconnell.jpg",
       "talk": {
         "title": "Our Identities Have No Bodies: Web, Code, and Self-Exploration",
@@ -455,7 +455,7 @@
     },
     "alejandro-oviedo": {
       "name": "Alejandro Oviedo",
-      "bio": "",
+      "bio": "Alejandro is a developer who loves learning new things. He is passionate about education, electronics, open-source, and community-driven events. These days, he also helps organize NodeConf Argentina and a local Node.js meetup.",
       "avatar": "/assets/img/speakers/node/alejandro-oviedo.jpg",
       "talk": {
         "title": "Demystifying (JavaScript) engines",
@@ -469,7 +469,7 @@
     },
     "nwokedi-idika": {
       "name": "Nwokedi Idika",
-      "bio": "",
+      "bio": "Dr. Nwokedi Idika has nearly a decade of security research experience. After graduating summa cum laude from the University of Maryland Baltimore County with a B.S. in Computer Science in 2005, he joined Purdue Universityâ€™s Center for Education and Research in Information Assurance and Security (CERIAS). While there, he began with a focus in malware detection and eventually migrated to a focus in security metrics, which ultimately became the focus of his dissertation. He joined what is now MIT Lincoln Laboratoryâ€™s Cyber Security Division in 2011 where he invented algorithms to model, assess, and predict security-relevant phenomena. In addition to algorithm design and development, he also led multiple teams in building prototypes to address cyber security problems of national interest. In April 2014, Dr. Idika joined Shape Security as a Senior Research Scientist.",
       "avatar": "/assets/img/speakers/node/nwokedi-idika.jpg",
       "talk": {
         "title": "Demystifying the Darknet in 30 Minutes or Less",
@@ -483,7 +483,7 @@
     },
     "mariko-kosaka": {
       "name": "Mariko Kosaka",
-      "bio": "",
+      "bio": "Mariko is an engineer who loves data and knitting. When she is not making a software at Scripto, she uses code to help her design textiles &amp; organize a local JavaScript meetup in New York City called BrooklynJS.",
       "avatar": "/assets/img/speakers/node/mariko-kosaka.jpg",
       "talk": {
         "title": "Making a Robot Eye with JavaScript - or Magic of Computer Vision Unraveled",
