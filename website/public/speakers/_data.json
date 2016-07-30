@@ -2,6 +2,7 @@
   "css": {
     "alan-stearns": {
       "name": "Alan Stearns",
+      "bio": "CSS Panjandrum at Adobe Systems. Co-chair of the CSS Working Group. Editor of several CSS specifications, including CSS Shapes",
       "avatar": "/assets/img/speakers/css/alan-stearns.jpg",
       "talk": {
         "title": "Becoming Responsible for CSS",
@@ -15,6 +16,7 @@
     },
     "alice-bartlett": {
       "name": "Alice Bartlett",
+      "bio": "Alice Bartlett | alicebartlett.co.uk Senior Developer at the Financial Times / Lead for the Origami team, a team for promoting frontend standards and building and maintaining the component system used by developers at the Financial Times",
       "avatar": "/assets/img/speakers/css/alice-bartlett.jpg",
       "talk": {
         "title": "“Can't you just make it more like Bootstrap” | Considerations for creating a component system",
@@ -28,6 +30,7 @@
     },
     "clarissa-peterson": {
       "name": "Clarissa Peterson",
+      "bio": "Clarissa Peterson is a UX designer and web developer based in Calgary, Alberta. She frequently speaks and gives workshops on responsive design and user experience, and also teaches in the web developer fast track program at the Southern Alberta Institute of Technology (SAIT). Clarissa is the author of Learning Responsive Web Design: A Beginner's Guide (O'Reilly Media, 2014). Currently she works as a UX manager at ICE Health Systems.",
       "avatar": "/assets/img/speakers/css/clarissa-peterson.jpg",
       "talk": {
         "title": "Creating Beautiful, Accessible, and User-Friendly Forms",
@@ -41,6 +44,7 @@
     },
     "gregor-martynus": {
       "name": "Gregor Martynus",
+      "bio": "Unsatisfied with the status quo of how we build apps, Gregor dreamed up a world were we can [stop thinking about backends](https://vimeo.com/67553019) â€“ and has been building it ever since with his friends at [Hoodie](http://hood.ie/). Along the way they created a [diverse &amp; inclusive community](https://opensource.com/life/16/2/hoodie-open-source-community), started [Offline First](http://offlinefirst.org) and are really into automating all the JavaScript things with [semantic-release](https://www.npmjs.com/package/semantic-release) and [Greenkeeper](http://greenkeeper.io).",
       "avatar": "/assets/img/speakers/css/gregor-martynus.jpg",
       "talk": {
         "title": "Welcoming Communities",
@@ -54,6 +58,7 @@
     },
     "james-steinbach": {
       "name": "James Steinbach",
+      "bio": "I'm a Chicago native currently living near the mountains of Denver after a long sojourn in the Carolinas. When I'm not building websites, I love to read Clancy, Crichton, Baldacci, etc. I'm usually up for a good laugh: Brooklyn 99, Mindy Project, Tonight Show, Late Show. Time with my wife Audrey &amp; newborn daughter is always a delight. And I rarely say no to fantastic food &amp; drink. When I am building websites, I love developing clever animations: motion is one of the best ways to delight users and help them understand their interaction with content. I want to make content accessible to every user, so responsive design is a must. I also want to keep things organized for future me or future developers, so I'm using Sass as much as possible to keep style code clean and light. jamessteinbach.com",
       "avatar": "/assets/img/speakers/css/james-steinbach.jpg",
       "talk": {
         "title": "Using Sass &amp; PostCSS Together",
@@ -67,6 +72,7 @@
     },
     "justin-mcdowell": {
       "name": "Justin McDowell",
+      "bio": "Justin McDowell leads the visual design and front-end development for the Evergreen State College in Olympia, Washington. Before that, he worked for the Arbor Day Foundation and founded Ignite Lincoln, where he directed four sold-out shows. His proudest accomplishment, however, is a space-opera theme song he wrote for his corgi. He has spoken before about better use of color on the web at Seattle Refresh, [Devsigner Conference](http://2015.devsignercon.com/conference/sessions/painting-perfect-sunset-better-colors-web "Painting The Perfect Sunset: Better Colors For The Web"), and the [Portland Sass Meetup](http://revoltpuppy.com/articles/74/painting-the-perfect-sunset-at-the-portland-sass-meetup "Painting The Perfect Sunset At The Portland Sass Meetup") and has written two articles for [A List Apart](http://alistapart.com/author/ragdoll "A List Apart Author: Justin McDowell").",
       "avatar": "/assets/img/speakers/css/justin-mcdowell.jpg",
       "talk": {
         "title": "Bauhaus in the Browser",
@@ -80,6 +86,7 @@
     },
     "lourdes-montano": {
       "name": "Lourdes Montano",
+      "bio": "Frontend developer with a great passion for CSS and new technologies. Co-organizer of CSSconf Argentina and BA Frontend Meetup",
       "avatar": "/assets/img/speakers/css/lourdes-montano.jpg",
       "talk": {
         "title": "Learning and feeling overwhelmed: methods to organize your learning process in CSS",
@@ -93,6 +100,7 @@
     },
     "mike-kivikoski": {
       "name": "Mike Kivikoski",
+      "bio": "Mike Kivikoski is a Designer at Cantina, www.cantina.co, and a co-host of the Design, Build, Test, Repeat podcast, http://dbtr.fm . He has a video series with O'Reilly books, â€œUI Introduction for Engineersâ€, and has spoken at Great Wide Open, HTML5 Developer Conference, BostonCSS, Full Stack Toronto, Full Stack NH, Creative Mornings, Boston Ignite, Refresh Boston, and Harvard. Prior to joining Cantina, Mike spent 5 years running his own digital consultancy, along with teaching as an Adjunct Professor at Endicott College.",
       "avatar": "/assets/img/speakers/css/mike-kivikoski.jpg",
       "talk": {
         "title": "CSS Pseudo – :hover, ::after and beyond",
@@ -106,6 +114,7 @@
     },
     "miriam-suzanne": {
       "name": "Miriam Suzanne",
+      "bio": "Miriam Eric Suzanne is an author, performer, musician, designer, and web developer. She is the author of “[Riding SideSaddle*](http://ridingsidesaddle.com)” and “[The Post-Obsolete Book](http://miriamsuzanne.com/post-obsolete)”, co-author of Buntport Theater's “10 Myths on the Proper Application of Beauty Products” and SitePoint's “[Jump Start Sass](https://www.sitepoint.com/premium/books/jump-start-sass)”, and creator of the [Accoutrement](http://oddbird.net/accoutrement), [Susy](http://susy.oddbird.net/), and [True](http://oddbird.net/true) open-source toolkits. Miriam creates web software with [OddBird](http://oddbird.net/), soundscapes with [Teacup Gorilla](http://teacupgorilla.com), words with [WriteyWrite], lego spaceships with anyone around, and performance art with [Vicious Trap](http://vicioustrap.com.",
       "avatar": "/assets/img/speakers/css/miriam-suzanne.jpg",
       "talk": {
         "title": "Code Patterns for Pattern-Making",
@@ -119,6 +128,7 @@
     },
     "natalya-shelburne": {
       "name": "Natalya Shelburne",
+      "bio": "Natalya Shelburne is a classically trained fine artist who spent 6 years lecturing and teaching people how to paint, draw, and grow their creativity. Upon realizing that the Renaissance had in fact already ended, she decided to join the modern world and is now a front end developer. Natalya works to blur the line between designer and developer by sharing and updating old school design theory for the web. Crossing domains is a passion - in addition to a degree in Studio Art, she has a bachelor's in Developmental Psychology and a master's degree in Creativity and Talent Development, and works to weave interesting facts about how our brains work, learn, and develop into every talk. When she is not writing code, she is drawing, cooking, traveling, or drinking tea.",
       "avatar": "/assets/img/speakers/css/natalya-shelburne.jpg",
       "talk": {
         "title": "Practical color theory for people who code",
@@ -132,6 +142,7 @@
     },
     "stephanie-hobson": {
       "name": "Stephanie Hobson",
+      "bio": "Stephanie has been coding since 1998 for websites big and small. HTML, CSS, and JavaScript have always been her passion so her interests naturally extend to web standards, progressive enhancement, performance, analytics, and accessibility. She'â€™'s currently working as front-end dev for the Mozilla Developer Network.",
       "avatar": "/assets/img/speakers/css/stephanie-hobson.jpg",
       "talk": {
         "title": "Flipping Tables: Displaying Data on Small Screens",
@@ -145,6 +156,7 @@
     },
     "tyler-sticka": {
       "name": "Tyler Sticka",
+      "bio": "Tyler Sticka leads the Design Practice at [Cloud Four](http://cloudfour.com/), where he helps vanquish complex responsive design challenges for clients like Walmart Labs while [blogging about SVG and other web ephemera](http://blog.cloudfour.com/author/tyler/). He's also a fan of side projects, co-founding [Backabit](http://backabit.com/) (makers of iOS games like [Ramps](http://playramps.com/) and [Lotsa Blocks](http://lotsablocks.com/)) and launching [Colorpeek](http://colorpeek.com/) (and [its accompanying Chrome extension](https://css-tricks.com/colorpeek-part-2-building-first-chrome-extension/)) in his spare time. He complains about mail apps on Twitter as [@tylersticka](https://twitter.com/tylersticka).",
       "avatar": "/assets/img/speakers/css/tyler-sticka.jpg",
       "talk": {
         "title": "SVG: So Very Good",
@@ -160,6 +172,7 @@
   "browser": {
     "rebecca-murphey": {
       "name": "Rebecca Murphey",
+      "bio": "I am a software engineer at Indeed. I speak and write frequently about JavaScript, front-end ops, and best practices.",
       "avatar": "/assets/img/speakers/browser/rebecca-murphey.jpg",
       "talk": {
         "title": "Making it better without making it over",
@@ -173,6 +186,7 @@
     },
     "sarah-meyer": {
       "name": "Sarah Meyer",
+      "bio": "I'm a native New Yorker and full stack web developer who's spent her career at VC-backed startups. I love web standards, opera, and teaching people to code.",
       "avatar": "/assets/img/speakers/browser/sarah-meyer.jpg",
       "talk": {
         "title": "JavaScript Minus JavaScript",
@@ -186,6 +200,7 @@
     },
     "tara-sdlf": {
       "name": "Tara Scherner de la Fuente",
+      "bio": "Tara is a software engineer at LivingSocial after previous careers in academia, human resources, and private investigation. She also has an extensive t-shirt collection and doubles as a goat for @GoatUserStories. She purr programs with her cat Lulu via a remote/distributed/caffeinated office in Portland, Oregon.",
       "avatar": "/assets/img/speakers/browser/tara-sdlf.jpg",
       "bio": "Tara is a Ruby developer who currently codes at Roostify. Previously at LivingSocial, she has had careers in academia, human resources, and private investigation. She has an expansive t-shirt collection, and masquerades as a goat for @GoatUserStories. She purr programs with her cat Lulu via a remote/distributed/caffeinated living room office in Portland, Oregon.",
       "talk": {
@@ -200,6 +215,7 @@
     },
     "evan-you": {
       "name": "Evan You",
+      "bio": "Evan is a designer and developer passionate about building great user experiences. He is the creator of Vue.js, and previously worked at Meteor and Google Creative Lab. Evan holds a Masters of Fine Arts in Design &amp; Technology from Parsons.",
       "avatar": "/assets/img/speakers/browser/evan-you.jpg",
       "talk": {
         "title": "Demystifying Frontend Framework Performance",
@@ -213,6 +229,7 @@
     },
     "seth-samuel": {
       "name": "Seth Samuel",
+      "bio": "Seth is a full stack developer with 12+ years of experience. He's survived multiple startups, and has been using WebGL in production since before that was a good idea. Currently he's the New York Associate Director of Engineering at Originate, a digital product development and venture firm.",
       "avatar": "/assets/img/speakers/browser/seth-samuel.jpg",
       "talk": {
         "title": "Arbitrary Computation on the GPU Using WebGL",
@@ -226,6 +243,7 @@
     },
     "dale-bustad": {
       "name": "Dale Bustad",
+      "bio": "I'm a software engineer working at Formidable in Seattle, WA.  I draw strong motivation from solving puzzles, and am constantly looking for new ways to approach and think about problems.  I also love people. In a break from my work in technology, I spent two years in the Philippines working with children impacted by HIV/AIDS.",
       "avatar": "/assets/img/speakers/browser/dale-bustad.jpg",
       "talk": {
         "title": "Embrace HTTP/2 Server Push",
@@ -239,6 +257,7 @@
     },
     "noah-adams": {
       "name": "Noah Adams",
+      "bio": "Noah is a software engineer at Mobify. He cut his teeth doing scientific software development at Simon Fraser Univeristy and Apple. For the last several years he has been writing software to help improve mobile user experience by whatever means possible at Mobify. Noah likes closures, dynamic dispatch and side-effect free modules. When not cutting code, he's been known to spend countless hours scanning film negatives to justify how many photos he takes the old fashioned way. ",
       "avatar": "/assets/img/speakers/browser/noah-adams.jpg",
       "talk": {
         "title": "Scripting in the 3rd party: True tales of horror and hope from other people's pages",
@@ -252,6 +271,7 @@
     },
     "nolan-lawson": {
       "name": "Nolan Lawson",
+      "bio": "",
       "avatar": "/assets/img/speakers/browser/nolan-lawson.jpg",
       "talk": {
         "title": "Demystifying Web Workers and Service Workers",
@@ -265,6 +285,7 @@
     },
     "liz-abinante": {
       "name": "Liz Abinante",
+      "bio": "Liz Abinante is an engineer living in Portland working for New Relic. She is infectiously enthusiastic about web development, teaching, learning, and feminism. She enjoys speaking at conferences, knitting, sewing, and a hacking away on interesting problems. Her greatest dream in life is to spend her entire day surrounded by puppies while coding, which led her to foolishly own two dogs and lots of clothing covered in fur. She swears she's a lot more interesting than this bio makes her sound. She's often been compared to cartoon characters due to her enormous personality and penchant for sing/dancing her way through life.",
       "avatar": "/assets/img/speakers/browser/liz-abinante.jpg",
       "talk": {
         "title": "In Defense of Static Sites",
@@ -278,6 +299,7 @@
     },
     "marcy-sutton": {
       "name": "Marcy Sutton",
+      "bio": "Marcy Sutton is a Senior Front-End Engineer at Deque Systems, where she works on the aXe-core team focusing on APIs and integrations for accessibility testing. Marcy is passionate about making the web accessible for everyone. She is a core team member and active contributor to Angular, where she regularly brings her accessibility expertise to the table. Her blog, Accessibility Wins, highlights accessible user interfaces and tools, contributing a positive voice to the web development space. Marcy is also co-organizer to the Seattle chapter of Girl Develop It, a nonprofit that encourages women to learn about software.",
       "avatar": "/assets/img/speakers/browser/marcy-sutton.jpg",
       "talk": {
         "title": "Where in the Stack is Carmen Sanfrancisco?",
@@ -291,6 +313,7 @@
     },
     "rachel-white": {
       "name": "Rachel White",
+      "bio": "Rachel is a self-taught Front End Engineer for IBM Watson. She is currently working on multiple video game projects, a VR cat cafe, and thinking about what IoT devices she can build for her two black cats. Her other interests include glitch art, 80s horror, and indie games.",
       "avatar": "/assets/img/speakers/browser/rachel-white.jpg",
       "talk": {
         "title": "JavaScript as Play: A primer on getting started with video games",
@@ -304,6 +327,7 @@
     },
     "thomas-wilburn": {
       "name": "Thomas Wilburn",
+      "bio": "Thomas Wilburn is a news developer for The Seattle Times, where he builds artisanal, small-batch interactives and data visualizations for the newsroom. He's also the primary developer for Caret, a web-based text editor that runs on Chrome and Chrome OS.",
       "avatar": "/assets/img/speakers/browser/thomas-wilburn.jpg",
       "talk": {
         "title": "Custom elements in production",
@@ -319,6 +343,7 @@
   "node": {
     "bill-automata": {
       "name": "Bill Automata",
+      "bio": "Net artist, currently focused on the intersection of privacy and SVG. A founding organizer of the [PDX Creative Coders](http://www.meetup.com/PDX-Creative-Coders/). Product Design lead for a cloud security firm, Evident.io. [Personal Website](http://creative-co.de) &amp; [My Github](https://github.com/billautomata/)",
       "avatar": "/assets/img/speakers/node/bill-automata.jpg",
       "talk": {
         "title": "require('crypto') is a human right",
@@ -332,6 +357,7 @@
     },
     "pawel-szymczykowski": {
       "name": "Pawel Szymczykowski",
+      "bio": "Pawel Szymczykowski is a hacker / maker type out of Las Vegas. His day job is making software for Wedgies. When not doing that, he also likes to make things out of wood, plastic, metal and electrons. He is a VegasJS organizer and likes to go on adventures whenever possible.",
       "avatar": "/assets/img/speakers/node/pawel-szymczykowski.jpg",
       "talk": {
         "title": "Why did the robot cross the road? Computer vision, robots and mobile games.",
@@ -345,6 +371,7 @@
     },
     "safia-abdalla": {
       "name": "Safia Abdalla",
+      "bio": "Safia runs [dsfa](http://dsfa.io), a consulting agency that provides data science services to small business and non-profits. She also organizes [PyData Chicago](http://chicago.pydata.org), a community for open-source and data science enthusiasts. She enjoys coffee, data science for social good, and making the world a better place. She can be found as @captainsafia on [GitHub](https://github.com/captainsafia) and [Twitter](https://twitter.com/captainsafia).",
       "avatar": "/assets/img/speakers/node/safia-abdalla.jpg",
       "talk": {
         "title": "The Hitchhiker's Guide to All Things Memory in Javascript",
@@ -358,6 +385,7 @@
     },
     "russell-hay": {
       "name": "Russell Hay",
+      "bio": "I will not be flying in since I live in Seattle",
       "avatar": "/assets/img/speakers/node/russell-hay.jpg",
       "talk": {
         "title": "Happy Sparkle Glitter Fun Zone - LEDs and JavaScript",
@@ -371,6 +399,7 @@
     },
     "jenn-turner": {
       "name": "Jenn Turner",
+      "bio": "Jenn Turner is currently in the babyhood of her adulthood. She lives in Brooklyn, New York with her daughter and extensive collection of wool socks. Formerly of [&amp;yet](https://andyet.com/), she co-organized the [Realtime Conference](http://experience.realtimeconf.com/), the first [RedisConf](http://redisconference.com/), [&amp;yetConf](http://andyetconf.com/) and [TriConf](http://triconf.com/). Currently she helps teams and organizations like [Hoodie](http://hood.ie/) and [Apache CouchDB](http://couchdb.apache.org/) create signature publications. Sheâ€™s also leading the [Hoodie editorial team](https://github.com/hoodiehq/editorial) and believes __open source is for everyone__. [Jenn Turner](https://twitter.com/jennwrites) is a writer, editor, and technologist. ",
       "avatar": "/assets/img/speakers/node/jenn-turner.jpg",
       "talk": {
         "title": "Open Source beyond software",
@@ -384,6 +413,7 @@
     },
     "bryan-hughes": {
       "name": "Bryan Hughes",
+      "bio": "Bryan Hughes is a Node.js engineer at Microsoft. Bryan is the creator of [Raspi IO](https://github.com/nebrius/raspi-io/), a Raspberry Pi plugin for [Johnny-Five](http://johnny-five.io), a JavaScript robotics library. He also runs the [NodeBots SF](http://www.meetup.com/nodebotssf/) robotics meetup in San Francisco. Bryan is an active member of the [Node.js Inclusivity Working Group](https://github.com/nodejs/inclusivity/) and [Node.js Hardware Working Group](https://github.com/nodejs/hardware/). Outside of tech, Bryan is an [amateur photographer](http://500px.com/nebrius), a once upon a time pianist, and a wine aficionado.",
       "avatar": "/assets/img/speakers/node/bryan-hughes.jpg",
       "talk": {
         "title": "API Design Through the Lens of Photography",
@@ -397,6 +427,7 @@
     },
     "stephan-bonnemann": {
       "name": "Stephan Bönnemann",
+      "bio": "",
       "avatar": "/assets/img/speakers/node/stephan-bonnemann.jpg",
       "talk": {
         "title": "Greenkeeper – managing dependencies with confidence",
@@ -410,6 +441,7 @@
     },
     "ivana-mcconnell": {
       "name": "Ivana McConnell",
+      "bio": "",
       "avatar": "/assets/img/speakers/node/ivana-mcconnell.jpg",
       "talk": {
         "title": "Our Identities Have No Bodies: Web, Code, and Self-Exploration",
@@ -423,6 +455,7 @@
     },
     "alejandro-oviedo": {
       "name": "Alejandro Oviedo",
+      "bio": "",
       "avatar": "/assets/img/speakers/node/alejandro-oviedo.jpg",
       "talk": {
         "title": "Demystifying (JavaScript) engines",
@@ -436,6 +469,7 @@
     },
     "nwokedi-idika": {
       "name": "Nwokedi Idika",
+      "bio": "",
       "avatar": "/assets/img/speakers/node/nwokedi-idika.jpg",
       "talk": {
         "title": "Demystifying the Darknet in 30 Minutes or Less",
@@ -449,6 +483,7 @@
     },
     "mariko-kosaka": {
       "name": "Mariko Kosaka",
+      "bio": "",
       "avatar": "/assets/img/speakers/node/mariko-kosaka.jpg",
       "talk": {
         "title": "Making a Robot Eye with JavaScript - or Magic of Computer Vision Unraveled",
@@ -462,6 +497,7 @@
     },
     "brock-whitten": {
       "name": "Brock Whitten",
+      "bio": "",
       "avatar": "/assets/img/speakers/node/brock-whitten.jpg",
       "talk": {
         "title": "To the Moon! - Overcoming latency for fun and adventure.",
