@@ -48,4 +48,68 @@
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/news.js"></script>
 
+<script>
+  function startCaptions() {
+    $('#caption').each(function () {
+      var defaults = {
+          "ff": "Verdana,sans-serif",
+          "fs": "18",
+          "fgc": "ffffff",
+          "bgc": "1C2E4C",
+          "header": true,
+          "controls": false,
+          "footer": false,
+          "chat": false
+        },
+        options = $.extend({}, defaults, JSON.parse(localStorage['captionOptions'] || '{}')),
+        queryString = 'event=CascadiaFest2016&' + (function (params) {
+          var chunks = [];
+          for(var key in params) {
+            chunks.push(key + '=' + params[key]);
+          }
+          return chunks.join('&');
+        })(options),
+        url = 'http://www.streamtext.net/player?' + queryString;
+      localStorage['captionOptions'] = JSON.stringify(options);
+      queryString = queryString
+      console.log('Current captioning options')
+      console.log(options);
+      $(this).attr('src', url);
+    });
+  }
+  console.log('You can customize captions by setting an object `localStorage["captionOptions"]`.');
+  console.log('Make sure to json encode it and then run startCaptions()');
+
+  startCaptions();
+
+  function toggleCaptionHeader() {
+    var options = JSON.parse(localStorage.getItem('captionOptions') || '{}');
+    options.header = !options.header;
+    localStorage.setItem('captionOptions', JSON.stringify(options));
+    console.log(options);
+    startCaptions();
+  }
+
+  function toggleCaptionColors() {
+    var options = JSON.parse(localStorage.getItem('captionOptions') || '{}');
+    var temp = options.bgc;
+    options.bgc = options.fgc;
+    options.fgc = temp;
+    localStorage.setItem('captionOptions', JSON.stringify(options));
+    startCaptions();
+  }
+
+  function resetCaptions() {
+    localStorage.setItem('captionOptions', '{}');
+    startCaptions();
+  }
+
+  function getQueryParam(url, name) {
+      name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+      var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+          results = regex.exec(url);
+      return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+</script>
+
 <script src="http://news.cascadiafest.org/2016/news/list.js"></script>
