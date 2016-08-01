@@ -13,9 +13,9 @@
   </tr>
   <tr>
     <td>Waterfront Station on W Cordova St<br/></td>
-    <td>AUG 2 1PM</td>
+    <td>AUG 2 3PM</td>
     <td>Semiahmoo Resort</td>
-    <td>3PM</td>
+    <td>6PM</td>
   </tr>
   <tr>
     <td>Semiahmoo Resort</td>
