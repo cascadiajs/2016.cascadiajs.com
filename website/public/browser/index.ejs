@@ -1,17 +1,6 @@
+<%- partial("browser-header") %>
 
 <main id="" class="conf-day no-padding">
-
-  <div id="hero">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-xs-12 text-xs-center center-block">
-            <h2>CascadiaJS</h2>
-            <h1>Browser Day</h1>
-          </div>
-        </div>
-      </div>
-  </div>
-
   <div class="conf-nav">
     <div class="container-fluid">
       <div class="row">
@@ -27,27 +16,6 @@
 
   <%- partial("_schedule") %>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12">
-
-        <div class="container sp-logos">
-          <div class="row">
-
-            <% for(var key in public.sponsors._data) { %>
-              <div class="col-xs-6 col-lg-4">
-                <article class="sp-block pt1 pb2">
-                  <a href="<%- public.sponsors._data[key].url %>">
-                  <img src="<%- public.sponsors._data[key].logo %>" class="sp-logo">
-                  </a>
-                </article>
-              </div>
-            <% } %>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
 </main>
+
+<%- partial("../_partials/all-sponsors") -%>

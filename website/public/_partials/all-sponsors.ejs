@@ -1,0 +1,25 @@
+<div id="sponsors" class="sp-logos">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h3 class="pb1 text-xs-center">Sponsors</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <% for(var id in public.sponsors._data) { %>
+      <div class="col-xs-6 col-sm-4">
+        <div class="sp-block">
+          <a href="<%- public.sponsors._data[id].url %>" rel="nofollow">
+            <img class="" src="<%- public.sponsors._data[id].logo %>" alt="<%- public.sponsors._data[id].name %>" />
+          </a>
+        </div>
+      </div>
+      <% } %>
+      <hr>
+      <div class="col-xs-12 text-sm-center">
+        <a href="/sponsors/" class="btn btn-primary">See all of our great sponsors <i class="fa fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>

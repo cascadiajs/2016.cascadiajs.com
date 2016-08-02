@@ -23,6 +23,11 @@ To deploy:
 ```sh
 npm run deploy
 ```
+To stage:
+
+```sh
+npm run stage
+```
 
 ## Made By
 

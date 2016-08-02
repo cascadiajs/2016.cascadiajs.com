@@ -116,7 +116,7 @@ iframe#captions
 
 #captions-mini
   #captions
-    min-height: 26em;
+    min-height: 26em
 
 #hero-message
   padding-bottom: 4rem
@@ -203,3 +203,28 @@ footer
   padding-top: 4em
   padding-bottom: 4em
   background: white
+
+#alt-hero
+  background-color: $primary-green-darker
+  background-image: url('../img/nature/small-tree-tops.svg')
+  background-position: bottom center
+  background-repeat: repeat-x
+  padding-top: 1.5rem
+  padding-bottom: 1.5rem
+  margin-bottom: 1rem
+  h1
+    color: white
+    font-size: 4rem
+    font-family: 'MicrobrewUnicaseTwo', sans-serif
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+    @include media-breakpoint-up(sm)
+      font-size: 5rem
+      font-family: 'MicrobrewUnicaseTwoD', sans-serif
+
+    @include media-breakpoint-up(md)
+      font-size: 6rem
+
+    @include media-breakpoint-up(lg)
+      font-size: 8rem
