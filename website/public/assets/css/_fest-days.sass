@@ -1,0 +1,88 @@
+//
+// Styles for each of the FEST days
+
+
+
+
+
+
+//
+// CSS DAY
+#hero
+  &.css-day
+    background-color: $primary-purple
+    background-image: url('../img/nature/css-small-tree-tops.svg')
+    background-position: bottom center
+    background-repeat: repeat-x
+
+    span.label-primary
+      background-color: $primary-purple-dark
+
+  &.browser-day
+    background-color: $primary-blue
+    background-image: url('../img/nature/browser-small-tree-tops.svg')
+    background-position: bottom center
+    background-repeat: repeat-x
+
+    span.label-primary
+      background-color: $primary-blue-dark
+
+  &.node-day
+    background-color: $primary-green-light
+    background-image: url('../img/nature/node-small-tree-tops.svg')
+    background-position: bottom center
+    background-repeat: repeat-x
+
+    span.label-primary
+      background-color: $primary-green-darker
+
+  &.css-day,
+  &.browser-day,
+  &.node-day
+    padding-top: 2rem
+    min-height: 300px
+
+    h1
+      color: white
+      margin-bottom: 1rem
+
+    h2
+      margin: 2rem 0 0
+      font-size: 2rem
+      color: white
+      font-family: 'Nanami-Rounded-Med', sans-serif
+
+      @media screen and (min-width: 380px)
+        font-size: 3rem
+
+      @media screen and (min-width: 480px)
+        font-size: 4rem
+
+      @media screen and (min-width: 720px)
+        font-size: 5rem
+
+    span.label-primary
+      padding: 0.75rem 0.75rem 0.5rem
+      @include media-breakpoint-up(md)
+        padding: 0.75rem 1.65rem 0.5rem
+        font-size: 1.5em
+
+#hero-message
+  &.css-day
+    background-color: $primary-purple-dark
+    background-image: url('../img/nature/css-hills.svg')
+
+  &.browser-day
+    background-color: $primary-blue-dark
+    background-image: url('../img/nature/browser-hills.svg')
+
+  &.node-day
+    background-color: $primary-green-darker
+    background-image: url('../img/nature/node-hills.svg')
+
+//
+// BROWSER DAY
+
+
+//
+// NODE DAY

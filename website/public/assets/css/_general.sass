@@ -91,19 +91,29 @@ main
 
   &.conf-day
     .conf-nav
+      margin: 1rem 0
       font-family: $sans-serif
+      a
+        display: block
+        padding: 1rem
+        text-decoration: none
+        color: white
     .conf-css
-      background: $primary-purple
       a
-        color: white
+        background: $primary-purple
+        &:hover
+          background: $primary-purple-dark
     .conf-browser
-      background: $primary-blue
       a
-        color: white
+        background: $primary-blue
+        &:hover
+          background: $primary-blue-dark
     .conf-node
-      background: $primary-green
       a
-        color: white
+        background: $primary-green-light
+        &:hover
+          background: $primary-green-darker
+
     .speaker
       text-transform: uppercase
       font-family: $sans-serif
