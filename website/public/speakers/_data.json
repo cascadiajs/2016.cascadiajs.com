@@ -213,20 +213,6 @@
         "github": ""
       }
     },
-    "evan-you": {
-      "name": "Evan You",
-      "bio": "Evan is a designer and developer passionate about building great user experiences. He is the creator of Vue.js, and previously worked at Meteor and Google Creative Lab. Evan holds a Masters of Fine Arts in Design &amp; Technology from Parsons.",
-      "avatar": "/assets/img/speakers/browser/evan-you.jpg",
-      "talk": {
-        "title": "Demystifying Frontend Framework Performance",
-        "description": "<p>Developers often consider performance an important factor when choosing frameworks, however it is often not so straightforward when trying to measure the performance of a framework. In this talk I am going to walk the audience through the techniques used in major frontend frameworks - namely dirty checking, virtual-dom diffing and dependency-tracking. I will also compare them in different use case scenarios to give users a balanced idea of how each strategy performs under different circumstances.</p>"
-      },
-      "cfp_url": "https://speak.cascadiafest.org/admin/talks/46",
-      "contact": {
-        "twitter": "youyuxi",
-        "github": ""
-      }
-    },
     "seth-samuel": {
       "name": "Seth Samuel",
       "bio": "Seth is a full stack developer with 12+ years of experience. He's survived multiple startups, and has been using WebGL in production since before that was a good idea. Currently he's the New York Associate Director of Engineering at Originate, a digital product development and venture firm.",
