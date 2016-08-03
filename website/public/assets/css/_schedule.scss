@@ -76,7 +76,14 @@
     .max-height {
       height: 50px; }
     .max-width {
+      width: 100%;
       max-width: 180px; }
-  }
 
+    &.break-wrap {
+      display: inline-block;
+      clear: both;
+      background-color: white;
+      padding: .5rem 1rem;
+    }
+  }
 }
