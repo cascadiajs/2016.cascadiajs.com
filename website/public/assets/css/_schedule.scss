@@ -74,6 +74,7 @@
   .schedule-sponsor-logo {
 
     .max-height {
+      max-width: 100%;
       height: 50px; }
     .max-width {
       width: 100%;
@@ -83,7 +84,7 @@
       display: inline-block;
       clear: both;
       background-color: white;
-      padding: .5rem 1rem;
+      padding: .75rem;
     }
   }
 }
