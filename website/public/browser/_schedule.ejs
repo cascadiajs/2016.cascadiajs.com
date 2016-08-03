@@ -1,12 +1,14 @@
-<div id="schedule" class="day-schedule container-fluid">
+<div id="schedule" class="day-schedule browser-schedule container-fluid">
 
   <div class="row">
     <div class="col-xs-12 col-sm-6">
-      <h2 class="first-title">Schedule <small>brought to you by</small></h2>
-
+      <header>
+        <h2>Schedule</h2>
+        <h3>brought to you by</h3>
+      </header>
 
       <a href="<%- public.sponsors._data.formidable.url %>">
-        <img src="<%- public.sponsors._data.formidable.logo %>" height="75"/>
+        <img src="<%- public.sponsors._data.formidable.logo %>" class="track-sponsor" />
       </a>
     </div>
   </div>
@@ -77,8 +79,8 @@
                   <a class="btn btn-success btn-sm" href="https://ti.to/event-loop/cascadiafest-2016/with/bxd-guch-jo">RSVP</a>
                 </p>
 
-                <a href="<%- public.sponsors._data.newrelic.url %>">
-                  <img src="<%- public.sponsors._data.newrelic.logo %>" height="24">
+                <a href="<%- public.sponsors._data.newrelic.url %>" class="schedule-sponsor-logo">
+                  <img src="<%- public.sponsors._data.newrelic.logo %>" class="max-width" />
                 </a>
               </div>
             </div>
@@ -120,7 +122,7 @@
                   </button>
                 </h4>
                 <p>
-                  NodeJS Application Performance & Troubleshooting 101 (continued)
+                  NodeJS Application Performance &amp; Troubleshooting 101 (continued)
                 </p>
               </div>
             </div>
@@ -171,8 +173,8 @@
                   <a class="btn btn-success btn-sm" href="https://ti.to/event-loop/cascadiafest-2016/with/eso5lyaw4x4">RSVP</a>
                 </p>
 
-                <a href="<%- public.sponsors._data.ibmdesign.url %>">
-                  <img src="<%- public.sponsors._data.ibmdesign.logo %>" height="24">
+                <a href="<%- public.sponsors._data.ibmdesign.url %>" class="schedule-sponsor-logo">
+                  <img src="<%- public.sponsors._data.ibmdesign.logo %>" class="max-height" />
                 </a>
               </div>
             </div>
@@ -229,9 +231,10 @@
           <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
             Deck
           </button>
-
-          <a href="<%- public.sponsors._data.newrelic.url %>">
-            <img src="<%- public.sponsors._data.newrelic.logo %>" height="80">
+          <br>
+          <br>
+          <a href="<%- public.sponsors._data.newrelic.url %>" class="schedule-sponsor-logo break-wrap">
+            <img src="<%- public.sponsors._data.newrelic.logo %>" class="max-height" />
           </a>
         </td>
       </tr>
@@ -248,14 +251,17 @@
     </tbody>
   </table>
 
-  <div>
-    <h1>Friends and Family Track</h1>
-    <h2>Whale watching | 12:15 PM - 4:30 PM</h2>
+  <div class="row">
+    <div class="col-xs-12 col-md-8">
+      <h4>Friends and Family Track</h4>
+      <h2>Whale watching | 12:15 PM - 4:30 PM</h2>
 
-    <p>$105 Adults, $80 Teens, $60 12 & Under</p>
+      <p>$105 Adults, $80 Teens, $60 12 &amp; Under</p>
 
-    <a href="https://ti.to/event-loop/cascadiafest-2016/" class="btn btn-success">Buy Tickets</a>
+      <a href="https://ti.to/event-loop/cascadiafest-2016/" class="btn btn-success">Buy Tickets</a>
 
-    <p>Meet at the Front Desk</p>
+      <p>Meet at the Front Desk</p>
+    </div>
   </div>
+
 </div>

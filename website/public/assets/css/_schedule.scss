@@ -1,0 +1,89 @@
+// Schedule table and items.
+
+#schedule {
+
+  &.css-schedule {
+    h1, h2, h3, h4 {
+      color: $primary-purple;
+    }
+
+    li {
+      a {
+        color: $primary-purple;
+        &:hover { color: $primary-purple-dark; }
+      }
+    }
+    .bg-info { background-color: $primary-purple!important; }
+    .bg-success { background-color: $primary-purple-dark!important; }
+  }
+
+  &.browser-schedule {
+    h1, h2, h3, h4 {
+      color: $primary-blue;
+    }
+
+    li {
+      a {
+        color: $primary-blue;
+        &:hover { color: $primary-blue-dark; }
+      }
+    }
+    .bg-info { background-color: $primary-blue!important; }
+    .bg-success { background-color: $primary-blue-dark!important; }
+  }
+
+  &.node-schedule {
+    h1, h2, h3, h4 {
+      color: $primary-green-light;
+    }
+
+    li {
+      a {
+        color: $primary-green-light;
+        &:hover { color: $primary-green-darker; }
+      }
+    }
+    .bg-info { background-color: $primary-green-light!important; }
+    .bg-success { background-color: $primary-green-darker!important; }
+  }
+
+
+  header {
+    margin: 1rem 0 .5rem;
+
+    h2 {
+      font-family: 'Nanami-Rounded-lt', sans-serif;
+      font-size: 2.5em;
+    }
+
+  }
+
+  table {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+
+    td { padding: 1rem .5rem; }
+  }
+
+  .track-sponsor {
+    max-width: 300px;
+  }
+
+  // On the schedule control the height and width of logos.
+  .schedule-sponsor-logo {
+
+    .max-height {
+      height: 50px; }
+    .max-width {
+      width: 100%;
+      max-width: 180px; }
+
+    &.break-wrap {
+      display: inline-block;
+      clear: both;
+      background-color: white;
+      padding: .5rem 1rem;
+    }
+  }
+}

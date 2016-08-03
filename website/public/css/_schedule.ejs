@@ -1,11 +1,13 @@
-<div id="schedule" class="day-schedule container-fluid">
+<div id="schedule" class="day-schedule css-schedule container-fluid">
 
   <div class="row">
     <div class="col-xs-12 col-sm-6">
-      <h2 class="first-title">Schedule <small>brought to you by</small></h2>
-
-      <a href="<%- public.sponsors._data.simple.url %>">
-        <img src="<%- public.sponsors._data.simple.logo %>" height="75"/>
+      <header>
+        <h2>Schedule</h2>
+        <h3>brought to you by</h3>
+      </header>
+      <a href="<%- public.sponsors._data.simple.url %>" >
+        <img src="<%- public.sponsors._data.simple.logo %>" class="track-sponsor" />
       </a>
     </div>
   </div>
@@ -72,12 +74,12 @@
                 </h4>
 
                 <p>
-                  Single Page App & Front-end JavaScript Performance & Troubleshoot 101
+                  Single Page App &amp; Front-end JavaScript Performance &amp; Troubleshoot 101
                   <a class="btn btn-success btn-sm" href="https://ti.to/event-loop/cascadiafest-2016/with/hhjzlnal5pw">RSVP</a>
                 </p>
 
-                <a href="<%- public.sponsors._data.newrelic.url %>">
-                  <img src="<%- public.sponsors._data.newrelic.logo %>" height="24">
+                <a href="<%- public.sponsors._data.newrelic.url %>" class="schedule-sponsor-logo" >
+                  <img src="<%- public.sponsors._data.newrelic.logo %>" class="max-width" />
                 </a>
               </div>
             </div>
@@ -119,7 +121,7 @@
                   </button>
                 </h4>
                 <p>
-                  Single Page App & Front-end JavaScript Performance & Troubleshoot 101 (continued)
+                  Single Page App &amp; Front-end JavaScript Performance &amp; Troubleshoot 101 (continued)
                 </p>
               </div>
             </div>
@@ -170,8 +172,8 @@
                   <a class="btn btn-success btn-sm" href="https://ti.to/event-loop/cascadiafest-2016/with/qj4farpcqxu">RSVP</a>
                 </p>
 
-                <a href="<%- public.sponsors._data.strongloop.url %>">
-                  <img src="<%- public.sponsors._data.strongloop.logo %>" height="24">
+                <a href="<%- public.sponsors._data.strongloop.url %>" class="schedule-sponsor-logo" >
+                  <img src="<%- public.sponsors._data.strongloop.logo %>" class="max-height" />
                 </a>
               </div>
             </div>
@@ -229,9 +231,10 @@
           <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#semiahmoo-map">
             Deck
           </button>
-
-          <a href="<%- public.sponsors._data.ibmdesign.url %>">
-            <img src="<%- public.sponsors._data.ibmdesign.logo %>" height="100">
+          <br>
+          <br>
+          <a href="<%- public.sponsors._data.ibmdesign.url %>" class="schedule-sponsor-logo break-wrap" >
+            <img src="<%- public.sponsors._data.ibmdesign.logo %>" class="max-width" />
           </a>
         </td>
       </tr>
