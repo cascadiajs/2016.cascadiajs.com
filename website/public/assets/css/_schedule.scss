@@ -6,9 +6,12 @@
     h1, h2, h3, h4 {
       color: $primary-purple;
     }
-    a {
-      color: $primary-purple;
-      &:hover { color: $primary-purple-dark; }
+
+    li {
+      a {
+        color: $primary-purple;
+        &:hover { color: $primary-purple-dark; }
+      }
     }
     .bg-info { background-color: $primary-purple!important; }
     .bg-success { background-color: $primary-purple-dark!important; }
@@ -18,9 +21,12 @@
     h1, h2, h3, h4 {
       color: $primary-blue;
     }
-    a {
-      color: $primary-blue;
-      &:hover { color: $primary-blue-dark; }
+
+    li {
+      a {
+        color: $primary-blue;
+        &:hover { color: $primary-blue-dark; }
+      }
     }
     .bg-info { background-color: $primary-blue!important; }
     .bg-success { background-color: $primary-blue-dark!important; }
@@ -30,9 +36,12 @@
     h1, h2, h3, h4 {
       color: $primary-green-light;
     }
-    a {
-      color: $primary-green-light;
-      &:hover { color: $primary-green-darker; }
+
+    li {
+      a {
+        color: $primary-green-light;
+        &:hover { color: $primary-green-darker; }
+      }
     }
     .bg-info { background-color: $primary-green-light!important; }
     .bg-success { background-color: $primary-green-darker!important; }
