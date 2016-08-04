@@ -11,15 +11,20 @@
            var contact = speaker.contact;
           %>
           <p class="card-text">
+            <% if(contact.ravelry) { %>
+              <a href="//ravelry.com/<%- contact.ravelry %>">🐑</a> <a href="//ravelry.com/<%- contact.ravelry %>"><%- contact.ravelry %></a>
+              <br>
+            <% } %>
+
             <% if(contact.twitter) { %>
               <a href="//twitter.com/<%- contact.twitter %>"><i class="fa fa-twitter"></i></a> <a href="//twitter.com/<%- contact.twitter %>"><%- contact.twitter %></a>
               <br>
             <% } %>
 
-          <% if(contact.github) { %>
-            <a href="//github.com/<%- contact.github %>"><i class="fa fa-github"></i></a> <a href="//github.com/<%- contact.github %>"><%- contact.github %></a>
-          <% } %>
-        </p>
+            <% if(contact.github) { %>
+              <a href="//github.com/<%- contact.github %>"><i class="fa fa-github"></i></a> <a href="//github.com/<%- contact.github %>"><%- contact.github %></a>
+            <% } %>
+          </p>
         <% } %>
     </div>
   <% } %>

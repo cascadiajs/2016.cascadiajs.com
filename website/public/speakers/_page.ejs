@@ -10,15 +10,20 @@
               <img src="<%- avatar %>" alt="<%- name %>'s wonderful face">
             </div>
             <p>
+              <% if(contact.ravelry) { %>
+                <a href="//ravelry.com/people/<%- contact.ravelry %>" class="btn btn-primary btn-sm mb1" title="ravelry.com">🐑 <%- contact.ravelry %></a>
+                <br>
+              <% } %>
+
               <% if(contact.twitter) { %>
-                <a href="//twitter.com/<%- contact.twitter %>" class="btn btn-primary btn-sm mb1"><i class="fa fa-twitter"></i> <%- contact.twitter %></a>
+                <a href="//twitter.com/<%- contact.twitter %>" class="btn btn-primary btn-sm mb1" title="twitter"><i class="fa fa-twitter"></i> <%- contact.twitter %></a>
                 <br>
               <% } %>
 
               <% if(contact.github) { %>
-              <a href="//github.com/<%- contact.github %>" class="btn btn-primary btn-sm mb1"><i class="fa fa-github"></i> <%- contact.github %></a>
-              <% } %>
-            </p>
+                <a href="//github.com/<%- contact.github %>" class="btn btn-primary btn-sm mb1" title="github"><i class="fa fa-github"></i> <%- contact.github %></a>
+                <% } %>
+              </p>
           </div>
 
         </div>
