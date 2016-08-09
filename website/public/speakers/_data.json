@@ -7,7 +7,7 @@
       "talk": {
         "title": "Becoming Responsible for CSS",
         "description": "<p>People should feel a sense of ownership and responsibility for the tools they use. I've become responsible for the future of CSS by becoming co-chair of the working group. But everyone who uses CSS can help by communicating what they're doing, shouting when things go wrong, and scripting better solutions. I'll talk about how people can engage in standards discussions, log bugs and write testcases, and how the Houdini task force will let more people write better code for styling.</p>",
-        "slides": "",
+        "slides": "http://slides.com/alanstearns/css-2017#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/87",
@@ -61,7 +61,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/305",
       "contact": {
         "twitter": "gr2m",
-        "github": ""
+        "github": "gr2m"
       }
     },
     "james-steinbach": {
@@ -77,7 +77,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/73",
       "contact": {
         "twitter": "jdsteinbach",
-        "github": ""
+        "github": "jdsteinbach"
       }
     },
     "justin-mcdowell": {
@@ -93,7 +93,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/374",
       "contact": {
         "twitter": "revoltpuppy",
-        "github": ""
+        "github": "revoltpuppy"
       }
     },
     "lourdes-montano": {
@@ -109,7 +109,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/34",
       "contact": {
         "twitter": "loumontano",
-        "github": ""
+        "github": "loumontano"
       }
     },
     "mike-kivikoski": {
@@ -125,7 +125,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/191",
       "contact": {
         "twitter": "mkivikoski",
-        "github": ""
+        "github": "mkivikoski"
       }
     },
     "miriam-suzanne": {
@@ -141,7 +141,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/157",
       "contact": {
         "twitter": "mirisuzanne",
-        "github": ""
+        "github": "mirisuzanne"
       }
     },
     "natalya-shelburne": {
@@ -157,7 +157,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/235",
       "contact": {
         "twitter": "natalyathree",
-        "github": ""
+        "github": "tallys"
       }
     },
     "stephanie-hobson": {
@@ -173,7 +173,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/196",
       "contact": {
         "twitter": "stephaniehobson",
-        "github": ""
+        "github": "stephaniehobson"
       }
     },
     "tyler-sticka": {
@@ -189,7 +189,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/142",
       "contact": {
         "twitter": "tylersticka",
-        "github": ""
+        "github": "tylersticka"
       }
     }
   },
@@ -207,7 +207,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/10",
       "contact": {
         "twitter": "rmurphey",
-        "github": ""
+        "github": "rmurphey"
       }
     },
     "sarah-meyer": {
@@ -234,7 +234,7 @@
       "talk": {
         "title": "Onboarding Superheroes",
         "description": "<p>This is a talk about deep, dark, paralyzing, hysterical (laughing with you) shame. The specific horrors and pitfalls for and from the new (and new-to-you) developer that we rarely discuss. These are the small, unspoken details no one covers in the onboarding manual for either side of the party. There are concrete opportunities you and members of your team have in those first few weeks to be career superheroes for (or as!) a new employee, with very little effort, that can lead to professional (in addition to ethical) advancement for everyone.</p>",
-        "slides": "",
+        "slides": "http://www.slideshare.net/wisetara/onboarding-superheroes-cascadiafest-2016-version",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/31",
@@ -272,7 +272,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/209",
       "contact": {
         "twitter": "divmain",
-        "github": ""
+        "github": "divmain"
       }
     },
     "noah-adams": {
@@ -331,13 +331,13 @@
       "talk": {
         "title": "Where in the Stack is Carmen Sanfrancisco?",
         "description": "<p>We're going on an adventure through the JavaScript jungle. Node.js, browser JS, browser add-on contexts...where in the world are we and what can we do? In my work on automated accessibility testing, I have found lines to be quite blurry in different parts of the web development stack. For example, when writing APIs in Node.js to be executed in a browser, it's not always clear what your options are–even more so in browser extension development. We'll look closely at some of these details and learn a lot about testing for accessibility in the process, encouraging development of websites that everyone can use.</p>",
-        "slides": "",
+        "slides": "http://marcysutton.com/slides/carmen-sanfrancisco-cascadia/assets/player/KeynoteDHTMLPlayer.html#0",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/104",
       "contact": {
         "twitter": "marcysutton",
-        "github": ""
+        "github": "marcysutton"
       }
     },
     "rachel-white": {
@@ -347,13 +347,13 @@
       "talk": {
         "title": "JavaScript as Play: A primer on getting started with video games",
         "description": "<p>Now that you know enough front end technologies to be dangerous, lets use those skills to make a game! We'll take a look at the open source framework Phaser to learn how to create your own browser based game. Together we'll explore topics such as sprite animation, collision detection, and scoring-- by the end we'll have a playable platformer you can tinker with.</p>",
-        "slides": "",
+        "slides": "http://imcool.online/talks/rbd/#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/133",
       "contact": {
         "twitter": "ohhoe",
-        "github": ""
+        "github": "rachelnicole"
       }
     },
     "thomas-wilburn": {
@@ -363,13 +363,13 @@
       "talk": {
         "title": "Custom elements in production",
         "description": "<p>For several years now, Web Components have hovered on the verge of widespread adoption, without quite tipping over the edge. But that doesn't mean they're unusable: for the last two years, we've been deploying custom elements in production at The Seattle Times on a site with millions of pageviews, on many of our most popular articles. Now that browsers have reached consensus on V1 of the custom element spec and are starting implementation, there's no better time to learn how this can work for you.</p>",
-        "slides": "",
+        "slides": "https://thomaswilburn.github.io/slide-dash-show/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/60",
       "contact": {
         "twitter": "thomaswilburn",
-        "github": ""
+        "github": "thomaswilburn"
       }
     }
   },
@@ -381,13 +381,13 @@
       "talk": {
         "title": "require('crypto') is a human right",
         "description": "<p>An accessible tour of the Node.js Crypto API through the lens of history and politics.</p><ul><li>Diffie-Hellman & RSA: key generation, encrypt, and decrypt.</li><li>RSA sign and verify.</li><li>AES and other symmetric ciphers.</li></ul><p>Almost everything in OpenSSL has a rich history. A lot of the code we link when compiling Node.js was once illegal to disseminate under treaties that regulate things like fighter jets and night vision.</p><p>The effort to weaken these tools is still underway. You can't help fight that effort unless you are knowledgeable of more than just the basic implementation details.</p><p>By the end of the talk you will have been exposed to the important concepts, applied and theoretical, necessary to use strong cryptography in any of your Node.js projects. I'll crack some weak keys of different types in realtime using the cluster API and some spare cloud resources if my company has any spare AWS reserved instances. I'll also leave you with a drive to protect access to strong cryptography all over the world.</p>",
-        "slides": "",
+        "slides": "https://billautomata.github.io/cascadia_fest_2016_talk/slides_html/#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/33",
       "contact": {
         "twitter": "billautomata",
-        "github": ""
+        "github": "billautomata"
       }
     },
     "pawel-szymczykowski": {
@@ -397,13 +397,13 @@
       "talk": {
         "title": "Why did the robot cross the road? Computer vision, robots and mobile games.",
         "description": "<p>The popularity of mobile gaming and in-app purchases has changed the way games are played. Once upon a time, the only limit to how far you could progress was your skill level and persistence. Now, games seem to be designed to hinder us until we have either shelled out real currency for a lot of virtual gems, or watched a lot of advertisements. That’s not fun, that’s tedious!</p><p>Robots are good at tasks that require precision and speed, but they are also great at tasks that are tedious and require an infinite amount of patience. What if we programmed a robot to do the crap parts of mobile games for us? Then we can enjoy the fun parts and / or collect all of the things as we of the Pokémon generation have been programmed to do.</p><p>In this talk we’ll learn how to use an open source robot called Tapsterbot, a webcam, and Node.js OpenCV bindings to teach your computer to play your favorite mobile games for you (or just watch the ads) so that you can do more important things!</p>",
-        "slides": "",
+        "slides": "https://github.com/makenai/CrossyRoadBot/raw/master/cascadia16-slides.pdf",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/19",
       "contact": {
         "twitter": "makenai",
-        "github": ""
+        "github": "makenai"
       }
     },
     "safia-abdalla": {
@@ -413,13 +413,13 @@
       "talk": {
         "title": "The Hitchhiker's Guide to All Things Memory in Javascript",
         "description": "<p>Unlike lower level languages, JavaScript protects us from the frustrations of managing memory on the system. Nonetheless, it is important for developers to have a comprehensive understanding of memory allocation and how the memory allocator in JavaScript works so that they can develop memory-performant code. I'll spend the first half of the talk discussing the fundamentals of memory allocation and the memory allocator implementation used in JavaScript. The second half of the talk will consist of live-optimization of code samples as I show the audience how to improve JavaScript code that is not memory performant based on the fundamentals recently learned. Attendees will leave this talk will a firm understanding of the theoretical details behind memory allocation and a practical understanding of how these details affect the code that they write on a daily basis.</p>",
-        "slides": "",
+        "slides": "http://slides.com/captainsafia/memory-in-javascript",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/173",
       "contact": {
         "twitter": "captainsafia",
-        "github": ""
+        "github": "captainsafia"
       }
     },
     "russell-hay": {
@@ -429,13 +429,13 @@
       "talk": {
         "title": "Happy Sparkle Glitter Fun Zone - LEDs and JavaScript",
         "description": "<p>This talk is about how, with a little bit of knowledge, a ton of RGB LEDs, and some low power computers, you can make amazing things. I will cover how to get yourself up and running quickly using Johnny-five + node-pixel on a small, low-cost, low-power device running javascript, and how to connect the board to outside sources to provide intelligent displays that can take data from the world, and turn it into a visualization on a strip of leds. I will show how to take a handful of LEDS, using johnny-five with the new i2c backpack for neo-pixels and make something flashy for your home, office, or a public space.</p>",
-        "slides": "",
+        "slides": "https://russtheaerialist.github.io/hsgfz-slides/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/120",
       "contact": {
         "twitter": "russellhay",
-        "github": ""
+        "github": "RussTheAerialist"
       }
     },
     "jenn-turner": {
@@ -445,13 +445,13 @@
       "talk": {
         "title": "Open Source beyond software",
         "description": "<p>I don’t know if you’ve heard, but there’s a secret going around that will probably startle and shock software developers the world over.</p><p>Code isn’t the most crucial part of your project.</p><p>At its best, open source serves to empower the recipients of its brilliance through technological innovation. At its core, open source is a jumble of information created by people to be used by other people, like any other transactional relationship before it.</p><p>Yet open source is viewed as being a “members only“ club for those who speak its language.</p><p>That‘s dumb and I’m here to throw that old ideology out in favor of inviting a more realistic one: open source is for everyone.</p><p>At Hoodie, we recognize that the best open source projects hold strong values like diversity, empowerment and decentralisation. So it only makes sense for an entire project to be built by an amazing and dedicated community consisting of developers and non-coding experts. We began doing this last year by holding an open call for editorial contributors to join the team. The response was overwhelmingly positive.</p><p>People have been waiting for an opportunity to join your open source communities, but first you have to prepare the way. I’ll be sharing the lessons learned from Hoodie venturing into the exploration of inviting non-coding experts to join forces and how the results of this experience have brought us closer to modern open source, beyond software.</p>",
-        "slides": "",
+        "slides": "http://jennwrit.es/gifs",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/137",
       "contact": {
         "twitter": "jennwrites",
-        "github": ""
+        "github": "renrutnnej"
       }
     },
     "bryan-hughes": {
@@ -467,7 +467,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/110",
       "contact": {
         "twitter": "nebrius",
-        "github": ""
+        "github": "nebrius"
       }
     },
     "stephan-bonnemann": {
@@ -493,13 +493,13 @@
       "talk": {
         "title": "Our Identities Have No Bodies: Web, Code, and Self-Exploration",
         "description": "<p>Whether we’re ready or not, the nature of identity is changing. In the internet’s early days, places like Livejournal, usenet, and Geocities fostered a kind of freedom and anonymity that is hard to find now. In an era when single-sign-on is king, we are increasingly moving towards tying our faces to data for advertising and marketing purposes, we remove barriers between the digital and the physical. These barrier were often placed for a reason— to explore parts of our identity that we want to keep private. There were opportunities for identity exploration, self-expression, and community, concepts which shift today in the world of web development and open-source.</p><p>So how are we—as designers and developers of the web— responsible for others' identity expression? How does our code help (and hinder) the building of communities which keep us safe and contribute to harassment? Let's wax nostalgic a bit about the internet's early days and ask how much we should care about the products we build, and how users build their identities around those products and our code. </p>",
-        "slides": "",
+        "slides": "http://ivanamcconnell.com/assets/Identities-CascadiaFest-IvanaMcConnell.pdf",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/67",
       "contact": {
         "twitter": "IvanaMcConnell",
-        "github": ""
+        "github": "ivana-mcconnell"
       }
     },
     "alejandro-oviedo": {
@@ -509,13 +509,13 @@
       "talk": {
         "title": "Demystifying (JavaScript) engines",
         "description": "<p>How a JavaScript engine works? What are its basic components? How to measure its performance? What is JIT compilation? Stigmatization: is JavaScript fast enough? are some of the questions I think we currently fail to answer in a, somewhat, short and direct way.</p>",
-        "slides": "",
+        "slides": "http://slides.com/a0viedo/demystifying-js-engines#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/322",
       "contact": {
         "twitter": "a0viedo",
-        "github": ""
+        "github": "a0viedo"
       }
     },
     "nwokedi-idika": {
@@ -525,7 +525,7 @@
       "talk": {
         "title": "Demystifying the Darknet in 30 Minutes or Less",
         "description": "<p>The Darknet has received significant attention in recent years and with it, increased confusion. Darknet, Dark web, Deep net, Deep web, The Onion Router (TOR) are all used interchangeably. Interestingly enough, none of these terms are actually interchangeable. TOR, the most popular instance of a Darknet, is viewed by many as a tool providing complete anonymization. In reality, the anonymity TOR provides is very specific and far from complete. To appreciate this, one must understand how TOR works and therein lies the problem: most people don’t know how TOR works. So, let’s solve that problem.</p>",
-        "slides": "",
+        "slides": "https://speakerdeck.com/nwokedi/demystifying-the-darknet-through-the-lens-of-tor-part-1-of-2",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/272",
@@ -541,13 +541,13 @@
       "talk": {
         "title": "Making a Robot Eye with JavaScript - or Magic of Computer Vision Unraveled",
         "description": "<p>Have you ever wondered how computers see images? Do you want to work on an AR (Augmented Reality) project or build a NodeBot that can recognize and track your face? How about making your own Instagram-like app or finding similer images in Pinterest collection? When you work with an image as your data input, sooner or later you'll encounter the magic term Computer Vision.</p><p>It can be intimidating to get started. At first, that led me to choose a common and powerful library that works like magic in an unfamiliar language (C++). It felt like the library was a black box and I had no control. I started to wonder, what is so magical about computer vision? After all it is just code someone wrote. Can we unravel it? and reconstruct in JavaScript??</p><p>The answer is YES. In this talk, we'll start by getting image data from canvas object, then transform the data to alter an appearance of the image. You will get insight into what data looks like to a browser (hint: it's just an array of numbers !). Next we’ll talk about how to interpret and analyze the data in a meaningful way. Finally, we'll apply what we learned and go through simple image analysis process to build your own AR app in vanilla JavaScript!</p>",
-        "slides": "",
+        "slides": "http://kosamari.com/presentation/render-2016",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/125",
       "contact": {
         "twitter": "kosamari",
-        "github": ""
+        "github": "kosamari"
       }
     },
     "brock-whitten": {
