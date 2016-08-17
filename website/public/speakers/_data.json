@@ -7,7 +7,7 @@
       "talk": {
         "title": "Becoming Responsible for CSS",
         "description": "<p>People should feel a sense of ownership and responsibility for the tools they use. I've become responsible for the future of CSS by becoming co-chair of the working group. But everyone who uses CSS can help by communicating what they're doing, shouting when things go wrong, and scripting better solutions. I'll talk about how people can engage in standards discussions, log bugs and write testcases, and how the Houdini task force will let more people write better code for styling.</p>",
-        "slides": "",
+        "slides": "http://slides.com/alanstearns/css-2017#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/87",
@@ -29,7 +29,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/13",
       "contact": {
         "twitter": "alicebartlett",
-        "github": ""
+        "github": "alicebartlett"
       }
     },
     "clarissa-peterson": {
@@ -39,13 +39,13 @@
       "talk": {
         "title": "Creating Beautiful, Accessible, and User-Friendly Forms",
         "description": "<p>Forms are often a key part of websites: they allow users to buy things, sign up, participate, communicate, and get things done. But why are so many online forms confusing, cluttered, and difficult to use? In this session, you'll learn which HTML elements and attributes to use to make sure your form is accessible, understandable, and shows up correctly on the screen. You'll find out the best way to style a form with CSS to make sure it looks good on any browser, device or screen size. You'll learn how to validate form data and provide useful error messages — but also how you can help users fill in the correct information before submitting. And you'll find out what you need to do so that your forms are easier to complete on touch screens.</p>",
-        "slides": "",
+        "slides": "http://www.slideshare.net/clarissapeterson/creating-beautiful-accessible-and-userfriendly-forms",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/256",
       "contact": {
         "twitter": "clarissa",
-        "github": ""
+        "github": "clarissapeterson"
       }
     },
     "gregor-martynus": {
@@ -61,7 +61,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/305",
       "contact": {
         "twitter": "gr2m",
-        "github": ""
+        "github": "gr2m"
       }
     },
     "james-steinbach": {
@@ -71,13 +71,13 @@
       "talk": {
         "title": "Using Sass &amp; PostCSS Together",
         "description": "<p>CSS gets a really bad rap in web development. Some of it is unearned (like snarky comments about “only a front-end developer”), some of it is really criticism about inconsistent browser implementation, and some of it is valid concern about limitations and inconsistencies in CSS itself. No matter where the negative press comes from, the response is the same: we try to solve those problems by improving CSS. Don’t like the fact that there are no loops or logic in CSS? Fix it by using Sass or another preprocessor. Don’t like cross-browser bugs? Fix it by adding Autoprefixer to your workflow. Don’t like limitations? Try to fix it by using not-yet-spec CSS code.</p><p>PostCSS is a tool that tries to fix CSS in multiple ways. It can process Sass-like syntax; it can fix vendor-prefixes, it can almost make pre-spec CSS possible. It’s getting a lot of attention now, so it’s important for us to know how we can use it.</p><p>PostCSS is a powerful tool and it can be a fantastic complement to the preprocessor you’ve already got in your workflow. I believe it’s best to use Sass, Less, or Stylus for compiling any non-CSS to CSS, and to use PostCSS to turn valid CSS into better CSS. There are a few concerns to keep in mind as you integrate PostCSS into your toolkit. As much as possible, only process valid CSS with it and be careful about relying on its ability to emulate non-implemented syntax.</p>",
-        "slides": "",
+        "slides": "https://jdsteinbach.com/sass-postcss/#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/73",
       "contact": {
         "twitter": "jdsteinbach",
-        "github": ""
+        "github": "jdsteinbach"
       }
     },
     "justin-mcdowell": {
@@ -87,13 +87,13 @@
       "talk": {
         "title": "Bauhaus in the Browser",
         "description": "<p>Until recently, design on the web has been limited to fragile, horizontal, and boxy layouts. Today there are new tools in CSS that can help us breathe new life into stale projects. Some of them are cutting edge, while others are quite mature yet still under-used. This talk is centered around the use of emerging CSS tools: grid, shapes, transforms, viewport units, and others.</p><p>Attendees will get a showcase of how these new digital techniques can be applied to the web by journeying back to the past to one of the most notable periods in the history of design: Bauhaus modernism. During this period, design was highly influential yet gleefully experimental, with strict geometry, overlapping elements, and rotated text. Attendees will see works by artist Piet Mondrian, typographer Jan Tschichold, dadaist Kurt Schwitters, and metal-worker Marianne Brandt recreated or redesigned on screen, and optimized for the new medium of mobile devices. By the end, they will have practical examples of how to mix these new tools together to solve old design problems in novel ways—using wisdom from the Bauhaus school.</p>",
-        "slides": "",
+        "slides": "http://revoltpuppy.com/files/bauhaus.pdf",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/374",
       "contact": {
         "twitter": "revoltpuppy",
-        "github": ""
+        "github": "revoltpuppy"
       }
     },
     "lourdes-montano": {
@@ -103,13 +103,13 @@
       "talk": {
         "title": "Learning and feeling overwhelmed: methods to organize your learning process in CSS",
         "description": "<p>We've all been there. Trying to level up our CSS, reading tutorials and blog posts only to end up thinking that there is so much to learn that we'll never be able to tackle everything.</p><p>This talk is about the learning process I've had (and I still have) to learn and improve my CSS skills in a world where everything changes so fast and new techniques come along every few months.</p><p>In this talk you will learn:</p><ul><li>How to organize your learning process and not feeling overwhelmed.</li><li>Setting learning goals.</li><li>Have a roadmap from point A to point B...and learning that detours can be interesting when learning something new.</li></ul>",
-        "slides": "",
+        "slides": "https://es.slideshare.net/secret/sM6tGE1TkBSzVo",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/34",
       "contact": {
         "twitter": "loumontano",
-        "github": ""
+        "github": "loumontano"
       }
     },
     "mike-kivikoski": {
@@ -119,13 +119,13 @@
       "talk": {
         "title": "CSS Pseudo – :hover, ::after and beyond",
         "description": "<p>Learn practical uses for over 35 pseudo-classes and pseudo-elements. Starting with the basics, you’ll quickly advance to use cases that apply to positioning, text, content, and get a glimpse at some (hopeful) future selectors. All levels of CSS experience are welcome and encouraged to attend - there will be something for everyone! </p>",
-        "slides": "",
+        "slides": "https://speakerdeck.com/mkivikoski/css-pseudo",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/191",
       "contact": {
         "twitter": "mkivikoski",
-        "github": ""
+        "github": "mkivikoski"
       }
     },
     "miriam-suzanne": {
@@ -135,13 +135,13 @@
       "talk": {
         "title": "Code Patterns for Pattern-Making",
         "description": "<p>Style Guides and Pattern Libraries are great tools for documenting the relationships between code and design, but beautiful docs and consistent UI are only half the battle. Somewhere, behind the scenes, those patterns have to live in our code, and hopefully make life easier for developers. We can go beyond “living” style guides to find tools that encourage and document pattern-making from the ground up, across projects, without adding developer overhead. From Sass maps and template macros, to front-end architecture and style-guide generators — let's talk about the code patterns that make our UI patterns possible.</p>",
-        "slides": "",
+        "slides": "https://oddbooksapp.com/book/pattern-making",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/157",
       "contact": {
         "twitter": "mirisuzanne",
-        "github": ""
+        "github": "mirisuzanne"
       }
     },
     "natalya-shelburne": {
@@ -151,13 +151,13 @@
       "talk": {
         "title": "Practical color theory for people who code",
         "description": "<p>Something that sounds as simple as picking a color palette is often the very thing that scares developers away from diving into design. Design decisions feel so open ended and exposed, and everyone's a critic. Plus, there is no compiler throwing an error or tests failing if your colors clash. No wonder I’ve seen amazing developers clam up when it’s time to make some design decisions, deferring to “someone creative, who knows more about design” even if I know they want to learn more about design themselves.</p><p>After my presentation, developers will be able to do the basics of color theory, and to feel confident about learning more if they are inspired. How will I do this? The developer way - by abstracting away my domain knowledge as an artist into variables and functions and sharing that information with others. My goal is to demystify design decisions and reveal them to be logical, predictable, and driven by principles that anyone can learn. Designers get something out of this talk too, not only do I encourage every developer in the room to appreciate the domain knowledge designers have to internalize, the many decisions that they have to make, and the hard work it takes to wield color intentionally and skillfully, I also show them how to better communicate these decisions to developers.</p><ul><li>Along the way, we’ll answer a lot of the following questions:</li><li>How can I improve accessibility with my use of color?</li><li>Why are most ‘call to action’ buttons a warm color like red or orange?</li><li>Why shouldn't I use #000000 on my website?</li><li>Why can red and green color schemes troublesome in design?</li><li>What happens if you mix exactly equal parts red and green? How about blue and orange?</li><li>Why do highlights always go on the tops of buttons?</li><li>Why do some colors look good together?</li><li>Why does a color look good in a color picker, but can look so bad when you use it on your site?</li><li>Why does using more white space make things look so much better?</li><li>Why are Sass variables and color functions such an awesome tool for developers?</li></ul><p>Again, this isn’t a talk about how colors make us feel - this is science! I will be talking wavelengths, old school fine art resources, and code!</p>",
-        "slides": "",
+        "slides": "https://docs.google.com/presentation/d/1ytSMRNpNrD9CWms351X4xelQuJT24tIqKnIzSbe2OQ0/edit#slide=id.g131bf8bb94_0_51",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/235",
       "contact": {
         "twitter": "natalyathree",
-        "github": ""
+        "github": "tallys"
       }
     },
     "stephanie-hobson": {
@@ -167,13 +167,13 @@
       "talk": {
         "title": "Flipping Tables: Displaying Data on Small Screens",
         "description": "<p>Tables have gotten a bad reputation in the last few years as finicky and hard to work with - partly because they’ve been used for the wrong thing (layout) and partly because desktop friendly wide tables don’t adapt to the narrow screens of mobile devices. But, tables are still the best way to present data for comparison and manipulation. So how can we make them as responsive as the rest of our site? This talk will cover design and code tips for making tables more readable on any screen and more adaptable to small screens.</p>",
-        "slides": "",
+        "slides": "http://stephaniehobson.ca/wordpress/2016/04/19/flipping-tables/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/196",
       "contact": {
         "twitter": "stephaniehobson",
-        "github": ""
+        "github": "stephaniehobson"
       }
     },
     "tyler-sticka": {
@@ -183,13 +183,13 @@
       "talk": {
         "title": "SVG: So Very Good",
         "description": "<p>Icon fonts! CSS-only illustrations! High-resolution GIF animations! Today's web designers still regularly and enthusiastically employ these techniques... yet they're all a better fit for SVG, a powerful vector image format that's already old enough to drive a car.</p><p>Join Cloud Four's Lead Designer Tyler Sticka for an impassioned introduction to your new favorite image format: What it is, how it works, and why it's so awesome.</p>",
-        "slides": "",
+        "slides": "http://tylersticka.github.io/slides-svg/#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/142",
       "contact": {
         "twitter": "tylersticka",
-        "github": ""
+        "github": "tylersticka"
       }
     }
   },
@@ -201,13 +201,13 @@
       "talk": {
         "title": "Making it better without making it over",
         "description": "<p>If you've read the Twitters or checked out a JavaScript conference lineup lately — or, goodness help you, if you've reviewed a batch of conference proposals — you might think JavaScript these days is all about React and Flux and Redux and immutably isomorphic Babel-ified ES6, with maybe some web audio, offline, WebGL, VR, SVG, and an npm script or twelve thrown in for good measure. (I mean, gulp talks are sooooo 2014, amirite?) There's so much to learn about JavaScript that there are whole Medium posts about how there's so much to learn about JavaScript, and whole conferences to remind you how much you don't know.</p><p>Here's the thing: maybe you're lucky enough to live in this magical world where everything you build is shiny and new, but there are an awful lot of people working on client-side apps that came into being back when yayQuery was a thing and Backbone wasn't. They're building software that serves hundreds of millions of actual users, software that makes actual money, software whose underlying architecture is such that there's rarely such a thing as a “small change,” even as the demand for new features never subsides.</p><p>If you're one of these developers and you're starting to feel like modern JavaScript has left you behind, this talk is for you. I'll share the story of how I started a new job this year by paying a visit to JavaScript circa 2009, back when Ryan Dahl was getting ready to announce Node and Facebook was still four years away from being mocked for the apparent heresy of JSX. I'll explain how I modernized and best-practice-ified a project that didn't even have a package.json, smoothing the development process, eliminating common sources of bugs, paving the way for bigger improvements, and never once uttering the words “we oughta just start from scratch.” </p>",
-        "slides": "",
+        "slides": "https://speakerdeck.com/rmurphey/cascadiajs-making-it-better-without-making-it-over",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/10",
       "contact": {
         "twitter": "rmurphey",
-        "github": ""
+        "github": "rmurphey"
       }
     },
     "sarah-meyer": {
@@ -234,13 +234,13 @@
       "talk": {
         "title": "Onboarding Superheroes",
         "description": "<p>This is a talk about deep, dark, paralyzing, hysterical (laughing with you) shame. The specific horrors and pitfalls for and from the new (and new-to-you) developer that we rarely discuss. These are the small, unspoken details no one covers in the onboarding manual for either side of the party. There are concrete opportunities you and members of your team have in those first few weeks to be career superheroes for (or as!) a new employee, with very little effort, that can lead to professional (in addition to ethical) advancement for everyone.</p>",
-        "slides": "",
+        "slides": "http://www.slideshare.net/wisetara/onboarding-superheroes-cascadiafest-2016-version",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/31",
       "contact": {
         "twitter": "MediaRemedial",
-        "github": ""
+        "github": "wisetara"
       }
     },
     "seth-samuel": {
@@ -250,13 +250,13 @@
       "talk": {
         "title": "Arbitrary Computation on the GPU Using WebGL",
         "description": "<p>WebGL is already widely in use for 3D graphics and image processing but could be used for much more. We'll learn how to pass arbitrary data to the GPU for parallel processing, how to get that processed data back into Javascript, and all the reasons this doesn't work even when it should.</p><p>This talk starts with a review of WebGL shaders and how data is passed through the WebGL pipeline and processed in parallel. Next I'll show some examples of traditional image processing using WebGL. After that, I'll explain how to pass arbitrary data into the GPU and how to retrieve output from those parallel calculations. Finally, there will be an example of this system in action, and then several examples that don't work as expected with explanations of the limitations of the current WebGL architecture.</p>",
-        "slides": "",
+        "slides": "http://sethsamuel.github.io/talks/2016-08-03-cascadiafest/public/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/79",
       "contact": {
         "twitter": "sethfsamuel",
-        "github": ""
+        "github": "sethsamuel"
       }
     },
     "dale-bustad": {
@@ -272,7 +272,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/209",
       "contact": {
         "twitter": "divmain",
-        "github": ""
+        "github": "divmain"
       }
     },
     "noah-adams": {
@@ -282,13 +282,13 @@
       "talk": {
         "title": "Scripting in the 3rd party: True tales of horror and hope from other people's pages",
         "description": "<p>In a dystopian cyberpunk future, website features are added by the simple addition of a snippet of javascript. These scripts, never before run or tested together, interact, and birth an artificial intelligence bent on taking vengeance on the people responsible for its creation. Or the styles look funky, and there’s a name collision on a cookie or something.</p><p>Writing scripts for someone else’s page presents unique challenges, from a hostile global namespace, to unintended module system interactions, to load order race conditions, to mysteriously broken implementations of JSON.stringify().</p><p>In this talk we will go about learning how to diagnose, remedy and defend against problems like these. Further, we’ll go over patterns for reliably writing, building, testing and delivering scripts into hostile or unexplored environments, based on my own experiences of dread, regret, elation and hope, delivering code into millions of other people’s page views, daily.</p>",
-        "slides": "",
+        "slides": "https://noahadams.github.io/scripting-in-the-third-party/#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/270",
       "contact": {
         "twitter": "noah_adams",
-        "github": ""
+        "github": "noahadams"
       }
     },
     "nolan-lawson": {
@@ -298,13 +298,13 @@
       "talk": {
         "title": "Demystifying Web Workers and Service Workers",
         "description": "<p>Web Workers, Service Workers, Shared Workers – whew, parallelism on the web sure sounds like a lot of work! In this talk, though, I'll show how it's really not such a hard concept to grasp, and how you can harness these powerful APIs to bring a smoother framerate and offline capabilities to your web app.</p>",
-        "slides": "",
+        "slides": "https://nolanlawson.github.io/cascadia-2016/#/",
         "video": ""
       },
       "cfp_url": "",
       "contact": {
         "twitter": "nolanlawson",
-        "github": ""
+        "github": "nolanlawson"
       }
     },
     "liz-abinante": {
@@ -314,14 +314,14 @@
       "talk": {
         "title": "In Defense of Static Sites",
         "description": "The most basic sites don't need servers, and they don't need fancy front end routing. And yet... how did we get here, and why are we so afraid to go back to the basics? Who are we actually building these sites for and who are we harming by front loading so many build tools, complex frameworks, and overblown architecture? Hint: it's not just us, it's out users, too.</p><p>Static sites serve a purpose, and they're really important pieces of the web's history and its future. Static doesn't mean forever unchanged and it doesn't mean you're stuck with a dead site that you can never update. Quite frankly, static sites have gotten a bad reputation and it's not their fault: we've all been so distracted by shiny new things to remember their virtues.</p><p>I'll revisit what it means to build a static site, what the use cases are, how you know its the right technical choice, what tools to use, and when to scale up to something more complex.",
-        "slides": "",
+        "slides": "https://speakerdeck.com/feministy/in-defense-of-static-sites",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/52",
       "contact": {
         "twitter": "feministy",
         "ravelry": "feministy",
-        "github": ""
+        "github": "feministy"
       }
     },
     "marcy-sutton": {
@@ -331,13 +331,13 @@
       "talk": {
         "title": "Where in the Stack is Carmen Sanfrancisco?",
         "description": "<p>We're going on an adventure through the JavaScript jungle. Node.js, browser JS, browser add-on contexts...where in the world are we and what can we do? In my work on automated accessibility testing, I have found lines to be quite blurry in different parts of the web development stack. For example, when writing APIs in Node.js to be executed in a browser, it's not always clear what your options are–even more so in browser extension development. We'll look closely at some of these details and learn a lot about testing for accessibility in the process, encouraging development of websites that everyone can use.</p>",
-        "slides": "",
+        "slides": "http://marcysutton.com/slides/carmen-sanfrancisco-cascadia/assets/player/KeynoteDHTMLPlayer.html#0",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/104",
       "contact": {
         "twitter": "marcysutton",
-        "github": ""
+        "github": "marcysutton"
       }
     },
     "rachel-white": {
@@ -347,13 +347,13 @@
       "talk": {
         "title": "JavaScript as Play: A primer on getting started with video games",
         "description": "<p>Now that you know enough front end technologies to be dangerous, lets use those skills to make a game! We'll take a look at the open source framework Phaser to learn how to create your own browser based game. Together we'll explore topics such as sprite animation, collision detection, and scoring-- by the end we'll have a playable platformer you can tinker with.</p>",
-        "slides": "",
+        "slides": "http://imcool.online/talks/rbd/#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/133",
       "contact": {
         "twitter": "ohhoe",
-        "github": ""
+        "github": "rachelnicole"
       }
     },
     "thomas-wilburn": {
@@ -363,13 +363,13 @@
       "talk": {
         "title": "Custom elements in production",
         "description": "<p>For several years now, Web Components have hovered on the verge of widespread adoption, without quite tipping over the edge. But that doesn't mean they're unusable: for the last two years, we've been deploying custom elements in production at The Seattle Times on a site with millions of pageviews, on many of our most popular articles. Now that browsers have reached consensus on V1 of the custom element spec and are starting implementation, there's no better time to learn how this can work for you.</p>",
-        "slides": "",
+        "slides": "https://thomaswilburn.github.io/slide-dash-show/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/60",
       "contact": {
         "twitter": "thomaswilburn",
-        "github": ""
+        "github": "thomaswilburn"
       }
     }
   },
@@ -381,13 +381,13 @@
       "talk": {
         "title": "require('crypto') is a human right",
         "description": "<p>An accessible tour of the Node.js Crypto API through the lens of history and politics.</p><ul><li>Diffie-Hellman & RSA: key generation, encrypt, and decrypt.</li><li>RSA sign and verify.</li><li>AES and other symmetric ciphers.</li></ul><p>Almost everything in OpenSSL has a rich history. A lot of the code we link when compiling Node.js was once illegal to disseminate under treaties that regulate things like fighter jets and night vision.</p><p>The effort to weaken these tools is still underway. You can't help fight that effort unless you are knowledgeable of more than just the basic implementation details.</p><p>By the end of the talk you will have been exposed to the important concepts, applied and theoretical, necessary to use strong cryptography in any of your Node.js projects. I'll crack some weak keys of different types in realtime using the cluster API and some spare cloud resources if my company has any spare AWS reserved instances. I'll also leave you with a drive to protect access to strong cryptography all over the world.</p>",
-        "slides": "",
+        "slides": "https://billautomata.github.io/cascadia_fest_2016_talk/slides_html/#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/33",
       "contact": {
         "twitter": "billautomata",
-        "github": ""
+        "github": "billautomata"
       }
     },
     "pawel-szymczykowski": {
@@ -397,13 +397,13 @@
       "talk": {
         "title": "Why did the robot cross the road? Computer vision, robots and mobile games.",
         "description": "<p>The popularity of mobile gaming and in-app purchases has changed the way games are played. Once upon a time, the only limit to how far you could progress was your skill level and persistence. Now, games seem to be designed to hinder us until we have either shelled out real currency for a lot of virtual gems, or watched a lot of advertisements. That’s not fun, that’s tedious!</p><p>Robots are good at tasks that require precision and speed, but they are also great at tasks that are tedious and require an infinite amount of patience. What if we programmed a robot to do the crap parts of mobile games for us? Then we can enjoy the fun parts and / or collect all of the things as we of the Pokémon generation have been programmed to do.</p><p>In this talk we’ll learn how to use an open source robot called Tapsterbot, a webcam, and Node.js OpenCV bindings to teach your computer to play your favorite mobile games for you (or just watch the ads) so that you can do more important things!</p>",
-        "slides": "",
+        "slides": "https://github.com/makenai/CrossyRoadBot/raw/master/cascadia16-slides.pdf",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/19",
       "contact": {
         "twitter": "makenai",
-        "github": ""
+        "github": "makenai"
       }
     },
     "safia-abdalla": {
@@ -413,13 +413,13 @@
       "talk": {
         "title": "The Hitchhiker's Guide to All Things Memory in Javascript",
         "description": "<p>Unlike lower level languages, JavaScript protects us from the frustrations of managing memory on the system. Nonetheless, it is important for developers to have a comprehensive understanding of memory allocation and how the memory allocator in JavaScript works so that they can develop memory-performant code. I'll spend the first half of the talk discussing the fundamentals of memory allocation and the memory allocator implementation used in JavaScript. The second half of the talk will consist of live-optimization of code samples as I show the audience how to improve JavaScript code that is not memory performant based on the fundamentals recently learned. Attendees will leave this talk will a firm understanding of the theoretical details behind memory allocation and a practical understanding of how these details affect the code that they write on a daily basis.</p>",
-        "slides": "",
+        "slides": "http://slides.com/captainsafia/memory-in-javascript",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/173",
       "contact": {
         "twitter": "captainsafia",
-        "github": ""
+        "github": "captainsafia"
       }
     },
     "russell-hay": {
@@ -429,13 +429,13 @@
       "talk": {
         "title": "Happy Sparkle Glitter Fun Zone - LEDs and JavaScript",
         "description": "<p>This talk is about how, with a little bit of knowledge, a ton of RGB LEDs, and some low power computers, you can make amazing things. I will cover how to get yourself up and running quickly using Johnny-five + node-pixel on a small, low-cost, low-power device running javascript, and how to connect the board to outside sources to provide intelligent displays that can take data from the world, and turn it into a visualization on a strip of leds. I will show how to take a handful of LEDS, using johnny-five with the new i2c backpack for neo-pixels and make something flashy for your home, office, or a public space.</p>",
-        "slides": "",
+        "slides": "https://russtheaerialist.github.io/hsgfz-slides/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/120",
       "contact": {
         "twitter": "russellhay",
-        "github": ""
+        "github": "RussTheAerialist"
       }
     },
     "jenn-turner": {
@@ -445,13 +445,13 @@
       "talk": {
         "title": "Open Source beyond software",
         "description": "<p>I don’t know if you’ve heard, but there’s a secret going around that will probably startle and shock software developers the world over.</p><p>Code isn’t the most crucial part of your project.</p><p>At its best, open source serves to empower the recipients of its brilliance through technological innovation. At its core, open source is a jumble of information created by people to be used by other people, like any other transactional relationship before it.</p><p>Yet open source is viewed as being a “members only“ club for those who speak its language.</p><p>That‘s dumb and I’m here to throw that old ideology out in favor of inviting a more realistic one: open source is for everyone.</p><p>At Hoodie, we recognize that the best open source projects hold strong values like diversity, empowerment and decentralisation. So it only makes sense for an entire project to be built by an amazing and dedicated community consisting of developers and non-coding experts. We began doing this last year by holding an open call for editorial contributors to join the team. The response was overwhelmingly positive.</p><p>People have been waiting for an opportunity to join your open source communities, but first you have to prepare the way. I’ll be sharing the lessons learned from Hoodie venturing into the exploration of inviting non-coding experts to join forces and how the results of this experience have brought us closer to modern open source, beyond software.</p>",
-        "slides": "",
+        "slides": "http://jennwrit.es/gifs",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/137",
       "contact": {
         "twitter": "jennwrites",
-        "github": ""
+        "github": "renrutnnej"
       }
     },
     "bryan-hughes": {
@@ -467,7 +467,7 @@
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/110",
       "contact": {
         "twitter": "nebrius",
-        "github": ""
+        "github": "nebrius"
       }
     },
     "stephan-bonnemann": {
@@ -493,13 +493,13 @@
       "talk": {
         "title": "Our Identities Have No Bodies: Web, Code, and Self-Exploration",
         "description": "<p>Whether we’re ready or not, the nature of identity is changing. In the internet’s early days, places like Livejournal, usenet, and Geocities fostered a kind of freedom and anonymity that is hard to find now. In an era when single-sign-on is king, we are increasingly moving towards tying our faces to data for advertising and marketing purposes, we remove barriers between the digital and the physical. These barrier were often placed for a reason— to explore parts of our identity that we want to keep private. There were opportunities for identity exploration, self-expression, and community, concepts which shift today in the world of web development and open-source.</p><p>So how are we—as designers and developers of the web— responsible for others' identity expression? How does our code help (and hinder) the building of communities which keep us safe and contribute to harassment? Let's wax nostalgic a bit about the internet's early days and ask how much we should care about the products we build, and how users build their identities around those products and our code. </p>",
-        "slides": "",
+        "slides": "http://ivanamcconnell.com/assets/Identities-CascadiaFest-IvanaMcConnell.pdf",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/67",
       "contact": {
         "twitter": "IvanaMcConnell",
-        "github": ""
+        "github": "ivana-mcconnell"
       }
     },
     "alejandro-oviedo": {
@@ -509,13 +509,13 @@
       "talk": {
         "title": "Demystifying (JavaScript) engines",
         "description": "<p>How a JavaScript engine works? What are its basic components? How to measure its performance? What is JIT compilation? Stigmatization: is JavaScript fast enough? are some of the questions I think we currently fail to answer in a, somewhat, short and direct way.</p>",
-        "slides": "",
+        "slides": "http://slides.com/a0viedo/demystifying-js-engines#/",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/322",
       "contact": {
         "twitter": "a0viedo",
-        "github": ""
+        "github": "a0viedo"
       }
     },
     "nwokedi-idika": {
@@ -525,7 +525,7 @@
       "talk": {
         "title": "Demystifying the Darknet in 30 Minutes or Less",
         "description": "<p>The Darknet has received significant attention in recent years and with it, increased confusion. Darknet, Dark web, Deep net, Deep web, The Onion Router (TOR) are all used interchangeably. Interestingly enough, none of these terms are actually interchangeable. TOR, the most popular instance of a Darknet, is viewed by many as a tool providing complete anonymization. In reality, the anonymity TOR provides is very specific and far from complete. To appreciate this, one must understand how TOR works and therein lies the problem: most people don’t know how TOR works. So, let’s solve that problem.</p>",
-        "slides": "",
+        "slides": "https://speakerdeck.com/nwokedi/demystifying-the-darknet-through-the-lens-of-tor-part-1-of-2",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/272",
@@ -541,13 +541,13 @@
       "talk": {
         "title": "Through the eyes of a machine",
         "description": "<p>Have you ever wondered how computers see images? Do you want to work on an AR (Augmented Reality) project or build a NodeBot that can recognize and track your face? How about making your own Instagram-like app or finding similer images in Pinterest collection? When you work with an image as your data input, sooner or later you'll encounter the magic term Computer Vision.</p><p>It can be intimidating to get started. At first, that led me to choose a common and powerful library that works like magic in an unfamiliar language (C++). It felt like the library was a black box and I had no control. I started to wonder, what is so magical about computer vision? After all it is just code someone wrote. Can we unravel it? and reconstruct in JavaScript??</p><p>The answer is YES. In this talk, we'll start by getting image data from canvas object, then transform the data to alter an appearance of the image. You will get insight into what data looks like to a browser (hint: it's just an array of numbers !). Next we’ll talk about how to interpret and analyze the data in a meaningful way. Finally, we'll apply what we learned and go through simple image analysis process to build your own AR app in vanilla JavaScript!</p>",
-        "slides": "",
+        "slides": "http://kosamari.com/presentation/render-2016",
         "video": ""
       },
       "cfp_url": "https://speak.cascadiafest.org/admin/talks/125",
       "contact": {
         "twitter": "kosamari",
-        "github": ""
+        "github": "kosamari"
       }
     },
     "brock-whitten": {
