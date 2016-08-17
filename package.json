@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on cascadiajs/2016.cascadiajs are greatly appreciated.\"",
     "images": "gulp",
-    "start": "harp server ./website --port 9000",
+    "start": "harp server ./website --port 2016",
     "compile": "harp compile ./website ./dist",
     "predeploy": "npm run compile",
     "deploy": "surge -p ./dist -d 2016.cascadiafest.org",
